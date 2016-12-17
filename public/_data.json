@@ -1,0 +1,65 @@
+{
+    "index": {
+        "headline": "Chanvre Québec, la référence.",
+        "metadescription": "Chanvre Québec est un obln qui vous offre une référence en la matière. Du contenu exclusif et des produits d'ici de qualité!",
+        "underline": "Québécois, beau et bon.",
+        "thirdline": "La maps",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "textile": {
+        "headline": "Textile",
+        "underline": "Le meilleur tissu qui soit.",
+        "thirdline": "La collection",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "titre": "Des fibres fortes",
+        "texte": "Un tissus ancestrale.",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "soinscorporels": {
+        "headline": "Soins Corporels",
+        "underline": "Pour une peau nourrie",
+        "thirdline": "Les idées cadeaux",
+        "hrefheader": "boutique",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "titre": "full omega",
+        "texte": "encore plus omega",
+        "artistes": "lafeuilleverte",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "alimentation": {
+        "headline": "Alimentation",
+        "underline": "LA source de protéine végétale.",
+        "thirdline": "Nos idées recettes",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "titre": "Mais les protéines c'est quoi ?",
+        "artistes": "lafeuilleverte",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "habitation": {
+        "headline": "Habitation",
+        "underline": "Pour une peau nourrie",
+        "thirdline": "Les idées cadeaux",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "titre": "full omega",
+        "texte": "encore plus omega",
+        "artistes": "lafeuilleverte",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "boutique": {
+        "headline": "Boutique",
+        "underline": "Des produits beaux et bons.",
+        "thirdline": "Les idées cadeaux",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "titre": "Tous nos produits de chanvre, pour vous !",
+        "texte": "L'une des parties les plus importantes du projet Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site :). ",
+        "artistes": "/",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    }
+}

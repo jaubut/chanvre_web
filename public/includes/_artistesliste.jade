@@ -1,0 +1,8 @@
+#artiste
+    .container
+        .row
+                each artistes, slug in public.artistes._data
+                    .col-4.center
+                        a(href="/artistes/#{ slug }")
+                            h2= artistes.headline
+                            p= artistes.underline

@@ -1,0 +1,31 @@
+{
+    "lafeuilleverte": {
+        "headline": "La feuille verte",
+        "underline": "Soins corporels naturels",
+        "thirdline": "Nos produits",
+        "source": "/assets/img/navlogo.svg",
+        "sourcefooter": "/assets/img/footerlogo.svg",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/caro_lafeuille.jpeg)",
+        "titre": "Chanv",
+        "texte": "Caroline a reprit cette entreprise dans le but de chanvrer les choses.",
+        "textcolor": "color: white"
+    },
+    "seqoia": {
+        "headline": "Seqoia",
+        "underline": "Street wear classique.",
+        "thirdline": "Nos produits",
+        "source": "/assets/img/navlogo.svg",
+        "sourcefooter": "/assets/img/footerlogo.svg",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg)",
+        "titre": "Une marque 55/45",
+        "texte": "Seqoia est une marque de linge qui veut redéfinir les standards de qualité de vêtements dans le monde des sports de glisses.",
+        "textcolor": "color: white"
+    },
+    "thebeard": {
+        "headline": "Textile",
+        "underline": "Le meilleur tissu qui soit.",
+        "thirdline": "La collection",
+        "titre": "Des fibres fortes",
+        "texte": "Un tissus ancestrale."
+    }
+}

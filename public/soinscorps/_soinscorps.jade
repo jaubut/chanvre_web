@@ -1,0 +1,10 @@
+.col-4
+    img(src= soinscorps.image)
+    p= soinscorps.description
+    button.btn-secondary.snipcart-add-item(
+    data-item-id= soinscorps.id, 
+    data-item-name= soinscorps.name, 
+    data-item-price= soinscorps.price, 
+    data-item-weight= soinscorps.weight, 
+    data-item-url= soinscorps.url, 
+    data-item-description= soinscorps.description) Ajouter pour #{soinscorps.price}$

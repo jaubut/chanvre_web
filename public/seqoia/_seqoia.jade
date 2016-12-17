@@ -1,0 +1,17 @@
+.col-4
+    a(href= numero.link)
+        img(src= numero.image)
+    p= numero.description
+    select#my-size
+          option Small
+          option Medium
+          option Large
+    button#my-button.btn-secondary.snipcart-add-item(
+    data-item-id= numero.id, 
+    data-item-name= numero.name, 
+    data-item-price= numero.price, 
+    data-item-weight= numero.weight, 
+    data-item-url= numero.url, 
+    data-item-custom2-name='Size', 
+    data-item-custom2-options='Small|Medium|Large',
+    data-item-description= numero.description) Ajouter pour #{numero.price}$

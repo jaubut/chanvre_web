@@ -1,0 +1,12 @@
+#produits
+    include ../public/includes/_header
+    include ../public/includes/_description
+    .container
+        .row.center
+            for feuille, slug in public.lafeuille._data
+                include ../public/lafeuille/_lafeuille
+    .container
+        .row.center
+            for numero, slug in public.seqoia._data
+                include ../public/seqoia/_seqoia
+    include ../public/includes/_footer

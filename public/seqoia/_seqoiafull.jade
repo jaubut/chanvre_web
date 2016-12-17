@@ -1,0 +1,23 @@
+.col-12
+    img.big(src= seqoia.image)
+.col-4
+    img(src= seqoia.image)
+.col-4
+    img(src= seqoia.image)
+.col-4
+    img(src= seqoia.image)
+.col-12.center
+    p= seqoia.description
+    select#my-size
+          option Small
+          option Medium
+          option Large
+    button#my-button.btn-secondary.snipcart-add-item(
+    data-item-id= seqoia.id, 
+    data-item-name= seqoia.name, 
+    data-item-price= seqoia.price, 
+    data-item-weight= seqoia.weight, 
+    data-item-url= seqoia.url, 
+    data-item-custom2-name='Size', 
+    data-item-custom2-options='Small|Medium|Large',
+    data-item-description= seqoia.description) Ajouter pour #{seqoia.price}$

@@ -1,0 +1,19 @@
+{
+    "soinscorps1": {
+        "name": "Ski Goggles",
+        "id": "1",
+        "image": "https://snipcartweb-10f3.kxcdn.com/media/9896/harpjs-shopping-cart-ski-goggles.jpg",
+        "description": "Clear lens, perfect for night runs in the park.",
+        "url": "/",
+        "price": "120.00"
+    },
+    "soinscorps2": {
+        "name": "Ski pole",
+        "id": "1",
+        "image": "https://snipcartweb-10f3.kxcdn.com/media/9896/harpjs-shopping-cart-ski-goggles.jpg",
+        "description": "Clear lens, perfect for night runs in the park.",
+        "url": "/",
+        "price": "120.00"
+    }
+} 
+

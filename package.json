@@ -1,0 +1,26 @@
+{
+  "name": "chanvrequebec",
+  "version": "1.0.0",
+  "description": "La référence du chanvre au quebec.",
+  "main": "index.jade",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaubut/acqweb-officiel.git"
+  },
+  "keywords": [
+    "chanvre"
+  ],
+  "author": "jeremie aubut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaubut/acqweb-officiel/issues"
+  },
+  "homepage": "https://github.com/jaubut/acqweb-officiel#readme",
+  "dependencies": {
+    "harp": "^0.20.3"
+  }
+}
+

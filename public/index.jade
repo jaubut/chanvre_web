@@ -1,0 +1,24 @@
+include ../public/includes/_header
+#photo
+    #instafeed
+include ../public/includes/_mission
+include ../public/includes/_chanvre
+include ../public/includes/_artistesliste
+#soinscorpo.center(style="background-color: #F9F9F9")
+    .container
+        .row
+            .col-12.center
+                h2 Nos produits de chanvre pour vous :)
+                p Des artisans consacrés et pationnés!
+                a(href="boutique")
+                    button.btn-secondary Découvrez nos produits
+#produits
+    .container
+            .row.center
+                    - var feuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
+                          include ../public/lafeuille/_lafeuille
+                    .col-4.hidden
+                    - var numero = public.seqoia._data[public.seqoia._contents[0].toString().replace('.html','')] 
+                          include ../public/seqoia/_seqoia
+                    
+include ../public/includes/_footer

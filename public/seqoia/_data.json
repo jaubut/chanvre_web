@@ -1,0 +1,38 @@
+{
+    "numero_5": {
+        "headline": "Numero 5",
+        "underline": "Le street wear intemporel",
+        "thirdline": "voyez l'histoire",
+        "source": "/assets/img/navlogo.svg",
+        "sourcefooter": "/assets/img/footerlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
+        "titre": "Un tissus 55% chanvre!",
+        "texte": "L'histoire derrière le numéro 5 est le fait d'avoir 5 jours dans la semaine où si tu veux, ton chandail de chanvre peut te garder sans odeur grâce à ses caractéristiques anti-microbiens.",
+        "textcolor": "color: black",
+        "name": "Numero 5",
+        "id": "1",
+        "image": "https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg",
+        "description": "Le numéro 5, un chandail unisex stylé.",
+        "url": "/",
+        "price": "30.00",
+        "link": "seqoia/numero_5"
+    },
+    "numero_s": {
+        "headline": "Le S",
+        "underline": "Le classique incontournable",
+        "thirdline": "voyez l'histoire",
+        "source": "/assets/img/navlogo.svg",
+        "sourcefooter": "/assets/img/footerlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
+        "titre": "Un tissus 55% chanvre!",
+        "texte": "Le s est simple et discret. Il fait peut aussi bien faire pour un casual, sport que stylé.",
+        "textcolor": "color: black",
+        "name": "Le S",
+        "id": "2",
+        "image": "https://storage.googleapis.com/chanvrequebecphoto/Champagne45.jpg",
+        "description": "Le 's', un chandail unisex classique.",
+        "url": "/",
+        "price": "30.00",
+        "link": "seqoia/numero_s"
+    }
+}

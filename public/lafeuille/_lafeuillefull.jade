@@ -1,0 +1,23 @@
+.col-12
+    img.big(src= lafeuille.image)
+.col-4
+    img(src= lafeuille.image)
+.col-4
+    img(src= lafeuille.image)
+.col-4
+    img(src= lafeuille.image)
+.col-12.center
+    p= lafeuille.description
+    select#my-size
+          option Small
+          option Medium
+          option Large
+    button#my-button.btn-secondary.snipcart-add-item(
+    data-item-id= lafeuille.id, 
+    data-item-name= lafeuille.name, 
+    data-item-price= lafeuille.price, 
+    data-item-weight= lafeuille.weight, 
+    data-item-url= lafeuille.url, 
+    data-item-custom2-name='Size', 
+    data-item-custom2-options='Small|Medium|Large',
+    data-item-description= lafeuille.description) Ajouter pour #{lafeuille.price}$

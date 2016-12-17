@@ -1,0 +1,29 @@
+#produitsfull
+    include ../includes/_header
+    include ../includes/_description
+    .container
+            .row.center  
+                    .col-12
+                        img.big(src= image)
+                    .col-4
+                        img(src= image)
+                    .col-4
+                        img(src= image)
+                    .col-4
+                        img(src= image)
+                    .col-12.center
+                        p= description
+                        select#my-size
+                              option Small
+                              option Medium
+                              option Large
+                        button#my-button.btn-secondary.snipcart-add-item(
+                        data-item-id= id, 
+                        data-item-name= name, 
+                        data-item-price= price, 
+                        data-item-weight= weight, 
+                        data-item-url= url, 
+                        data-item-custom2-name='Size', 
+                        data-item-custom2-options='Small|Medium|Large',
+                        data-item-description= description) Ajouter pour #{price}$
+    include ../includes/_footer

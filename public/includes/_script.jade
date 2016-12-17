@@ -1,0 +1,86 @@
+script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+script(src="/assets/js/main.js")
+script(src='/assets/js/instafeed.min.js')
+script(src="https://cdn.jsdelivr.net/emojione/2.2.6/lib/js/emojione.min.js")
+script(src="https://use.fontawesome.com/5d64fbfc9e.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js")
+script(src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MjJkNDU1NWYtYjU4Ni00OTdlLWJiNGEtYjk0YzI2N2M3MjZkNjM2MDA4NDk2Njk1MzE1MDU0" id="snipcart")
+
+
+script.
+      function goBack() {
+      window.history.back();
+      }
+// Google Tag Manager
+noscript
+  iframe(src='//www.googletagmanager.com/ns.html?id=GTM-52RBJ7', height='0', width='0', style='display:none;visibility:hidden')
+script.
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-52RBJ7');
+  // End Google Tag Manager
+script.
+  window.fbAsyncInit = function() {
+  FB.init({
+  appId      : '1515670032095765',
+  xfbml      : true,
+  version    : 'v2.5'
+  });
+  };
+  (function(d, s, id){
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+#fb-root
+script.
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6&appId=1515670032095765";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  
+script.
+  var text = {product.json};
+  var obj = JSON.parse(text);
+  document.getElementById("demo").innerHTML =
+  obj.name + "<br>" +
+  obj.street + "<br>" +
+  obj.phone;
+script.
+    $(function() {
+
+
+       var product = [];
+
+       $.getJSON('product.json', function(data) {
+       var obj = JSON.parse(text);
+       document.getElementById("demo").innerHTML =
+       obj.name + "<br>" +
+       obj.street + "<br>" +
+       obj.phone;
+           
+
+       });
+
+    });
+  
+script(type='text/javascript').
+  var userFeed = new Instafeed({
+  get: 'user',
+  userId: '3400508812',
+  clientId: 'bf39589b850d4ed496e4602163580e20',
+  accessToken: '3400508812.bf39589.db8a517293814ed3b1c8be18562aa169',
+  resolution: 'standard_resolution',
+  template: '<a href="{{link}}" target="_blank" id="{{id}}"><div class= "photo" style="background-image: url({{image}})"></div></a>',
+  sortBy: 'most-recent',
+  limit: 3,
+  links: false
+  });
+  userFeed.run();
