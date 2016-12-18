@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaubut/acqweb-officiel.git"
+    "url": "git+https://github.com/jaubut/chanvre_web.git"
   },
   "keywords": [
     "chanvre"
@@ -16,9 +16,9 @@
   "author": "jeremie aubut",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaubut/acqweb-officiel/issues"
+    "url": "https://github.com/jaubut/chanvre_web/issues"
   },
-  "homepage": "https://github.com/jaubut/acqweb-officiel#readme",
+  "homepage": "https://github.com/jaubut/chanvre_web#readme",
   "dependencies": {
     "harp": "^0.20.3"
   }
