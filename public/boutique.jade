@@ -1,12 +1,17 @@
 #produits
     include ../public/includes/_header
     include ../public/includes/_description
-    .container
+    //.container
         .row.center
             for feuille, slug in public.lafeuille._data
                 include ../public/lafeuille/_lafeuille
-    .container
+    //.container
         .row.center
             for numero, slug in public.seqoia._data
                 include ../public/seqoia/_seqoia
+    .container
+        .row.center
+            for product, slug in public.products._data
+                if _.includes(product.id, '3')
+                    include ../public/products/_product
     include ../public/includes/_footer
