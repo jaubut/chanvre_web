@@ -71,16 +71,16 @@ script.
 
     });
   
-script(type='text/javascript').
+script(type='text/javascript')
   var userFeed = new Instafeed({
   get: 'user',
   userId: '3400508812',
   clientId: 'bf39589b850d4ed496e4602163580e20',
   accessToken: '3400508812.bf39589.db8a517293814ed3b1c8be18562aa169',
   resolution: 'standard_resolution',
-  template: '<a href="{{link}}" target="_blank" id="{{id}}"><div class= "photo" style="background-image: url({{image}})"></div></a>',
   sortBy: 'most-recent',
   limit: 3,
-  links: false
+  links: false,
+  template: '<a href="{{link}}" target="_blank" id="{{id}}"><div class= "photo" style="background-image: url({{image}})"></div></a>',
   });
   userFeed.run();
