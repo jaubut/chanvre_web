@@ -15,10 +15,18 @@ include ../public/includes/_artistesliste
 #produits
     .container
             .row.center
-                    - var feuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
+                    //- var feuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
                           include ../public/lafeuille/_lafeuille
-                    .col-4.hidden
-                    - var numero = public.seqoia._data[public.seqoia._contents[0].toString().replace('.html','')] 
+                    //.col-4.hidden
+                    //- var numero = public.seqoia._data[public.seqoia._contents[0].toString().replace('.html','')] 
                           include ../public/seqoia/_seqoia
-                    
+                    for produit, slug in public.produits._data
+                        if _.includes(produit.id, '3')
+                            include ../public/produits/_produit
+                    for produit, slug in public.produits._data
+                        if _.includes(produit.id, '1')
+                            include ../public/produits/_produit 
+                    for produit, slug in public.produits._data
+                        if _.includes(produit.id, '2')
+                            include ../public/produits/_produit
 include ../public/includes/_footer

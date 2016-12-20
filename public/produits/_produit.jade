@@ -1,0 +1,11 @@
+.col-4
+    a(href= produit.link)
+        img(src= produit.image)
+    p= produit.description
+    button#my-button.btn-secondary.snipcart-add-item(
+    data-item-id= produit.id, 
+    data-item-name= produit.name, 
+    data-item-price= produit.price, 
+    data-item-weight= produit.weight, 
+    data-item-url= produit.url, 
+    data-item-description= produit.description) Ajouter pour #{produit.price}$

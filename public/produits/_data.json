@@ -15,7 +15,7 @@
         "description": "Le numéro 5, un chandail unisex stylé.",
         "url": "/",
         "price": "30.00",
-        "link": "seqoia/numero_5"
+        "link": "produits/numero_5"
     },
     "numero_s": {
         "headline": "Le S",
@@ -33,6 +33,24 @@
         "description": "Le 's', un chandail unisex classique.",
         "url": "/",
         "price": "30.00",
-        "link": "seqoia/numero_s"
+        "link": "produits/numero_s"
+    },
+    "decouverte": {
+        "headline": "Trousse Découverte",
+        "underline": "Les meilleurs choisit pour vous !",
+        "thirdline": "voyez l'histoire",
+        "source": "/assets/img/navlogo.svg",
+        "sourcefooter": "/assets/img/footerlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
+        "titre": "La trousse découverte",
+        "texte": "Les trousses sont parfaites pour essayer plusieurs produits à moindre coût! Dans le Découverte, vous avez un baume à lèvre, un lait solaire, une crème anti-ride et un huile Chanvre Moi !",
+        "textcolor": "color: black",
+        "name": "Trousse découverte",
+        "id": "3",
+        "image": "https://storage.googleapis.com/chanvrequebecphoto/bundle(decouverte)1.jpg",
+        "description": "La trousse Découverte, les meilleurs choisit pour vous !",
+        "url": "/",
+        "price": "54.00",
+        "link": "produits/decouverte"
     }
 }
