@@ -1,29 +1,30 @@
 #produitsfull
     include ../includes/_header
-    include ../includes/_description
+    //include ../includes/_description
     .container
             .row.center  
+                    .col-8
+                        .col-12
+                            img(src= image)
+                        .col-4
+                            img(src= image)
+                        .col-4
+                            img(src= image)
+                        .col-4
+                            img(src= image)
+                    .col-4
+                        .col-12.center
+                            h2.left= name
+                            h3.left #{price}$
+                            p.left= description
+                            br
+                            button#my-button.btn-secondary.snipcart-add-item(
+                            data-item-id= id, 
+                            data-item-name= name, 
+                            data-item-price= price, 
+                            data-item-weight= weight, 
+                            data-item-url= url,
+                            data-item-description= description) Ajouter
                     .col-12
                         img.big(src= image)
-                    .col-4
-                        img(src= image)
-                    .col-4
-                        img(src= image)
-                    .col-4
-                        img(src= image)
-                    .col-12.center
-                        p= description
-                        select#my-size
-                              option Small
-                              option Medium
-                              option Large
-                        button#my-button.btn-secondary.snipcart-add-item(
-                        data-item-id= id, 
-                        data-item-name= name, 
-                        data-item-price= price, 
-                        data-item-weight= weight, 
-                        data-item-url= url, 
-                        data-item-custom2-name='Size', 
-                        data-item-custom2-options='Small|Medium|Large',
-                        data-item-description= description) Ajouter pour #{price}$
     include ../includes/_footer
