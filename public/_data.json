@@ -3,7 +3,8 @@
         "headline": "Chanvre Québec, la référence.",
         "metadescription": "Chanvre Québec est un obln qui vous offre une référence en la matière. Du contenu exclusif et des produits d'ici de qualité!",
         "underline": "Québécois, beau et bon.",
-        "thirdline": "La maps",
+        "thirdline": "La boutique",
+        "hrefheader": "boutique",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
@@ -54,7 +55,8 @@
     "boutique": {
         "headline": "Boutique",
         "underline": "Des produits beaux et bons.",
-        "thirdline": "Les idées cadeaux",
+        "thirdline": "Proposez-nous vos produits",
+        "hrefheader": "mailto:info@chanvrequebec.com",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
         "titre": "Tous nos produits de chanvre, pour vous !",
