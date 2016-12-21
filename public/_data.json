@@ -7,6 +7,7 @@
         "hrefheader": "boutique",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
+        "image": "https://storage.googleapis.com/chanvrequebecphoto/1478017482334.jpg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
     "textile": {
