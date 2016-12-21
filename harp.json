@@ -1,8 +1,10 @@
 {
   "globals": {
-      "title": "Chanvre Québec",
-      "name": "Jeremie Aubut",
-      "uri": "http://chanvrequebec.com",
+      "title": "chanvrequebec.com",
+      "site": "chanvrequebec.com",
+      "description": "La référence du chanvre au Quebec.",
+      "author": "Jeremie Aubut",
+      "url": "https://chanvrequebec.com",
       "snipcartApiKey": "MjJkNDU1NWYtYjU4Ni00OTdlLWJiNGEtYjk0YzI2N2M3MjZkNjM2MDA4NDk2Njk1MzE1MDU0"
   }
 }

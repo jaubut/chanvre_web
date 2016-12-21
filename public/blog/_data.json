@@ -6,6 +6,17 @@
             "category": "travel",
             "tags": "new, rebel",
             "link": "blog/firstpost",
+            "share": "firstpost",
+            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1*tldvZd_ihphtgoV3RendOQ.jpeg)"
+        },
+    "secondpost": {
+            "headline": "Le hemp, le super aliment !",
+            "description": "Vous pouvez en être certains, le chanvre mérite bel et bien une telle étiquette. Le chanvre est l’aliment le plus complet qui soit. On le retrouve sous différentes formes. À partir de la noix de chanvre entière (ou graine de chanvre) qu’on récolte de la plante, on peut obtenir de la noix de chanvre écalée (cœur de chanvre), de la farine protéinée, de l’huile, du lait, du beurre et de la protéine de chanvre concentrée (farine de chanvre soustrait de fibres). Ce qui est réellement merveilleux, c’est que chacune de ces utilisations à ses propres avantages pour déloger n’importe quel autre aliment de sa catégorie. Il est donc finalement possible d’avoir une super alimentation riche et complète à base de végétaux.",
+            "date": "2016-11-30",
+            "category": "travel",
+            "tags": "new, rebel",
+            "link": "blog/secondpost",
+            "share": "secondpost",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1*tldvZd_ihphtgoV3RendOQ.jpeg)"
         }
 
