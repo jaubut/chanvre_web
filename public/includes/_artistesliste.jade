@@ -1,8 +1,10 @@
 #artiste
     .container
         .row
+                h2.center Nos artisans
+                br
                 each artistes, slug in public.artistes._data
-                    .col-4.center
+                    .col-6.center
                         a(href="/artistes/#{ slug }")
                             h2= artistes.headline
                             p= artistes.underline

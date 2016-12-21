@@ -1,0 +1,9 @@
+include ../public/includes/_header
+include ../public/includes/_description
+.container
+    .row
+        .col-12
+            for post, slug in public.blog._data
+                if _.includes(post.tags, 'new')
+                    include ../public/blog/_post
+include ../public/includes/_footer

@@ -4,7 +4,7 @@
         "metadescription": "Chanvre Québec est un obln qui vous offre une référence en la matière. Du contenu exclusif et des produits d'ici de qualité!",
         "underline": "Québécois, beau et bon.",
         "thirdline": "La boutique",
-        "hrefheader": "boutique",
+        "hrefheader": "/boutique",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
         "image": "https://storage.googleapis.com/chanvrequebecphoto/1478017482334.jpg",
@@ -51,6 +51,38 @@
         "titre": "Un contrôle hygrothermique sans pareil!",
         "texte": "encore plus omega",
         "artistes": "lafeuilleverte",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "artisans": {
+        "headline": "Les artisans",
+        "underline": "Ces passionnés derrière les produits",
+        "thirdline": "Boutique",
+        "hrefheader": "/boutique",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "titre": "Nous sommes fiers d'eux!",
+        "texte": "Ces gens qui nous inspire! Pour nous Chanvre Québec n'aurait rien été sans plusieurs artisans qui l'habitent!",
+        "artistes": "lafeuilleverte",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "blogs": {
+        "headline": "Nos articles",
+        "underline": "Partagez avec vous !",
+        "thirdline": "Facebook",
+        "hrefheader": "https://www.facebook.com/chanvrequebec",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
+        "titre": "Tous nous cultivez ensemble !",
+        "texte": "Nous voulons vous offrir un contenu de qualité que vous allez vouloir partager et prendre en référence.",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "contact": {
+        "headline": "Notre équipe",
+        "underline": "Pour un chanvre meilleur au Qc",
+        "thirdline": "Boutique",
+        "hrefheader": "/boutique",
+        "source": "assets/img/navlogo.svg",
+        "sourcefooter": "assets/img/footerlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
     "boutique": {

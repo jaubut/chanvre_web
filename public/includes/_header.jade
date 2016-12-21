@@ -3,10 +3,24 @@
         .container
             .row
                 .col-12.home
-                    a.goback(onclick='goBack()')
+                      .dropdown
+                      i.fa.fa-bars.dropbtn(onclick='myFunction()')
+                      #myDropdown.dropdown-content
+                            a(href='/blogs') Blog
+                            a(href='/contact') Contact
+                            a(href='/artisans') Artisans
+                            a(onclick='myFunctionTwo()') Les 4 fantastique
+                            #yourDropdown.dropdown-content
+                                    a(href='/alimentation') Alimentation
+                                    a(href='/habitation') Habitation
+                                    a(href='/soinscorporels') Soins Corporel
+                                    a(href='/textile') Textile
+                      a.goback(onclick='goBack()')
                         i.fa.fa-arrow-left(aria-hidden='true')
-                    a.goback(href='/index')
+                      a.goback(href='/index')
                         i.fa.fa-home(aria-hidden='true')
+                      a.goback(href='/boutique')
+                        i.fa.fa-shopping-cart.center(aria-hidden='true')
                 .col-12.center
                     img(src=(source), alt='chanvre quebec')
                     h1(style=(textcolor))=(headline)
