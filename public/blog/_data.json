@@ -6,7 +6,6 @@
             "category": "travel",
             "tags": "new, rebel",
             "link": "blog/firstpost",
-            "share": "firstpost",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1*tldvZd_ihphtgoV3RendOQ.jpeg)"
         },
     "secondpost": {
@@ -16,8 +15,16 @@
             "category": "travel",
             "tags": "new, rebel",
             "link": "blog/secondpost",
-            "share": "secondpost",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1*tldvZd_ihphtgoV3RendOQ.jpeg)"
+        },
+    "thirdpost": {
+            "headline": "7 utilisations du chanvre pour changer le monde.",
+            "description": "Le chanvre est la plante qui possède le plus grand potentiel industriel afin d’offrir des solutions saines et durables aux défis d’aujourd’hui. Nous avons regroupé pour vous ce que nous croyons être les sept applications qui sont les plus susceptibles de solidifier nos liens avec la nature et bonifier nos conditions de vie à tous et chacun.",
+            "date": "2016-12-21",
+            "category": "idea",
+            "tags": "new, idea",
+            "link": "blog/thirdpost",
+            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1-_9SDjff_XSe6Kl_LSJrsKg.jpeg)"
         }
 
 }
