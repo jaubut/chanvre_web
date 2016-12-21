@@ -4,6 +4,14 @@ include ../public/includes/_header
 include ../public/includes/_mission
 include ../public/includes/_chanvre
 include ../public/includes/_artistesliste
+.container
+    .row
+        .col-12
+            h2 Nos articles de blog
+            br
+            for post, slug in public.blog._data
+                if _.includes(post.tags, 'new')
+                    include ../public/blog/_post
 #soinscorpo.center(style="background-color: #F9F9F9")
     .container
         .row
