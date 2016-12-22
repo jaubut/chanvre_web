@@ -3,7 +3,18 @@
     .container
             .row
                 .col-12.home
-                    a.goback(onclick='goBack()')
-                        i.fa.fa-arrow-left(aria-hidden='true')
-                    a.goback(href='/index')
+                      .dropdown
+                      i.fa.fa-bars.dropbtn(onclick='myFunction()')
+                      #myDropdown.dropdown-content
+                            a(href='/blogs') Blog
+                            a(href='/artisans') Artisans
+                            a(onclick='myFunctionTwo()') Les 4 fantastique
+                            #yourDropdown.dropdown-content
+                                    a(href='/alimentation') Alimentation
+                                    a(href='/habitation') Habitation
+                                    a(href='/soinscorporels') Soins Corporel
+                                    a(href='/textile') Textile
+                      a.goback(href='/index')
                         i.fa.fa-home(aria-hidden='true')
+                      a.goback.right(href='/boutique')
+                        i.fa.fa-shopping-cart.center(aria-hidden='true')

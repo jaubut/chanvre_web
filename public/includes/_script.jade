@@ -1,5 +1,5 @@
 script(src="/assets/js/main.js")
-script(src='/assets/js/instafeed.min.js')
+script(type="text/javascript", src="/assets/js/instafeed.min.js")
 script(src="https://cdn.jsdelivr.net/emojione/2.2.6/lib/js/emojione.min.js")
 script(src="https://use.fontawesome.com/5d64fbfc9e.js")
 script(type='text/javascript', data-cfasync='false', src='//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js', data-shr-siteid='bfa0a87fbab6696afa3cc2b8150757fa', async='async')
@@ -62,7 +62,7 @@ script.
        });
 
     });
-  
+
 script(type='text/javascript').
   var userFeed = new Instafeed({
   get: 'user',
@@ -76,3 +76,5 @@ script(type='text/javascript').
   template: '<a href="{{link}}" target="_blank" id="{{id}}"><div class= "photo" style="background-image: url({{image}})"></div></a>'
   });
   userFeed.run();
+  
+
