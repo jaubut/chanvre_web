@@ -1,7 +1,7 @@
 {
     "index": {
-        "headline": "Chanvre Québec, la référence.",
-        "metadescription": "Chanvre Québec est un obln qui vous offre une référence en la matière. Du contenu exclusif et des produits d'ici de qualité!",
+        "headline": "Chanvre Québec",
+        "metadescription": "Chanvre Québec est un entreprise qui vous offre une référence en matière de chanvre. Du contenu exclusif et des produits d'ici!",
         "underline": "Québécois, beau et bon.",
         "thirdline": "La boutique",
         "hrefheader": "/boutique",
@@ -12,7 +12,7 @@
     },
     "textile": {
         "headline": "Textile",
-        "underline": "Le meilleur tissu qui soit.",
+        "underline": "Chaud en hiver, frais en été.",
         "thirdline": "La collection",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
@@ -22,7 +22,7 @@
     },
     "soinscorporels": {
         "headline": "Soins Corporels",
-        "underline": "Pour une peau nourrie",
+        "underline": "Pour une peau en santé",
         "thirdline": "Les idées cadeaux",
         "hrefheader": "boutique",
         "source": "assets/img/navlogo.svg",
@@ -34,17 +34,17 @@
     },
     "alimentation": {
         "headline": "Alimentation",
-        "underline": "LA source de protéine végétale.",
+        "underline": "Le Super Aliment.",
         "thirdline": "Nos idées recettes",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
-        "titre": "Mais les protéines c'est quoi ?",
+        "titre": "Le super aliment porte bien son nom",
         "artistes": "lafeuilleverte",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
     "habitation": {
         "headline": "Habitation",
-        "underline": "Pour une peau nourrie",
+        "underline": "La maison la plus confortable qui soit",
         "thirdline": "Les idées cadeaux",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
@@ -55,7 +55,7 @@
     },
     "artisans": {
         "headline": "Les artisans",
-        "underline": "Ces passionnés derrière les produits",
+        "underline": "Les passionnés derrière les produits",
         "thirdline": "Boutique",
         "hrefheader": "/boutique",
         "source": "assets/img/navlogo.svg",
