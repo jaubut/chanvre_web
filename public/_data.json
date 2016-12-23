@@ -79,8 +79,8 @@
     "contact": {
         "headline": "Notre équipe",
         "underline": "Pour l'amour du chanvre",
-        //"thirdline": "Boutique",
-        //"hrefheader": "/boutique",
+        "thirdline": "Boutique",
+        "hrefheader": "/boutique",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
@@ -97,8 +97,8 @@
     "boutique": {
         "headline": "Boutique",
         "underline": "Des produits beaux et bons.",
-        //"thirdline": "Proposez-nous vos produits",
-       // "hrefheader": "mailto:info@chanvrequebec.com",
+        "thirdline": "Proposez-nous vos produits",
+        "hrefheader": "mailto:info@chanvrequebec.com",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
         "titre": "Tous nos produits de chanvre, pour vous !",
