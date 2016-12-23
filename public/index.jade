@@ -1,18 +1,8 @@
 include ../public/includes/_header
-#photo
-    #instafeed
 include ../public/includes/_mission
 include ../public/includes/_chanvre
-include ../public/includes/_artistesliste
-.container
-    .row
-        .col-12
-            h2 Nos articles de blog
-            br
-            for post, slug in public.blog._data
-                if _.includes(post.tags, 'new')
-                    include ../public/blog/_post
-#soinscorpo.center(style="background-color: #F9F9F9")
+//include ../public/includes/_artistesliste
+#soinscorpo.center
     .container
         .row
             .col-12.center
@@ -37,4 +27,20 @@ include ../public/includes/_artistesliste
                     for produit, slug in public.produits._data
                         if _.includes(produit.id, '2')
                             include ../public/produits/_produit
+#indexblog(style="background-color: #F9F9F9")
+    .container
+        .row
+            .col-12
+                h2 Nos articles de blog
+                br
+                for post, slug in public.blog._data
+                    if _.includes(post.tags, 'new')
+                        include ../public/blog/_post
+#instagram(style="background-color: #F9F9F9")
+    .container
+        .row
+            .col-12
+                h2 Suivez-nous sur Instagram
+#photo(style="background-color: #F9F9F9")
+    #instafeed
 include ../public/includes/_footer
