@@ -77,10 +77,10 @@
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
     "contact": {
-        "headline": "Notre équipe",
+        "headline": "Notre mission",
         "underline": "Pour l'amour du chanvre",
-        "thirdline": "Boutique",
-        "hrefheader": "/boutique",
+        "thirdline": "Blog",
+        "hrefheader": "/blogs",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
