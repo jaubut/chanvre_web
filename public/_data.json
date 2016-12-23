@@ -85,6 +85,15 @@
         "sourcefooter": "assets/img/footerlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
+    "livraison": {
+        "headline": "Livraison et politique",
+        "underline": "Parce que chaque achat est important.",
+        "thirdline": "Boutique",
+        "hrefheader": "/boutique",
+        "source": "/assets/img/navlogo.svg",
+        "sourcefooter": "/assets/img/footerlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
     "boutique": {
         "headline": "Boutique",
         "underline": "Des produits beaux et bons.",
