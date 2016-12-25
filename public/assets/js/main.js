@@ -13,7 +13,9 @@ $('#my-size').change(function() {
     $('#my-button').data('item-custom2-value', $(this).val());
 });
 
-Snipcart.api.configure('show_continue_shopping', true);
+
+Snipcart.execute('config', 'show_continue_shopping', true);
+
 
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -53,4 +55,7 @@ window.onclick = function(event) {
   }
 }
 
+$('#my-price').change(function() {
+    $('#my-button').data('data-item-price', $(this).val());
+});
 
