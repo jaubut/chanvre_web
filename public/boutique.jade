@@ -1,5 +1,5 @@
 #alert
-    p.center Joyeux Noël et Bonne Année! Notre boutique en ligne est lancée! Achetez n'importe quel article et ajoutez la Trousse Découverte à 50% !
+    p.center Joyeuses Fêtes à tous! Notre boutique en ligne est lancée. Commandez dès maintenant et recevez sur tout achat 50% de réduction sur la trousse Découverte!
 #produits
     include ../public/includes/_header
     include ../public/includes/_description
@@ -15,12 +15,12 @@
         .row.center
             h2 Textile
             for produit, slug in public.produits._data
-                    if _.includes(produit.category, 'textile')
-                        include ../public/produits/_produit
+                if _.includes(produit.category, 'textile')
+                    include ../public/produits/_produit
     .container
         .row.center
             h2 Soins pour le corps
             for produit, slug in public.produits._data
-                    if _.includes(produit.category, 'soinscorps')
-                        include ../public/produits/_produit
+                if _.includes(produit.category, 'soinscorps')
+                    include ../public/produits/_produit
     include ../public/includes/_footer
