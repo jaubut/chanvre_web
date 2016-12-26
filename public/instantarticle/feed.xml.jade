@@ -1,0 +1,29 @@
+doctype xml
+rss(version="2.0", xmlns:atom="http://www.w3.org/2005/Atom")
+  channel  
+    title= title
+    link= url
+    description= description
+    atom:link(href="#{ url }/feed.xml", rel="self", type="application/rss+xml")
+    for post, slug in public.blog._data
+      item
+        title= post.title
+        link #{ url }/blog/#{ slug }
+        guid(isPermaLink="true") #{ url }/blog/#{ slug }
+        pubdate= new Date(post.date)
+        author= author
+        description <![CDATA[!{ partial(slug) }]]>
+        content:encoded
+        doctype html
+        html(lang='fr', prefix='op: http://media.facebook.com/op#')
+              head
+                meta(charset='utf-8')
+                link(rel='canonical', href='https://chanvrequebec.com/blog/#{ link }')
+                meta(property='op:markup_version', content='v1.0')
+              body
+                article
+                  header
+                  footer
+        
+        
+
