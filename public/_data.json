@@ -45,10 +45,11 @@
     "habitation": {
         "headline": "Habitation",
         "underline": "La maison la plus confortable qui soit",
-        "thirdline": "Les idées cadeaux",
+        "thirdline": "Blog",
+        "hrefheader": "blog.chanvrequebec.com",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
-        "titre": "Un contrôle hygrothermique sans pareil!",
+        "titre": "La maison de l'avenir",
         "texte": "encore plus omega",
         "artistes": "lafeuilleverte",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
