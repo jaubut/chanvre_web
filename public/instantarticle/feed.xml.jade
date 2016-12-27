@@ -8,7 +8,7 @@ rss(version="2.0", xmlns:atom="http://www.w3.org/2005/Atom")
     for post, slug in public.blog._data
       item
         title= post.title
-        link #{ url }/blog/#{ slug }
+        link https://chanvrequebec.com/blog/#{ slug }
         guid(isPermaLink="true") #{ url }/blog/#{ slug }
         pubdate= new Date(post.date)
         author= author
