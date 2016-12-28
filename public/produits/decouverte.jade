@@ -16,8 +16,6 @@
                         .col-12.center
                             h2.left= name
                             h3.left #{price}$
-                            p.left= description
-                            br
                             button#my-button.btn-secondary.snipcart-add-item(
                             data-item-id= id, 
                             data-item-name= name, 
@@ -25,6 +23,18 @@
                             data-item-weight= weight, 
                             data-item-url= url,
                             data-item-description= description) Ajouter
+                    .col-12.center
+                            p.left
+                                | La trousse découverte comprend: 
+                                br
+                                | - BAUME À LÈVRES <strong 15ml: Huile de chanvre, cire d'abeille et menthe poivrée 
+                                br
+                                | - HUILE ECZÉMA 15ml: Avec des propriétés similaires à l'onguent, cette formule est favorable pour couvrir de grandes surfaces et soulager de l'eczéma et toutes autres démangeaison 
+                                br
+                                | - LAIT SOLAIRE 30ml: Protection minérale naturelle (chanvre, zinc, aloes, vit C, extrait de thé vert. Formule ultra soyeuse qui convient aux peaux sensible.
+                                br
+                                | - CRÈME ANTI-RIDES 5ml: D'une odeur enivrante de fleurs d'oranger et de bois de rose, riche en antioxydants, en acides gras essentielles (oméga3) et en vitamines E et K, ce soin ultra hydratant est un puissant allié quotidien pour la lutte au vieillissement de la peau.
+
                     .col-12
                         img.big(src= image)
     include ../includes/_footer
