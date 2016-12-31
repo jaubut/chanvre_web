@@ -59,3 +59,8 @@ $('#my-price').change(function() {
     $('#my-button').data('data-item-price', $(this).val());
 });
 
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
