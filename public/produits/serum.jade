@@ -1,0 +1,36 @@
+#produitsfull
+    include ../includes/_header
+    //include ../includes/_description
+    .container
+            .row.center  
+                    .col-8
+                        .col-12
+                            a(href="#img1")
+                                img(src= image)
+                            a(href="#_" class="lightbox" id="img1")
+                                img(src= image)
+                    .col-4
+                        .col-12.center
+                            h2.left= name
+                            h3.left #{price}$
+                            p.left Concentré 100% végétal à la texture lisse et soyeuse, riche en antioxydants et en nutriments essentiels.
+                            button#my-button.btn-secondary.snipcart-add-item(
+                            data-item-id= id, 
+                            data-item-name= name, 
+                            data-item-price= price, 
+                            data-item-weight= weight, 
+                            data-item-url= url,
+                            data-item-description= description) Ajouter
+                    .col-12
+                            p.left
+                                | <strong>Neutralise</strong> les radicaux libres responsables du vieillissement de la peau et des taches brunes.
+                                br
+                                |<strong> Atténue</strong> les rougeurs des peaux sensibles
+                                br
+                                |<strong>Redonne</strong> de l'éclat et de la radiance au teint tout en raffermissant les cellules fatiguées
+                   .col-12
+                    p  
+                        | Formule composée de sublimes huiles végétales (chanvre, rose musquée et avocat) et d'un complexe d'huiles essentielles précieuses (néroli, hélichryse italienne et geranium rosa).
+                        br
+                        | Indication: appliquez-le par effleurages légers sur le visage et le cou nettoyés
+    include ../includes/_footer

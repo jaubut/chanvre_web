@@ -103,6 +103,26 @@
         "price": "34",
         "link": "produits/duo"
     },
+    "serum": {
+        "headline": "Sérum coup d'éclat",
+        "underline": "Le précieux fluide",
+        "thirdline": "voyez l'histoire",
+        "source": "/assets/img/navlogo.svg",
+        "sourcefooter": "/assets/img/footerlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
+        "titre": "Sérum Coup d'éclat",
+        "texte": "Les trousses sont parfaites pour essayer plusieurs produits à moindre coût! Dans le Découverte, vous avez un baume à lèvre, un lait solaire, une crème anti-ride et un huile Chanvre Moi !",
+        "textcolor": "color: black",
+        "name": "Sérum",
+        "id": "4",
+        "category": "soinscorps",
+        "image": "https://storage.googleapis.com/chanvrequebecphoto/Screen_serum.png",
+        "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/Screen_serum.png)",
+        "description": "Ce fluide précieux procure une peau éclatante et lumineuse!",
+        "url": "/",
+        "price": "40",
+        "link": "produits/serum"
+    },
     "decouverte": {
         "headline": "Trousse Découverte",
         "underline": "Les meilleurs choisit pour vous !",
@@ -120,7 +140,7 @@
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/bundledecouverte_1.jpg)",
         "description": "La trousse découverte, pour essayer les meilleurs !",
         "url": "/",
-        "price": "54",
+        "price": "Valeur 54",
         "link": "produits/decouverte"
     }
 }
