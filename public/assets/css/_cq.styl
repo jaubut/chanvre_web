@@ -43,7 +43,7 @@ a
         
 #blog
     img
-        width inherit
+        max-width 100%
     @media (min-width: 800px)
         width 70%
     @media (max-width: 800px)
@@ -187,6 +187,24 @@ code,
 
 .comment
   color #B6CAD2
+  
+.lightbox
+    display none
+    position fixed
+    z-index 999
+    width 100%
+    height 100%
+    text-align center
+    top 0
+    left 0
+    background rgba(0,0,0,0.8)
+    img 
+        max-width 90%
+        max-height 80%
+        margin-top 2%
+    &:target
+        outline none
+        display block
 
 footer
   background #B1E95C
