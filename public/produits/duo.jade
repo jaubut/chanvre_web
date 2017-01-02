@@ -1,0 +1,29 @@
+#produitsfull
+    include ../includes/_header
+    //include ../includes/_description
+    .container
+            .row.center  
+                    .col-8
+                        .col-12
+                            a(href="#img1")
+                                img(src= image)
+                            a(href="#_" class="lightbox" id="img1")
+                                img(src= image)
+                    .col-4
+                        .col-12.center
+                            h2.left= name
+                            h3.left #{price}$
+                            button#my-button.btn-secondary.snipcart-add-item(
+                            data-item-id= id, 
+                            data-item-name= name, 
+                            data-item-price= price, 
+                            data-item-weight= weight, 
+                            data-item-url= url,
+                            data-item-description= description) Ajouter
+                    .col-12
+                            h3 La trousse mains & pieds comprend: 
+                            p.left
+                                | <strong>Crème réparatrice</strong> 100ml: Une crème thérapeutique qui restore les mains et les pieds qui en arrachent... Un mariage parfait de l'huile de chanvre pour une hydratation en profondeur et du beurre de karité pour l'effet protecteur. Une petite dose appliquée sur 3 soirs consécutifs suffit à donner des résultats surprenants. 
+                                br
+                                | <strong>Baume</strong> 70 g.: Sous forme de bâton, cette formule à application facile et rapide a été conçue pour les gens pressées. Un trait de bâton au besoin, adoucira les coudes ou les talons rugueux dérangeants.
+    include ../includes/_footer
