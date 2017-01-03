@@ -68,12 +68,12 @@
     },
     "blogs": {
         "headline": "Nos articles",
-        "underline": "Partagez avec vous !",
+        "underline": "La bibliothéque du chanvre",
         "thirdline": "Facebook",
         "hrefheader": "https://www.facebook.com/chanvrequebec",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
-        "titre": "Tous nous cultivez ensemble !",
+        "titre": "Pour en apprendre davantage:",
         "texte": "Nous voulons vous offrir un contenu de qualité que vous allez vouloir partager et prendre en référence.",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
