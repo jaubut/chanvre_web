@@ -1,8 +1,9 @@
 #alert
-    p.center Joyeuses fêtes à tous! Notre boutique en ligne est lancée. Commandez dès maintenant et recevez sur tout achat 50% de réduction sur la trousse Découverte!
+    p.center Joyeuses fêtes à tous! Notre boutique en ligne est lancée. Commandez dès maintenant et recevez sur tout achat 50% de réduction sur la trousse Découverte! <strong>+ livraison gratuite à l'achat de 50$ et +.</strong>
 include ../public/includes/_header
 include ../public/includes/_mission
 include ../public/includes/_carrousel
+include ../public/includes/_modal-a
 include ../public/includes/_chanvre
 //include ../public/includes/_artistesliste
 #soinscorpo.center
@@ -14,29 +15,6 @@ include ../public/includes/_chanvre
                 a(href="boutique")
                     button.btn-secondary Découvrez nos produits
 
-#modalA.modal.green(role='dialog', aria-labelledby='modalA-title', aria-describedby='modalA-description')
-  .container
-        a.modal-a(href='#', title='close') ×
-      .row
-        .col-12.center
-            h2 La boutique est lancée !
-        .col-6
-            for produit, slug in public.produits._data
-                if _.includes(produit.id, '3')
-                    a(href= "/produits/#{ slug }")
-                        .blogshow(style= produit.imagebg)
-                                .produitindex
-                                    .col-6.left
-                                        p(style='color: #000;') #{produit.headline}
-                                    .col-6.right
-                                        p(style='color: #000;').price #{produit.price}$ 
-
-        .col-6
-            p Et pour célébré, recevez la <strong>#[a(href='/produits/decouverte') Trousse Découverte]</strong> à 50% de rabais à l'achat de n'importe quel produit.
-            a(href="/boutique")
-                button.btn-offre Voir l'offre
-            
-  
 #produits
     .container
             .row.center

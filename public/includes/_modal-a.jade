@@ -1,0 +1,31 @@
+#modalA.modal.green(role='dialog', aria-labelledby='modalA-title', aria-describedby='modalA-description')
+  .container
+        a.modal-a(href='#', title='close') ×
+      .row
+        .col-12.center
+            h2 La boutique est lancée !
+        .col-6
+            for produit, slug in public.produits._data
+                if _.includes(produit.id, '3')
+                    a(href= "/produits/#{ slug }")
+                        .blogshow(style= produit.imagebg)
+                                .produitindex
+                                    .col-6.left
+                                        p(style='color: #000;') #{produit.headline}
+                                    .col-6.right
+                                        p(style='color: #000;').price #{produit.price}$ 
+        .col-6
+            p Et pour célébré, recevez la <strong>#[a(href='/produits/decouverte') Trousse Découverte]</strong> à 50% de rabais à l'achat de n'importe quel produit.
+            a(href="/boutique")
+                button.btn-offre Voir l'offre
+  .container
+      .row
+        .col-6.center
+            h3 1. Première étape 
+            p Ajoutez dès maintenant la Trousse Découverte à votre panier. 
+        .col-6.center
+            h3 2. Deuxième étape
+            p Choisissez n'importe quel produit que vous voulez et ajoutez-le afin d'activer la promotion de la Trousse Découverte
+        .col-12.center
+            h3 3. Troisième étape 
+            p Voilà c'est fait. :) Vous pouvez partagez votre expérience en partageant votre achat sur facebook.
