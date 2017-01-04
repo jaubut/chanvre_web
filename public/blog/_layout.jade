@@ -61,6 +61,8 @@ html(amp='', lang="fr")
   body
     != yield
     #fb-root
+        .fb-comment-embed(data-href='https://chanvrequebec.com/#{ link }', data-width='560')
+    include ../includes/_blogfooter
     include ../includes/_script
     
     
