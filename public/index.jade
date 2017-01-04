@@ -20,9 +20,19 @@ include ../public/includes/_chanvre
       .row
         .col-12.center
             h2 La boutique est lancée !
-        .col-6.hidden
         .col-6
-            p Et pour célébré, recevez la Trousse Découverte à 50% de rabais à l'achat de n'importe quel produit.
+            for produit, slug in public.produits._data
+                if _.includes(produit.id, '3')
+                    a(href= "/produits/#{ slug }")
+                        .blogshow(style= produit.imagebg)
+                                .produitindex
+                                    .col-6.left
+                                        p(style='color: #000;') #{produit.headline}
+                                    .col-6.right
+                                        p(style='color: #000;').price #{produit.price}$ 
+
+        .col-6
+            p Et pour célébré, recevez la <strong>#[a(href='/produits/decouverte') Trousse Découverte]</strong> à 50% de rabais à l'achat de n'importe quel produit.
             a(href="/boutique")
                 button.btn-offre Voir l'offre
             
