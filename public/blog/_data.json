@@ -64,9 +64,11 @@
             "id": "6",
             "category": "Darko Popovic",
             "tags": "new, idea, maison",
+            "creditref": "http://artduchanvre.com/",
+            "creditphoto": "crédit photo: Art du Chanvre",
             "link": "blog/pourquoi-choisir-une-maison-en-chanvre",
-            "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/jeremie_maison_chanvre.png",
-            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/jeremie_maison_chanvre.png)"
+            "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/MD-2-4.jpg",
+            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/MD-2-4.jpg)"
     }
 }
     
