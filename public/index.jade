@@ -1,5 +1,5 @@
 #alert
-    p.center Joyeuses fêtes à tous! Notre boutique en ligne est lancée. Commandez dès maintenant et recevez sur tout achat 50% de réduction sur la trousse Découverte! <strong>+ livraison gratuite à l'achat de 50$ et +.</strong>
+    p.center Notre boutique en ligne est lancée. Commandez dès maintenant et recevez 50% de réduction sur la trousse Découverte!<strong>  Livraison gratuite </strong> à l'achat de 50$ et +.
 include ../public/includes/_header
 include ../public/includes/_mission
 include ../public/includes/_carrousel
@@ -36,7 +36,8 @@ include ../public/includes/_chanvre
     .container
         .row
             .col-12
-                h2 Nos articles de blogue
+                a(href="/blogs")
+                    h2 Nos articles de blogue
                 br
                 for post, slug in public.blog._data
                     if _.includes(post.tags, 'new')
