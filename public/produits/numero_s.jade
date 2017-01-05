@@ -35,12 +35,15 @@
                                   option Medium
                                   option Large
                             br
+                            //input#my-quantity(type='number')
+                            br
                             button#my-button.btn-secondary.snipcart-add-item(
                             data-item-id= id, 
                             data-item-name= name, 
                             data-item-price= price, 
                             data-item-weight= weight, 
                             data-item-url= url, 
+                            data-item-quantity="1",
                             data-item-custom2-name='Size', 
                             data-item-custom2-options='Small|Medium|Large',
                             data-item-description= description) Ajouter

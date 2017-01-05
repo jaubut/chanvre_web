@@ -1,5 +1,3 @@
-app.locals.product = require('../product.json');
-
 $(document).ready(function() {
         $(".convert-emoji").each(function() {
             var original = $(this).html();
@@ -13,8 +11,9 @@ $('#my-size').change(function() {
     $('#my-button').data('item-custom2-value', $(this).val());
 });
 
-
-Snipcart.execute('config', 'show_continue_shopping', true);
+$('#my-quantity').change(function() {
+    $('#my-button').data('item-quantity', $(this).val());
+});
 
 
 function myFunction() {
