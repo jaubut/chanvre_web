@@ -1,0 +1,31 @@
+{
+    "index": {
+        "headline": "Recette",
+        "underline": "Pour des délices nutritifs !",
+        "thirdline": "Proposez-nous vos recettes",
+        "hrefheader": "mailto:info@chanvrequebec.com",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: #ffffff;",
+        "sort-button": ".btn-secondary",
+        "titre": "Un livre pour vous régalé tout en gagnant la forme.",
+        "texte": "L'alimentation est une partie essentiel de notre humanité qui a été industrialisé à nos dépends. Nous croyons quand mangeant plus sainement, nous ferons une grande différence !",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_2.jpg)"
+    },
+    "pain-banana-pomme": {
+        "headline": "Pain banana pomme",
+        "underline": "moelleux et nutritif",
+        "thirdline": "voyez l'histoire",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
+        "titre": "Un tissus 55% chanvre!",
+        "texte": "L'histoire derrière le numéro 5 est le fait d'avoir 5 jours dans la semaine où si tu veux, ton chandail de chanvre peut te garder sans odeur grâce à ses caractéristiques anti-microbiens.",
+        "textcolor": "color: black",
+        "name": "Numéro 5",
+        "category": "santé",
+        "imageog": "https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg",
+        "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg)",
+        "description": "Ce pain agrémenté de farine et de graine de chanvre vous soutiendra une bonne partie de la journée :).",
+        "url": "/",
+        "link": "recettes/pain-banana-pomme"
+    }
+}

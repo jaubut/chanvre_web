@@ -36,11 +36,11 @@ include ../public/includes/_chanvre
     .container
         .row
             .col-12
-                a(href="/blogs")
+                a(href="/blog")
                     h2 Nos articles de blogue
                 br
                 for post, slug in public.blog._data
-                    if _.includes(post.tags, 'new')
+                    if _.includes(post.tags, 'meilleur')
                         include ../public/blog/_post
 #instagram(style="background-color: #F9F9F9")
     .container

@@ -1,35 +1,35 @@
-include ../public/includes/_header
-include ../public/includes/_description
+include ../includes/_blogheader
+include ../includes/_blogpost
+//p Nous voulons vous offrir un contenu de qualité que vous allez vouloir partager et prendre en référence.
 .container
     .row
         .col-12
             h4.center Idée
             for post, slug in public.blog._data
                 if _.includes(post.tags, 'idée')
-                    include ../public/blog/_post
+                    include _post
         .col-12
             h4.center Hitoire
             for post, slug in public.blog._data
                 if _.includes(post.tags, 'histoire')
-                    include ../public/blog/_post
+                    include _post
         .col-12
             h4.center Alimentation
             for post, slug in public.blog._data
                 if _.includes(post.tags, 'alimentation')
-                    include ../public/blog/_post
+                    include _post
         .col-12
             h4.center Habitation
             for post, slug in public.blog._data
                 if _.includes(post.tags, 'habitation')
-                    include ../public/blog/_post
+                    include _post
         .col-12
             h4.center Vêtement
             for post, slug in public.blog._data
                 if _.includes(post.tags, 'vêtement')
-                    include ../public/blog/_post
+                    include _post
         .col-12
             h4.center Soins Corporels
             for post, slug in public.blog._data
                 if _.includes(post.tags, 'soins')
-                    include ../public/blog/_post
-include ../public/includes/_footer
+                    include _post

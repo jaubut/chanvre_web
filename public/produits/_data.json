@@ -1,4 +1,15 @@
 {
+    "index": {
+        "headline": "Boutique",
+        "underline": "Des produits beaux et bons.",
+        "thirdline": "Proposez-nous vos produits",
+        "hrefheader": "mailto:info@chanvrequebec.com",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "titre": "Tous nos produits de chanvre, pour vous !",
+        "texte": "L'une des parties les plus importantes du projet Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site :). ",
+        "artistes": "/",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/noel_cover2.jpg)"
+    },
     "numero_5": {
         "headline": "Numero 5",
         "underline": "Le street wear athlétique",

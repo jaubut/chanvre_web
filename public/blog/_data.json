@@ -1,4 +1,11 @@
 {
+    "index": {
+        "headline": "Le chanvre, en mode blogue !",
+            "description": "Nous voulons créer un centre d'information et d'échange riche et central entourant le chanvre et son développement ! On te souhaite une bonne lecture.",
+        "creditref": "/",
+        "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg",
+        "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg)"
+    },
     
     "le-chanvre-le-super-aliment": {
             "headline": "Le chanvre, le super aliment !",
@@ -55,7 +62,7 @@
             "date2": "11 aout, 2016",
             "id": "3",
             "auteur": "Darko Popovic",
-            "tags": "idée",
+            "tags": "idée, meilleur",
             "link": "blog/7-utilisations-du-chanvre-pour-changer-le-monde",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/1-_9SDjff_XSe6Kl_LSJrsKg.jpeg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1-_9SDjff_XSe6Kl_LSJrsKg.jpeg)"
@@ -67,7 +74,7 @@
             "date2": "4 janvier, 2017",
             "id": "6",
             "auteur": "Darko Popovic",
-            "tags": "habitation",
+            "tags": "habitation, meilleur",
             "creditref": "http://artduchanvre.com/",
             "creditphoto": "crédit photo: Art du Chanvre",
             "link": "blog/pourquoi-choisir-une-maison-en-chanvre",
@@ -95,7 +102,7 @@
             "date2": "05 janvier, 2017",
             "id": "8",
             "auteur": "Darko Popovic",
-            "tags": "vêtement",
+            "tags": "vêtement, meilleur",
             "creditref": "/",
             "creditphoto": "chandail fait chanvre",
             "link": "blog/pourquoi-se-vetir-en-chanvre",

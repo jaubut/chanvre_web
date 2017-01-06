@@ -1,0 +1,12 @@
+#alert
+    p.center Notre boutique en ligne est lancée. Commandez dès maintenant et recevez sur tout achat 50% de réduction sur la trousse Découverte!<strong> Livraison gratuite à l'achat de 50$ et +.</strong>
+#recettes
+    include ../includes/_header
+    include ../includes/_description
+    .container
+        .row.center
+            h2 Santé
+            for recettes, slug in public.recettes._data
+                if _.includes(recettes.category, 'santé')
+                    include _recette
+    include ../includes/_footer

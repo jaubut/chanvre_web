@@ -7,10 +7,11 @@ header
                               .dropdown
                               i.fa.fa-bars.dropbtn(onclick='myFunction()')
                               #myDropdown.dropdown-content
-                                    a(href='/blogs') Blogue
-                                    a(href='/artisans') Artisans
+                                    a(href='/blog') Blogue
+                                    a(href='/artistes') Artisans
                                     a(href='/contact') À propos
-                                    a(href='/boutique') Boutique
+                                    a(href='/produits') Boutique
+                                    a(href='/recettes') Recette
                                     a(onclick='myFunctionTwo()') Les 4 fantastiques
                                     #yourDropdown.dropdown-content
                                             a(href='/alimentation') Alimentation
@@ -30,5 +31,5 @@ header
                             h2.font-light(style=(textcolor))=(underline)
                             br
                             a(href=(hrefheader))
-                                button.btn-secondary=(thirdline)
+                                button.btn-secondary #{thirdline}
 

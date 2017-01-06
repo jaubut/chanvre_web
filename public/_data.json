@@ -49,27 +49,6 @@
         "artistes": "lafeuilleverte",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
-    "artisans": {
-        "headline": "Les artisans",
-        "underline": "Les passionnés derrière les produits",
-        "thirdline": "Boutique",
-        "hrefheader": "/boutique",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "titre": "Nous sommes fiers d'eux!",
-        "texte": "Ces gens qui nous inspire! Nous croyons au savoir faire québécois et à ses innovations. C’est pourquoi nous souhaitons rendre justice à ces gens qui se consacrent à valoriser le chanvre dans chacune de leur creation.",
-        "artistes": "lafeuilleverte",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/artisans.jpg)"
-    },
-    "blogs": {
-        "headline": "Nos articles",
-        "underline": "La bibliothéque du chanvre",
-        "thirdline": "Facebook",
-        "hrefheader": "https://www.facebook.com/chanvrequebec",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "titre": "Pour en apprendre davantage:",
-        "texte": "Nous voulons vous offrir un contenu de qualité que vous allez vouloir partager et prendre en référence.",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
-    },
     "contact": {
         "headline": "Notre mission",
         "underline": "Pour l'amour du chanvre",
@@ -85,16 +64,6 @@
         "hrefheader": "/boutique",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
-    },
-    "boutique": {
-        "headline": "Boutique",
-        "underline": "Des produits beaux et bons.",
-        "thirdline": "Proposez-nous vos produits",
-        "hrefheader": "mailto:info@chanvrequebec.com",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "titre": "Tous nos produits de chanvre, pour vous !",
-        "texte": "L'une des parties les plus importantes du projet Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site :). ",
-        "artistes": "/",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/noel_cover2.jpg)"
     }
+    
 }
