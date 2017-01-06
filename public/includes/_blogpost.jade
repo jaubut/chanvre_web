@@ -4,7 +4,9 @@
             .col-12
                 .fb-share-button(data-href='https://chanvrequebec.com/#{ link }', data-layout='button_count')
                 h2= headline
-                p #{date}, #{category}
+                p.auteur #{auteur}
+                p.tag #{tags}
+                time(datetime='#{date}') #{date2}
                 p #{description}
                 
                 
