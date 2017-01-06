@@ -1,13 +1,13 @@
 {
     "lafeuilleverte": {
-        "headline": "La feuille verte",
+        "headline": "La Feuille Verte",
         "underline": "Soins corporels naturels",
-        "thirdline": "Nos produits",
+        "thirdline": "Les produits",
         "hrefheader": "/boutique",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/caro_lafeuille.jpeg)",
-        "titre": "CHANV",
-        "texte": "Caroline est passionné par les produits de soins corporels naturels",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/anti_ride_site.png)",
+        "titre": "Chanv",
+        "texte": "Caroline a reprit cette entreprise dans le but de chanvrer les choses.",
         "textcolor": "color: white"
     },
     "seqoia": {
@@ -18,7 +18,7 @@
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg)",
         "titre": "Une marque 55/45",
-        "texte": "Seqoia est une marque de linge qui veut redéfinir les standards de qualité des vêtements dans le monde des sports de glisses. Le tissu est composé à 55% de chanvre et de 45% de coton",
+        "texte": "Seqoia est une marque de vêtements qui veut redéfinir les standards de qualité des tissus dans le monde des sports de glisses.",
         "textcolor": "color: white"
     }
 }
