@@ -23,5 +23,17 @@
         "description": "Et voici pour vous, un petit muffin à déguster chaud ou froid de la mama à Daaarko..",
         "url": "/",
         "link": "recettes/muffin-automnal-courge-chanvre"
+    },
+    "salade-jardin-marie-christine": {
+        "headline": "Salade jardin de Marie-Christine",
+        "underline": "moelleux et nutritif",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: black",
+        "category": "santé",
+        "imageog": "https://storage.googleapis.com/chanvrequebecphoto/salade_chanvre_1.jpeg",
+        "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/salade_chanvre_1.jpeg)",
+        "description": "Les graines de chanvre me permettent d’avoir un dinner léger et nutritif - Marie-Christine, Québec.",
+        "url": "/",
+        "link": "recettes/salade-jardin-marie-christine"
     }
 }
