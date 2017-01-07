@@ -1,35 +1,35 @@
 include ../includes/_blogheader
-include ../includes/_blogpost
 //p Nous voulons vous offrir un contenu de qualité que vous allez vouloir partager et prendre en référence.
-.container
-    .row
-        .col-12
-            h4.center Idée
-            for post, slug in public.blog._data
-                if _.includes(post.tags, 'idée')
-                    include _post
-        .col-12
-            h4.center Hitoire
-            for post, slug in public.blog._data
-                if _.includes(post.tags, 'histoire')
-                    include _post
-        .col-12
-            h4.center Alimentation
-            for post, slug in public.blog._data
-                if _.includes(post.tags, 'alimentation')
-                    include _post
-        .col-12
-            h4.center Habitation
-            for post, slug in public.blog._data
-                if _.includes(post.tags, 'habitation')
-                    include _post
-        .col-12
-            h4.center Vêtement
-            for post, slug in public.blog._data
-                if _.includes(post.tags, 'vêtement')
-                    include _post
-        .col-12
-            h4.center Soins Corporels
-            for post, slug in public.blog._data
-                if _.includes(post.tags, 'soins')
-                    include _post
+include ../includes/_blogpost
+    .container
+        .row
+            .col-12
+                h4.center Idée
+                for post, slug in public.blog._data
+                    if _.includes(post.tags, 'idée')
+                        include _postblog
+            .col-12
+                h4.center Hitoire
+                for post, slug in public.blog._data
+                    if _.includes(post.tags, 'histoire')
+                        include _postblog
+            .col-12
+                h4.center Alimentation
+                for post, slug in public.blog._data
+                    if _.includes(post.tags, 'alimentation')
+                        include _postblog
+            .col-12
+                h4.center Habitation
+                for post, slug in public.blog._data
+                    if _.includes(post.tags, 'habitation')
+                        include _postblog
+            .col-12
+                h4.center Vêtement
+                for post, slug in public.blog._data
+                    if _.includes(post.tags, 'vêtement')
+                        include _postblog
+            .col-12
+                h4.center Soins Corporels
+                for post, slug in public.blog._data
+                    if _.includes(post.tags, 'soins')
+                        include _postblog
