@@ -33,6 +33,7 @@
         "headline": "Alimentation",
         "underline": "Le Super Aliment.",
         "thirdline": "Nos idées recettes",
+        "hrefheader": "/recettes",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Le super aliment porte bien son nom",
         "artistes": "lafeuilleverte",
@@ -55,7 +56,7 @@
         "thirdline": "Blog",
         "hrefheader": "/blogs",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/cafeequipe.png)"
     },
     "livraison": {
         "headline": "Livraison et politique",
