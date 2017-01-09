@@ -37,7 +37,7 @@
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Le super aliment porte bien son nom",
         "artistes": "lafeuilleverte",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_1.jpg)"
     },
     "habitation": {
         "headline": "Habitation",
