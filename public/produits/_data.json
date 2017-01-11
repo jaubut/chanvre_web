@@ -146,7 +146,7 @@
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/bundledecouverte_1.jpg)",
         "description": "La trousse découverte, pour essayer les meilleurs !",
         "url": "/",
-        "price": "Valeur 54",
+        "price": "54",
         "link": "produits/decouverte"
     }
 }
