@@ -7,7 +7,7 @@
         "metadescription": "Chanvre Québec est un entreprise qui vous offre une référence en matière de chanvre. Du contenu exclusif et des produits d'ici!",
         "underline": "Québécois, beau et bon.",
         "thirdline": "La boutique",
-        "hrefheader": "/boutique",
+        "hrefheader": "/produits",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",       
         "image": "https://storage.googleapis.com/chanvrequebecphoto/1478017482334.jpg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
@@ -25,7 +25,7 @@
         "headline": "Cosmétiques",
         "underline": "Pour une peau en santé",
         "thirdline": "Les idées cadeaux",
-        "hrefheader": "boutique",
+        "hrefheader": "/produits",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Une huile naturelle hors-pair",
         "texte": "encore plus omega",
@@ -65,7 +65,7 @@
         "headline": "Livraison et politique",
         "underline": "Parce que chaque achat est important.",
         "thirdline": "Boutique",
-        "hrefheader": "/boutique",
+        "hrefheader": "/produits",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     }
