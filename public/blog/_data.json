@@ -1,8 +1,9 @@
 {
     "index": {
         "headline": "Le chanvre, en mode blogue !",
-            "description": "Nous voulons créer un centre d'information et d'échange riche et central entourant le chanvre et son développement ! On te souhaite une bonne lecture.",
+        "description": "Nous voulons créer un centre d'information et d'échange riche et central entourant le chanvre et son développement ! On te souhaite une bonne lecture.",
         "creditref": "/",
+        "link": "blog",
         "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg)"
     },
