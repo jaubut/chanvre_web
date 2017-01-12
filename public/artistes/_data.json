@@ -31,5 +31,16 @@
         "titre": "Une marque 55/45",
         "texte": "Seqoia est une marque de vêtements qui veut redéfinir les standards de qualité des tissus dans le monde des sports de glisses.",
         "textcolor": "color: white"
+    },
+    "gabrielgauthier": {
+        "headline": "Gabriel Gauthier",
+        "underline": "Construction chanvre",
+        "thirdline": "Portfolio",
+        "hrefheader": "/boutique",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/mur.png)",
+        "titre": "Une marque 55/45",
+        "texte": "Seqoia est une marque de vêtements qui veut redéfinir les standards de qualité des tissus dans le monde des sports de glisses.",
+        "textcolor": "color: white"
     }
 }
