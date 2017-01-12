@@ -7,8 +7,8 @@
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: #ffffff;",
         "sort-button": ".btn-secondary",
-        "titre": "Un livre pour vous régalé tout en gagnant la forme.",
-        "texte": "L'alimentation est une partie essentiel de notre humanité qui a été industrialisé à nos dépends. Nous croyons quand mangeant plus sainement, nous ferons une grande différence !",
+        "titre": "Un livre pour vous régaler tout en gardant la forme.",
+        "texte": "L'alimentation est une partie essentiel de notre humanité qui a été industrialisé à nos dépends. Nous croyons à une alimentation saine et nutritive grâce au chanvre!",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_2.jpg)",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_2.jpg)"
     },
@@ -26,7 +26,7 @@
     },
     "salade-jardin-marie-christine": {
         "headline": "Salade jardin de Marie-Christine",
-        "underline": "moelleux et nutritif",
+        "underline": "Facile et délicieux",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "santé",

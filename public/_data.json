@@ -45,8 +45,8 @@
     "habitation": {
         "headline": "Habitation",
         "underline": "La maison la plus confortable qui soit",
-        "thirdline": "Boutique",
-        "hrefheader": "/produits",
+        "thirdline": "Blogue",
+        "hrefheader": "/blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "La maison de l'avenir",
         "texte": "encore plus omega",
