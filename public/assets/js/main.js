@@ -53,4 +53,3 @@ $(document).ready(function() {
       contain: true
     });
 
-mixpanel.track("Video play");
