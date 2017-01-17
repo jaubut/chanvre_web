@@ -3,6 +3,7 @@
         "headline": "La bibliothèque du chanvre",
         "description": "Nous voulons vous offrir un contenu de qualité que vous allez vouloir partager et prendre en référence. Bonne lecture!",
         "creditref": "/",
+        "metakeyword": "chanvre, référence, blog",
         "link": "blog",
         "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg)"
@@ -16,6 +17,7 @@
             "id": "2",
             "auteur": "Darko Popovic",
             "tags": "alimentation",
+            "metakeyword": "chanvre, référence, alimentation chanvre, farine de chanvre, graine de chanvre, blog",
             "link": "blog/le-chanvre-le-super-aliment",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/1*tldvZd_ihphtgoV3RendOQ.jpeg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1*tldvZd_ihphtgoV3RendOQ.jpeg)"
@@ -28,6 +30,7 @@
             "date2": "13 décembre, 2016",
             "auteur": "Darko Popovic",
             "tags": "soins",
+            "metakeyword": "chanvre, référence, huile de chanvre, blog",
             "link": "blog/hommage-a-la-reine-des-huiles-naturelles",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/anti-ride_3.jpg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/anti-ride_3.jpg)"
@@ -40,6 +43,7 @@
             "date2": "21 juillet, 2016",
             "auteur": "Darko Popovic",
             "tags": "histoire",
+            "metakeyword": "chanvre, référence, histoire du chanvre, blog",
             "link": "blog/le-chanvre-en-amerique-du-nord",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/histoire_1.jpeg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/histoire_1.jpeg)"
@@ -52,6 +56,7 @@
             "date2": "11 juillet, 2016",
             "auteur": "Darko Popovic",
             "tags": "idée",
+            "metakeyword": "chanvre, référence, chanvre vs marijuana, histoire du chanvre, blog",
             "link": "blog/chanvre-vs-marijuana",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/weed_1.jpeg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/weed_1.jpeg)"
@@ -64,6 +69,7 @@
             "id": "3",
             "auteur": "Darko Popovic",
             "tags": "idée, meilleur",
+            "metakeyword": "chanvre, référence, textile de chanvre, histoire du chanvre, blog",
             "link": "blog/7-utilisations-du-chanvre-pour-changer-le-monde",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/1-_9SDjff_XSe6Kl_LSJrsKg.jpeg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1-_9SDjff_XSe6Kl_LSJrsKg.jpeg)"
@@ -76,6 +82,7 @@
             "id": "6",
             "auteur": "Darko Popovic",
             "tags": "habitation, meilleur",
+            "metakeyword": "chanvre, référence, beton de chanvre, maison de chanvre, hygrothermie, blog",
             "creditref": "http://artduchanvre.com/",
             "creditphoto": "crédit photo: Art du Chanvre",
             "link": "blog/pourquoi-choisir-une-maison-en-chanvre",
@@ -90,6 +97,7 @@
             "id": "7",
             "auteur": "Darko Popovic",
             "tags": "alimentation",
+            "metakeyword": "chanvre, référence, alimentation chanvre, farine de chanvre, graine de chanvre, blog",
             "creditref": "/",
             "creditphoto": "farine de chanvre",
             "link": "blog/pourquoi-la-farine-de-chanvre",
@@ -104,6 +112,7 @@
             "id": "8",
             "auteur": "Darko Popovic",
             "tags": "vêtement, meilleur",
+            "metakeyword": "chanvre, référence, textile de chanvre, vetement en chanvre, blog",
             "creditref": "/",
             "creditphoto": "chandail fait chanvre",
             "link": "blog/pourquoi-se-vetir-en-chanvre",
@@ -118,6 +127,7 @@
             "id": "9",
             "auteur": "Darko Popovic",
             "tags": "vêtement",
+            "metakeyword": "chanvre, référence, textile de chanvre, vetement en chanvre, blog",
             "creditref": "/",
             "link": "blog/industrie-du-textile-detruit-notre-monde",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/detruit_monde_1.jpeg",

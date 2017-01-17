@@ -8,6 +8,7 @@
         "underline": "Québécois, beau et bon.",
         "thirdline": "La boutique",
         "hrefheader": "/produits",
+        "metakeyword": "chanvre, référence, huile de chanvre, graine de chanvre, farine de chanvre, beton de chanvre, textile de chanvre, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",       
         "image": "https://storage.googleapis.com/chanvrequebecphoto/1478017482334.jpg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
@@ -16,6 +17,7 @@
         "headline": "Textile",
         "underline": "Chaud en hiver, frais en été.",
         "thirdline": "La collection",
+        "metakeyword": "chanvre, référence, textile de chanvre, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Pourquoi se vêtir en chanvre ?",
         "texte": "Un tissus ancestrale.",
@@ -26,6 +28,7 @@
         "underline": "Pour une peau en santé",
         "thirdline": "Les idées cadeaux",
         "hrefheader": "/produits",
+        "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Une huile naturelle hors-pair",
         "texte": "encore plus omega",
@@ -37,6 +40,7 @@
         "underline": "Le Super Aliment.",
         "thirdline": "Nos idées recettes",
         "hrefheader": "/recettes",
+        "metakeyword": "chanvre, référence, alimentation de chanvre, huile de chanvre, graine de chanvre, farine de chanvre, proteine de chanvre, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Le super aliment porte bien son nom",
         "artistes": "lafeuilleverte",
@@ -47,6 +51,7 @@
         "underline": "La maison la plus confortable qui soit",
         "thirdline": "Blogue",
         "hrefheader": "/blog",
+        "metakeyword": "chanvre, référence, beton de chanvre, maison en chanvre, hygrothermie, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "La maison de l'avenir",
         "texte": "encore plus omega",
@@ -58,6 +63,7 @@
         "underline": "Pour l'amour du chanvre",
         "thirdline": "Blog",
         "hrefheader": "/blogs",
+        "metakeyword": "chanvre, référence, contact, obnl, collaboration, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/cafeequipe.png)"
     },
@@ -66,6 +72,7 @@
         "underline": "Parce que chaque achat est important.",
         "thirdline": "Boutique",
         "hrefheader": "/produits",
+        "metakeyword": "chanvre, référence, politique de retour, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     }

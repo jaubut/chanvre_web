@@ -5,7 +5,7 @@
     #blogheader
         - var current= new Date()
         - var day_night=current.getHours()
-        if (day_night<=10)
+        if (day_night<=20)
             include ../includes/_photoun
         else
             include ../includes/_photodeux
@@ -16,7 +16,6 @@
                             i.fa.fa-home.i-header(aria-hidden='true')
                           a.goback(href='/recettes')
                             i.fa.fa-book.i-header(aria-hidden='true')
-    include ../includes/_description
             .row.center
                 h2 Santé
                 for recettes, slug in public.recettes._data
