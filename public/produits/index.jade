@@ -13,14 +13,14 @@
                 include ../public/seqoia/_seqoia
     .container
         .row.center
-            h2 Textile
-            for produit, slug in public.produits._data
-                if _.includes(produit.category, 'textile')
-                    include _produit
-    .container
-        .row.center
             h2 Soins pour le corps
             for produit, slug in public.produits._data
                 if _.includes(produit.category, 'soinscorps')
+                    include _produit
+    .container
+        .row.center
+            h2 Textile
+            for produit, slug in public.produits._data
+                if _.includes(produit.category, 'textile')
                     include _produit
     include ../includes/_footer
