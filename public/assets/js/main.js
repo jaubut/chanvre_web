@@ -52,3 +52,5 @@ $(document).ready(function() {
       cellAlign: 'left',
       contain: true
     });
+
+mixpanel.track("Video play");
