@@ -16,6 +16,7 @@
                             i.fa.fa-home.i-header(aria-hidden='true')
                           a.goback(href='/recettes')
                             i.fa.fa-book.i-header(aria-hidden='true')
+    include ../includes/_description
             .row.center
                 h2 Santé
                 for recettes, slug in public.recettes._data
