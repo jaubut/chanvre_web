@@ -4,11 +4,13 @@
     header
     #blogheader
         - var current= new Date()
-        - var day_night=current.getHours()
-        if (day_night<=10)
+        - var day_night= current.getHours()
+        if (day_night<12)
             include ../includes/_photoun
-        else
+        else if (day_night<15)
             include ../includes/_photodeux
+        else
+            include ../includes/_phototrois
         .container
                 .row
                     .col-12
