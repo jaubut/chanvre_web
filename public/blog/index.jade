@@ -4,14 +4,9 @@ include ../includes/_blogpost
     .container
         .row
             .col-12
-                h4.center Idée
+                h4.center À propos
                 for post, slug in public.blog._data
                     if _.includes(post.tags, 'idée')
-                        include _postblog
-            .col-12
-                h4.center Hitoire
-                for post, slug in public.blog._data
-                    if _.includes(post.tags, 'histoire')
                         include _postblog
             .col-12
                 h4.center Alimentation
@@ -31,5 +26,5 @@ include ../includes/_blogpost
             .col-12
                 h4.center Soins Corporels
                 for post, slug in public.blog._data
-                    if _.includes(post.tags, 'soins')
+                    if _.includes(post.tags, 'soins corporels')
                         include _postblog
