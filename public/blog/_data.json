@@ -133,5 +133,20 @@
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/detruit_monde_1.jpeg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/detruit_monde_1.jpeg)"
     }
+    ,
+    "hygrothermie-le-mot-qui-change-tout": {
+            "headline": "Le confort se gagne par un équilibre de plusieurs acteurs.",
+            "description": "Le béton de chanvre est un matériau fortement hygroscopique, c'est-à-dire qu'il est capable d'adsorber une grande quantité de la vapeur d'eau contenue dans l'air.",
+            "date": "2017-01-018T00:00:00.000Z",
+            "date2": "18 janvier, 2017",
+            "id": "10",
+            "auteur": "Jérémie Aubut",
+            "tags": "habitation",
+            "metakeyword": "chanvre, référence, beton de chanvre, hygroscopie, hygrothermie, confort, humidité, chaleur, chauffage, isolation, blog",
+            "creditref": "/",
+            "link": "blog/hygrothermie-le-mot-qui-change-tout",
+            "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/hygrothermie4.jpg",
+            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/hygrothermie4.jpg)"
+    }
 }
     
