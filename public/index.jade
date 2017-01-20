@@ -40,7 +40,7 @@ include ../public/includes/_chanvre
                     h2 Nos articles de blogue
                 br
                 for post, slug in public.blog._data
-                    if _.includes(post.tags, 'meilleur')
+                    if _.includes(post.tags, 'article vedette')
                         include ../public/blog/_post
 #instagram(style="background-color: #F9F9F9")
     .container
