@@ -1,17 +1,16 @@
 {
     "index": {
-        "headline": "Recette",
-        "underline": "Pour des délices nutritifs !",
-        "thirdline": "Proposez-nous vos recettes",
+        "headline": "Recettes",
+        "underline": "Pour un délice nutritif!",
         "hrefheader": "mailto:info@chanvrequebec.com",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: #ffffff;",
         "sort-button": ".btn-secondary",
         "titre": "Un livre pour vous régaler tout en gardant la forme.",
-        "texte": "L'alimentation est une partie essentiel de notre humanité qui a été industrialisé à nos dépends. Nous croyons à une alimentation saine et nutritive grâce au chanvre!",
+        "texte": "Nous croyons à une alimentation saine et nutritive grâce au chanvre. Que ce soit avec la graine ou la farine, nous ne voudrions surtout pas négliger l'essentiel: le goût",
         "metakeyword": "chanvre, référence, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
-        "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_2.jpg)",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_2.jpg)"
+        "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/creperecette.png)",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/creperecette.png)"
     },
     "muffin-automnal-courge-chanvre": {
         "headline": "Muffin automnal courge et chanvre",
@@ -22,7 +21,7 @@
         "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://storage.googleapis.com/chanvrequebecphoto/muffin_chanvre_2.jpeg",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/muffin_chanvre_2.jpeg)",
-        "description": "Et voici pour vous, un petit muffin à déguster chaud ou froid de la mama à Daaarko..",
+        "description": "Et voici pour vous, un petit muffin à déguster chaud ou froid de la maman à Darko..",
         "url": "/",
         "link": "recettes/muffin-automnal-courge-chanvre"
     },
