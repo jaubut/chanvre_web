@@ -1,0 +1,38 @@
+#produitsfull
+    include ../includes/_header
+    //include ../includes/_description
+    .container
+            .row.center  
+                    .col-8
+                        .col-12
+                            a(href="#img1")
+                                img(src= image)
+                            a(href="#_" class="lightbox" id="img1")
+                                img(src= image)
+                    .col-4
+                        .col-12.center
+                            h2.left= name
+                            h3.left #{price}$
+                            p.left Exotique, chaude, suave et aphrodisiaque... Que dire de plus?
+                            button#my-button.btn-secondary.snipcart-add-item(
+                            data-item-id= id, 
+                            data-item-name= name, 
+                            data-item-price= price, 
+                            data-item-weight= weight, 
+                            data-item-url= url,
+                            data-item-description= description) Ajouter
+                            .col-12.center
+                                .fb-like(data-href='https://www.chanvrequebec.com/#{ link }', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='true')
+                    .col-8.line
+                    .col-10
+                            h3.left La solution:
+                            p.left Une huile sèches à pénétration rapide composées à 70% d’huile de chanvre. Utilisée pour le massage, dans le bain ou pour hydrater le corps en application topique.
+                            p.left
+                                | Propriétés <strong>arôma-thérapeutiques</strong> des huiles essentielles.
+                                br
+                                | Laisse la peau <strong>hydratée</strong> avec un fini satiné et non luisant
+                            p.left 
+                                | Liste d'ingrédients : huile de chanvre bio, huile de pépins de raisin et huiles essentielles (bois de santal, ylang ylang bio, gingembre bio, sauge bio, zeste d'orange douce bio, cyprès bio)
+                                br
+                                | Indication: Conserver au frais
+    include ../includes/_footer
