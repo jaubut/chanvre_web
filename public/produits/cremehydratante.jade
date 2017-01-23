@@ -1,0 +1,49 @@
+#produitsfull
+    include ../includes/_header
+    //include ../includes/_description
+    .container
+            .row.center  
+                    .col-8
+                        .col-12
+                            a(href="#img1")
+                                img(src= image)
+                            a(href="#_" class="lightbox" id="img1")
+                                img(src= image)
+                        .col-6
+                            a(href="#img2")
+                                img(src= "https://storage.googleapis.com/chanvrequebecphoto/anti-ride_3.jpg")
+                            a(href="#_" class="lightbox" id="img2")
+                                img(src= "https://storage.googleapis.com/chanvrequebecphoto/anti-ride_3.jpg")
+                        .col-6
+                            a(href="#img3")
+                                img(src= "https://storage.googleapis.com/chanvrequebecphoto/anti-ride_2.jpg")
+                            a(href="#_" class="lightbox" id="img3")
+                                img(src= "https://storage.googleapis.com/chanvrequebecphoto/anti-ride_2.jpg")
+                    .col-4
+                        .col-12.center
+                            h2.left= name
+                            h3.left #{price}$
+                            p.left Doté d'une odeur enivrante de fleurs d'oranger et de bois de rose, ce soin ultra hydratant est un puissant allié quotidien pour la lutte au vieillissement de la peau.
+                            button#my-button.btn-secondary.snipcart-add-item(
+                            data-item-id= id, 
+                            data-item-name= name, 
+                            data-item-price= price, 
+                            data-item-weight= weight, 
+                            data-item-url= url,
+                            data-item-description= description) Ajouter
+                            .col-12.center
+                                .fb-like(data-href='https://www.chanvrequebec.com/#{ link }', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='true')
+                            br
+                    .col-8.line
+                    .col-10
+                            h3.left La solution:
+                            p.left Concentré 100% végétal, riche en antioxydants, en acides gras essentielles (oméga3) et en vitamines E et K
+                            p.left
+                                | <strong>Neutralise</strong> les radicaux libres responsables du vieillissement de la peau et des taches brunes.
+                                br
+                                |<strong>Fournit</strong> à la peau ses composantes essentiels
+                                br
+                                |<strong>Apaise</strong> et soulage la peau tout en raffermissant les cellules fatiguées
+                            p.left Liste d'ingrédients : huile de chanvre bio, huile d'avocat, huile de pépins de raisin, eau de fleurs d'oranger bio, aloès bio, huile essentielle de bois de rose bio, huile essentielle de pamplemousse bio, cire    d'abeille.
+                            br
+    include ../includes/_footer
