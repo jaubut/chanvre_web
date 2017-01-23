@@ -78,7 +78,7 @@
             "headline": "Pourquoi choisir une maison en chanvre ?",
             "description": "Votre maison de rêve est en chanvre ",
             "date": "2017-01-04T00:00:00.000Z",
-            "date2": "4 janvier, 2017",
+            "date2": "4 octobre, 2016",
             "id": "6",
             "auteur": "Darko Popovic",
             "tags": "habitation, article vedette",
@@ -93,7 +93,7 @@
             "headline": "Pourquoi la farine de chanvre ?",
             "description": "La farine de chanvre c’est votre dose de bienfaits nutritifs dans chaque recette. C’est l’idéal pour réinventer votre façon de manger sainement sans sacrifier l’essentiel : le goût.",
             "date": "2017-01-05T00:00:00.000Z",
-            "date2": "05 janvier, 2017",
+            "date2": "05 novembre, 2016",
             "id": "7",
             "auteur": "Darko Popovic",
             "tags": "alimentation",
@@ -108,10 +108,10 @@
             "headline": "Pourquoi se vêtir en chanvre ?",
             "description": "Ce qui est beau avec le vêtement de chanvre, c’est qu’il nous permet de répondre à un besoin essentiel grâce à un tissu sain, autant pour nous que pour la planète.",
             "date": "2017-01-05T00:00:00.000Z",
-            "date2": "05 janvier, 2017",
+            "date2": "15 décembre, 2016",
             "id": "8",
             "auteur": "Darko Popovic",
-            "tags": "vêtement, article vedette",
+            "tags": "vêtement",
             "metakeyword": "chanvre, référence, textile de chanvre, vetement en chanvre, blog",
             "creditref": "/",
             "creditphoto": "chandail fait chanvre",
@@ -123,7 +123,7 @@
             "headline": "L'industrie du textile détruit notre monde",
             "description": "",
             "date": "2017-01-05T00:00:00.000Z",
-            "date2": "05 janvier, 2017",
+            "date2": "5 décembre, 2016",
             "id": "9",
             "auteur": "Darko Popovic",
             "tags": "vêtement",
@@ -132,8 +132,7 @@
             "link": "blog/industrie-du-textile-detruit-notre-monde",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/detruit_monde_1.jpeg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/detruit_monde_1.jpeg)"
-    }
-    ,
+    },
     "hygrothermie-le-mot-qui-change-tout": {
             "headline": "Le confort se gagne par un équilibre de plusieurs acteurs.",
             "description": "Le béton de chanvre est un matériau fortement hygroscopique, c'est-à-dire qu'il est capable d'adsorber une grande quantité de la vapeur d'eau contenue dans l'air.",
@@ -147,6 +146,20 @@
             "link": "blog/hygrothermie-le-mot-qui-change-tout",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/hygrothermie4.jpg",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/hygrothermie4.jpg)"
+    },
+    "pourquoi-chanvre-quebec": {
+            "headline": "Pour l'amour du chanvre.",
+            "description": "Nous allons parler un peu de nous, parce que les entreprises aussi devraient avoir une conscience.",
+            "date": "2017-01-018T00:00:00.000Z",
+            "date2": "23 janvier, 2017",
+            "id": "10",
+            "auteur": "Darko Popovic",
+            "tags": "idée, article vedette",
+            "metakeyword": "chanvre, référence, beton de chanvre, hygroscopie, hygrothermie, confort, humidité, chaleur, chauffage, isolation, blog",
+            "creditref": "/",
+            "link": "blog/pourquoi-chanvre-quebec",
+            "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_1.png",
+            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_banner.png)"
     }
 }
     
