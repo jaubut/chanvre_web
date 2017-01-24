@@ -37,7 +37,7 @@
         },
     "le-chanvre-en-amerique-du-nord": {
             "headline": "Le chanvre en Amérique du Nord : un roman à l’eau de rose!",
-            "description": "Pourquoi avons nous été privé de la plus belle solution écologique qui soit durant toutes ces années?",
+            "description": "Pourquoi avons-nous été privé de la plus belle solution écologique qui soit durant toutes ces années?",
             "id": "4",
             "date": "2016-07-21T00:00:00.000Z",
             "date2": "21 juillet, 2016",
@@ -155,11 +155,11 @@
             "id": "11",
             "auteur": "Darko Popovic",
             "tags": "idée, article vedette",
-            "metakeyword": "chanvre, référence, beton de chanvre, hygroscopie, hygrothermie, confort, humidité, chaleur, chauffage, isolation, blog",
+            "metakeyword": "chanvre",
             "creditref": "/",
             "link": "blog/pourquoi-chanvre-quebec",
-            "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_1.png",
-            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_banner.png)"
+            "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/808heartbreak_2.png",
+            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/808heartbreak_2.png)"
     }
 }
     
