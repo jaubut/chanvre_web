@@ -1,0 +1,12 @@
+include ../includes/_header
+.container
+    .row
+        .col-12
+            h2 Notre passion et notre solidarité font de nous une l'équipe que nous sommes !
+.container
+    .row    
+        .col-12
+            for equipe, slug in public.equipe._data
+                if _.includes(equipe.tag, 'membre')
+                    include _membre
+include ../includes/_footer

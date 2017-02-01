@@ -1,0 +1,24 @@
+{
+    "index": {
+        "headline": "Équipe",
+        "underline": "Le team behind the scene",
+        "thirdline": "Postulez",
+        "textcolor": "",
+        "hrefheader": "mailto:info@chanvrequebec.com",
+        "metakeyword": "chanvre, référence, produits de chanvre, vetement en chanvre, aliment de chanvre, soins de chanvre, blog",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "titre": "Tous nos produits de chanvre, pour vous !",
+        "texte": "L'une des parties les plus importantes du projet Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site :). ",
+        "artistes": "/",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/gif_test_2.gif)"
+    },
+    "darko_popovic": {
+        "membrephoto": "background-image: url(https://c1.staticflickr.com/1/698/31806878633_5010120160_n.jpg)",
+        "nom": "Darko Popovic",
+        "titre": "Co-fondateur",
+        "description": "Darko aime pablo beaucoup !",
+        "id": "1",
+        "tag": "membre"
+    }
+    
+}
