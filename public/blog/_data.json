@@ -23,7 +23,7 @@
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/1*tldvZd_ihphtgoV3RendOQ.jpeg)"
         },
     "hommage-a-la-reine-des-huiles-naturelles": {
-            "headline": "La Reine des huiles naturelles",
+            "headline": "Les 6 merveilles du chanvre en soins corporels",
             "description": "Selon les recherches scientifiques, l’huile de chanvre est la plus complète et la plus efficace des huiles naturelles utilisées en cosmétiques. Elle est la seule huile végétale ayant un ratio idéal d’Oméga-3 et d’Oméga-6.",
             "id": "1",
             "date": "2016-12-13T00:00:00.000Z",
@@ -81,7 +81,7 @@
             "date2": "4 octobre, 2016",
             "id": "6",
             "auteur": "Darko Popovic",
-            "tags": "habitation, article vedette",
+            "tags": "habitation",
             "metakeyword": "chanvre, référence, beton de chanvre, maison de chanvre, hygrothermie, blog",
             "creditref": "http://artduchanvre.com/",
             "creditphoto": "crédit photo: Art du Chanvre",
@@ -160,6 +160,20 @@
             "link": "blog/pourquoi-chanvrequebec",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_banner_3.png",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_banner_3.png)"
+    },
+    "faq_huiledechanvre": {
+            "headline": "FAQ sur l'huile de chanvre",
+            "description": "Les questions les plus fréquemment demandées par nos visiteurs",
+            "date": "2017-01-023T00:00:00.000Z",
+            "date2": "30 janvier, 2017",
+            "id": "11",
+            "auteur": "Darko Popovic",
+            "tags": "soins corporels, article vedette",
+            "metakeyword": "chanvre",
+            "creditref": "/",
+            "link": "blog/pourquoi-chanvrequebec",
+            "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/polysporin_2.jpg",
+            "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_moi_1.jpg)"
     }
 }
     
