@@ -1,0 +1,21 @@
+#modalje.modal.green(role='dialog', aria-labelledby='modalA-title', aria-describedby='modalA-description')
+    for equipe, slug in public.equipe._data
+        if _.includes(equipe.id, '2')
+            include _equipeheader
+    #modalequipe
+            a.modal-a(href='#', title='close') ×
+            .container
+                .row
+                    .col-12
+                        h1 Jérémie Aubut
+                        h6 co-fondateur
+                    .col-12
+                        p 
+                        | Voilà mon histoire à commencer en 1993 lorsque je suis né de la dernière pluie d'étoile intergalactique. 
+                    .col-12.center
+                        button.btn-secondary Visite mon blog !
+                    .col-12
+                        h2 Les articles que j'ai écrit ici !
+                        for post, slug in public.blog._data
+                            if _.includes(post.auteur, 'Jérémie Aubut')
+                                include ../blog/_post

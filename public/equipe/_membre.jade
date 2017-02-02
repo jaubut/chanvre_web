@@ -1,6 +1,7 @@
 .col-6.center
-    .membre(style= equipe.membrephoto)
-    h3 #{ equipe.nom }
+    a.modal-open(href= equipe.modal)
+        .membre(style= equipe.membrephoto)
+        h3 #{ equipe.nom }
     h6.co #{ equipe.titre }
     p #{ equipe.description }
    

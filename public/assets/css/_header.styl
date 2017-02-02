@@ -120,6 +120,45 @@
             width 100%
             position relative
             color blue
+
+#equipeheader
+    .goback
+        cursor pointer
+        padding-left 20px
+    img 
+        height 5rem
+        width auto
+    .credit-photo
+        position absolute
+        top 0
+        right 0
+        margin-top 5px
+        margin-right 5px
+        color #636366
+        text-shadow 1px 1px white
+        font-size 0.75rem
+    @media (min-width: 800px)
+        .side-image
+            background-size cover
+            background-position center center
+            background-repeat no-repeat
+            z-index 100 !important
+            position fixed
+            top 0
+            right 0
+            height 100%
+            width 40%
+            color blue
+    @media (max-width: 800px)
+        .side-image
+            background-size cover
+            background-position center center
+            background-repeat no-repeat
+            z-index 100 !important
+            height 20rem
+            width 100%
+            position relative
+            color blue
             
 body
     padding 0
