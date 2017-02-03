@@ -13,12 +13,24 @@
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/gif_test_2.gif)"
     },
     "darko_popovic": {
-        "membrephoto": "background-image: url(https://c1.staticflickr.com/1/698/31806878633_5010120160_n.jpg)",
+        "membrephoto": "background-image: url(https://c1.staticflickr.com/1/596/32259376770_4aa0508812_b.jpg)",
+        "image": "background-image: url(https://c1.staticflickr.com/1/316/32518081061_a6b59dc730_b.jpg)",
         "nom": "Darko Popovic",
         "titre": "Co-fondateur",
         "description": "Darko aime pablo beaucoup !",
         "id": "1",
-        "tag": "membre"
+        "modal": "#modaldarko",
+        "tag": "general"
+    },
+    "Jeremie_Aubut": {
+        "membrephoto": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
+        "image": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
+        "nom": "Jérémie Aubut",
+        "titre": "Co-fondateur",
+        "description": "Jérémie est fou !",
+        "id": "2",
+        "modal": "#modalje",
+        "tag": "chef"
     }
     
 }
