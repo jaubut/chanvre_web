@@ -160,7 +160,7 @@
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_banner_3.png",
             "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/love_lockdown_banner_3.png)"
     },
-    "faq-huile-de-chanvre": {
+    "huile-de-chanvre-faq": {
             "headline": "FAQ sur l'huile de chanvre",
             "description": "Les questions les plus fréquemment demandées par nos visiteurs",
             "date": "2017-01-023T00:00:00.000Z",
@@ -170,7 +170,7 @@
             "tags": "soins corporels, article vedette",
             "metakeyword": "chanvre",
             "creditref": "/",
-            "link": "blog/faq-huile-de-chanvre",
+            "link": "blog/huile-de-chanvre-faq",
             "ogimage": "https://c1.staticflickr.com/1/377/32549660151_9e7d2e9924_k.jpg",
             "image": "background-image: url(https://c1.staticflickr.com/1/377/32549660151_9e34146ccb_z.jpg)"
     }
