@@ -1,7 +1,7 @@
 {
     "index": {
         "headline": "Équipe",
-        "underline": "Le team behind the scene",
+        "underline": "Nous chanvrons le monde",
         "thirdline": "Postulez",
         "textcolor": "",
         "hrefheader": "mailto:info@chanvrequebec.com",
@@ -17,7 +17,7 @@
         "image": "background-image: url(https://c1.staticflickr.com/1/316/32518081061_a6b59dc730_b.jpg)",
         "nom": "Darko Popovic",
         "titre": "Co-fondateur",
-        "description": "Darko aime pablo beaucoup !",
+        "description": "",
         "id": "1",
         "modal": "#modaldarko",
         "tag": "chef"
@@ -27,7 +27,7 @@
         "image": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
         "nom": "Jérémie Aubut",
         "titre": "Co-fondateur",
-        "description": "Jérémie est fou !",
+        "description": "L'inventeur fou!",
         "id": "2",
         "modal": "#modalje",
         "tag": "chef"
