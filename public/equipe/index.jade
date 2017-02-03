@@ -5,18 +5,10 @@ include _modalje
     .row
         .col-12
             h2 Notre passion et notre solidarité font de nous une l'équipe que nous sommes !
-#team-un(style="background: #75c050;")
     .container
         .row    
             .col-12
                 for equipe, slug in public.equipe._data
                     if _.includes(equipe.tag, 'chef')
-                        include _membre
-#team-deux(style="background: #D6D6D8;")                
-    .container
-        .row    
-            .col-12
-                for equipe, slug in public.equipe._data
-                    if _.includes(equipe.tag, 'general')
                         include _membre
 include ../includes/_footer

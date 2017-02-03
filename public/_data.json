@@ -76,6 +76,15 @@
         "metakeyword": "chanvre, référence, politique de retour, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "contactez-nous": {
+        "headline": "Pour toutes questions",
+        "underline": "Rejoignez-nous",
+        "thirdline": "Boutique",
+        "hrefheader": "/produits",
+        "metakeyword": "chanvre, référence, politique de retour, blog",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     }
     
 }
