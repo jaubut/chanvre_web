@@ -19,8 +19,15 @@
                           a.goback(href='/recettes')
                             i.fa.fa-book.i-header(aria-hidden='true')
     include ../includes/_description
-            .row.center
-                h2 Santé
-                for recettes, slug in public.recettes._data
-                    if _.includes(recettes.category, 'santé')
-                        include _recette
+        .container    
+            .row
+                .col-12
+                    h4.center Farine de chanvre
+                    for recettes, slug in public.recettes._data
+                        if _.includes(recettes.category, 'farine')
+                            include _recette
+                .col-12
+                    h4.center Prêt en 5 minutes
+                    for recettes, slug in public.recettes._data
+                        if _.includes(recettes.category, 'rapide')
+                            include _recette
