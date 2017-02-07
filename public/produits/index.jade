@@ -11,13 +11,13 @@
         .row.center
             for numero, slug in public.seqoia._data
                 include ../public/seqoia/_seqoia
-    .container
+    #soinspourlecorps.container
         .row.center
             h2 Soins pour le corps
             for produit, slug in public.produits._data
                 if _.includes(produit.category, 'soinscorps')
                     include _produit
-    .container
+    #vetementseqoia.container
         .row.center
             h2 Textile
             for produit, slug in public.produits._data

@@ -1,22 +1,19 @@
-.container
-    .row
-        .col-12
-            h2 L'actualité Chanvre Québec
-.main-carousel(data-flickity='{ "wrapAround": true }')
-        .container.pub.one(style="background-image: url(https://storage.googleapis.com/chanvrequebecphoto/promojanvierblur2.png)")
+.main-carousel#main-carousel(data-flickity='{ "wrapAround": true }')
+        .container-deux.pub.one(style="background: #F3D599")
             .row.center
-                .col-12.center
-                    h2 Lancement officiel de la boutique!
-                a.modal-open(href='#modalA')
-                    button.btn-offre Voir l'offre
-                    
-        .container.pub.two
+                .col-6.center
+                    h2 Pour avoir un beau teint toute la journée !
+                    a(href='produits/serum/')
+                        button.btn-offre Le serum Coup d'Éclat
+                .col-6.center
+                    img(src="https://c1.staticflickr.com/1/521/32629530931_3b7ece70ec_k.jpg")      
+        .container-deux.pub.two
             .row.center
                 .col-12
-                    h3 Profitez du sachet "J'aime" à moitié prix! 
-                    p Ajoutez n'importe quel item à votre panier pour en profiter.
-        .container.pub.three(style="background-image: url(https://storage.googleapis.com/chanvrequebecphoto/noel_cover2.jpg)")
+                    h3 Voyez notre section Équipe !
+                    a(href="/equipe/")
+                        button.btn-secondary En savoir plus
+        //.container-deux.pub.three(style="background-image: url(https://storage.googleapis.com/chanvrequebecphoto/noel_cover2.jpg)")
             .row
                 .col-12.center
-                    h Durant tout le mois de janvier exclusivement
-                    
+                    h2 Durant tout le mois de janvier exclusivement

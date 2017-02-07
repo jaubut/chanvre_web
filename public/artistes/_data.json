@@ -27,7 +27,7 @@
         "thirdline": "Nos produits",
         "hrefheader": "/produits",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "headerstyle": "background-image: linear-gradient(black, #F3F3F3)",
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/1/469/32631607251_62804b45c1_o.jpg)",
         "titre": "Une marque 55/45",
         "texte": "Seqoia est une marque de vêtements qui veut redéfinir les standards de qualité des tissus dans le monde des sports de glisses.",
         "textcolor": "color: white"
