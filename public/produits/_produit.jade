@@ -1,8 +1,7 @@
 a(href= "/produits/#{ slug }")
-    .col-4.blogshow(style= produit.imagebg)
+    .col-4.produitshow(style= produit.imagebg)
+        p.price #{produit.price}$
         .produitindex
-            .col-6.left
-                p #{produit.headline}
-            .col-6.right
-                p.price #{produit.price}$ 
+            p #{produit.headline}
+                 
 
