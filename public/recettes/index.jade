@@ -22,12 +22,17 @@
         .container    
             .row
                 .col-12
+                    h4.center Prêt en 10 minutes
+                    for recettes, slug in public.recettes._data
+                        if _.includes(recettes.category, 'rapide')
+                            include _recette
+                .col-12
                     h4.center Farine de chanvre
                     for recettes, slug in public.recettes._data
                         if _.includes(recettes.category, 'farine')
                             include _recette
                 .col-12
-                    h4.center Prêt en 5 minutes
+                    h4.center Graines de chanvre
                     for recettes, slug in public.recettes._data
-                        if _.includes(recettes.category, 'rapide')
+                        if _.includes(recettes.category, 'graines')
                             include _recette

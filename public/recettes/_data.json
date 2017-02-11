@@ -7,7 +7,7 @@
         "textcolor": "color: #ffffff;",
         "sort-button": ".btn-secondary",
         "titre": "Un livre pour vous régaler tout en gardant la forme.",
-        "texte": "Nous croyons à une alimentation saine et nutritive grâce au chanvre. Que ce soit avec la graine ou la farine, nous ne voudrions surtout pas négliger l'essentiel: le goût",
+        "texte": "Une alimentation saine et nutritive grâce au chanvre. La graine peut être saupoudrée partout alors que la farine s’incorpore généralement pour remplacer 25% de la farine ordinaire dans vos recettes. Une méthode simple et efficace pour ajouter des nutriments dans tous vos plats, sans négliger l’essentiel : le goût.",
         "metakeyword": "chanvre, référence, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "image": "background-image: url(https://c1.staticflickr.com/1/429/32739295665_600c9d41c0_z.jpg)",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/creperecette.png)"
@@ -63,6 +63,45 @@
         "description": "Et voici pour vous, un petit muffin à déguster chaud ou froid de la maman à Darko.",
         "url": "/",
         "link": "recettes/muffin-automnal-courge-chanvre"
+    },
+    "fudgechoco": {
+        "headline": "Fudge vegan aux graines de chanvre",
+        "underline": "Riche et vraiment bon !",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: black",
+        "category": "graines, rapide",
+        "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog, lait de chanvre",
+        "imageog": "https://c1.staticflickr.com/1/760/32715963621_a8d6fee627_z.jpg",
+        "image": "background-image: url(https://c1.staticflickr.com/1/760/32715963621_a8d6fee627_z.jpg)",
+        "description": "",
+        "url": "/",
+        "link": "recettes/fudgechoco"
+    },
+    "boulledenergie": {
+        "headline": "Boules d’énergie de chanvre au cacao et aux dattes",
+        "underline": "Riche et vraiment bon!",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: black",
+        "category": "graines, rapide",
+        "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog, lait de chanvre",
+        "imageog": "https://c1.staticflickr.com/3/2271/32458591390_798b0a0896_z.jpg",
+        "image": "background-image: url(https://c1.staticflickr.com/3/2271/32458591390_798b0a0896_z.jpg)",
+        "description": "",
+        "url": "/",
+        "link": "recettes/boulledenergie"
+    },
+    "muffin-chanvre-fruits": {
+        "headline": "Muffin chanvre et fruits de Milena",
+        "underline": "délcieusement nutritif",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: black",
+        "category": "farine",
+        "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
+        "imageog": "https://c1.staticflickr.com/1/656/31924248433_0a6ecc692a_z.jpg",
+        "image": "background-image: url(https://c1.staticflickr.com/4/3734/32458601640_66b92a22c7_z.jpg)",
+        "description": "",
+        "url": "/",
+        "link": "recettes/muffin-chanvre-fruits"
     },
     "lait-de-chanvre-reinvente": {
         "headline": "Lait de chanvre re-inventé",
