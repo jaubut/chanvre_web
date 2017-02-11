@@ -21,7 +21,7 @@
         "metakeyword": "chanvre, référence, salade de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://storage.googleapis.com/chanvrequebecphoto/salade_chanvre_1.jpeg",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/salade_chanvre_1.jpeg)",
-        "description": "Les graines de chanvre me permettent d’avoir un dinner léger et nutritif - Marie-Christine, Québec.",
+        "description": "",
         "url": "/",
         "link": "recettes/salade-jardin-marie-christine"
     },
@@ -34,7 +34,7 @@
         "metakeyword": "chanvre, référence, salade de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://c1.staticflickr.com/1/317/31895124384_0a36750a53_z.jpg",
         "image": "background-image: url(https://c1.staticflickr.com/1/317/31895124384_0a36750a53_z.jpg)", 
-        "description": "Mes brownies sont une collation idéale pour me fournir tout ce dont j’ai besoin avant d’aller m’entraîner — Frederick Chamberland, Québec",
+        "description": "",
         "url": "/",
         "link": "recettes/brownies-chocolat-frederick"
      },
@@ -60,20 +60,20 @@
         "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://storage.googleapis.com/chanvrequebecphoto/muffin_chanvre_2.jpeg",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/muffin_chanvre_2.jpeg)",
-        "description": "Et voici pour vous, un petit muffin à déguster chaud ou froid de la maman à Darko..",
+        "description": "Et voici pour vous, un petit muffin à déguster chaud ou froid de la maman à Darko.",
         "url": "/",
         "link": "recettes/muffin-automnal-courge-chanvre"
     },
     "lait-de-chanvre-reinvente": {
-        "headline": "Mon lait de chanvre re-inventé",
+        "headline": "Lait de chanvre re-inventé",
         "underline": "Riche et vraiment bon !",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "smoothie, rapide",
         "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog, lait de chanvre",
-        "imageog": "https://c1.staticflickr.com/1/312/31940533014_59907d33c9_o.jpg",
+        "imageog": "https://c1.staticflickr.com/3/2434/32821790035_1ae539129f_z.jpg",
         "image": "background-image: url(https://c1.staticflickr.com/1/312/31940533014_59907d33c9_o.jpg)",
-        "description": "C'est simple, ça goûte vraiment bon et ça me procure une méchante bonne dose de protéines et d'oméga-3 !",
+        "description": "",
         "url": "/",
         "link": "recettes/muffin-automnal-courge-chanvre"
     }
