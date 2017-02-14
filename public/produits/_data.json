@@ -4,12 +4,13 @@
         "underline": "Des produits bons et beaux.",
         "thirdline": "Proposez-nous vos produits",
         "hrefheader": "mailto:info@chanvrequebec.com",
+        "textcolor": "color: #ffffff;",
         "metakeyword": "chanvre, référence, produits de chanvre, vetement en chanvre, aliment de chanvre, soins de chanvre, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Tous nos produits de chanvre, pour vous !",
         "texte": "L'une des parties les plus importantes du projet de Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site :) ",
         "artistes": "/",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/noel_cover2.jpg)"
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/4/3695/32687331451_414a22764b_o.jpg)"
     },
     "numero_5": {
         "headline": "Numero 5",
@@ -107,7 +108,7 @@
         "thirdline": "Découvrez l'artisane",
         "hrefheader": "/artistes/lafeuilleverte",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "headerstyle": "background-image: url(https://c1.staticflickr.com/1/597/31804909474_b777e37a36_o.gif)",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
         "titre": "Sérum Coup d'éclat",
         "texte": "Les trousses sont parfaites pour essayer plusieurs produits à moindre coût! Dans le Découverte, vous avez un baume à lèvre, un lait solaire, une crème anti-ride et un huile Chanvre Moi !",
         "textcolor": "color: black",
