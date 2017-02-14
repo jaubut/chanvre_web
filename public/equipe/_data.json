@@ -27,10 +27,19 @@
         "image": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
         "nom": "Jérémie Aubut",
         "titre": "Co-fondateur",
-        "description": "L'inventeur fou!",
+        "description": "",
         "id": "2",
         "modal": "#modalje",
         "tag": "chef"
+    },
+    "gabriel_marcoux": {
+        "membrephoto": "background-image: url(https://c1.staticflickr.com/1/552/32406078030_a03f3d8506_z.jpg)",
+        "image": "background-image: url(https://c1.staticflickr.com/1/552/32406078030_a03f3d8506_z.jpg)",
+        "nom": "Gabriel Marcoux",
+        "titre": "Business development",
+        "description": "",
+        "id": "3",
+        "modal": "#modalgab",
+        "tag": "chef"
     }
-    
 }

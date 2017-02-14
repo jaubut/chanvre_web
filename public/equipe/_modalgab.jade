@@ -1,0 +1,21 @@
+#modalje.modal.green(role='dialog', aria-labelledby='modalA-title', aria-describedby='modalA-description')
+    for equipe, slug in public.equipe._data
+        if _.includes(equipe.id, '2')
+            include _equipeheader
+    #modalequipe
+            a.modal-a(href='#', title='close') ×
+            .container
+                .row
+                    .col-12
+                        h1 Gabriel Marcoux
+                        h6 Business developpment
+                    .col-12
+                        p 
+                        | Hemp is to me, one of the most precious gifts that our planet has given us. As cheesy as it may sound, it has litteraly been able to change me for the better. When it comes to food, it has improved both my eating habits and the energy I have on a daily basis which basically ties into the way I feel overall. I feel compelled to share the knowledge we have regarding Hemp because there is so much that can be done with it. We are attempting to open people's eyes to the change this plant can bring for our future, as well as the future of those who will come after us. We are part of a generation of change. People who question the norms of society and act on those questions because we believe there are better, more sustainable alternatives for us to improve our planet and our way of living. My dream is to leave this earth knowing I left a positive mark on it. Looking at the big picture and breaking loose from the cocoons we trap ourselves in, limiting our ability to improve what allows us to live in the first place. I believe Hemp holds a key to achieving a part of that, and I would like to share that same ideal with you
+                    .col-12.center
+                        button.btn-secondary Visite mon blog!
+                    .col-12
+                        h2 Les articles que j'ai écrit ici!
+                        for post, slug in public.blog._data
+                            if _.includes(post.auteur, 'Gabriel Marcoux')
+                                include ../blog/_post
