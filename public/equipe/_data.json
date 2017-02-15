@@ -40,6 +40,7 @@
         "description": "",
         "id": "3",
         "modal": "#modalgab",
+        "link": "equipe/#modalgab",
         "tag": "chef"
     }
 }
