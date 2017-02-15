@@ -88,8 +88,9 @@
     },
     "#modalgab": {
         "headline": "Gab Marcoux",
+        "description": "Un membre important!",
         "link": "equipe/#modalgab",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+        "image": "https://c1.staticflickr.com/1/599/32738163542_368778b55e_z.jpg"
     }
     
 }
