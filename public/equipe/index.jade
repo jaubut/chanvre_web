@@ -1,7 +1,4 @@
 include ../includes/_header
-include _modaldarko
-include _modalje
-include _modalgab
 .container
     .row
         .col-12
@@ -13,9 +10,4 @@ include _modalgab
                 for equipe, slug in public.equipe._data
                     if _.includes(equipe.tag, 'chef')
                         include _membre
-    .container
-        .row
-            .col-12 
-                a(href="marcouxgab")
-                    button.btn-secondary Gab
 include ../includes/_footer

@@ -1,0 +1,22 @@
+for equipe, slug in public.equipe._data
+    if _.includes(equipe.id, '1')
+        include _equipeheader
+#modalequipe
+        a.modal-a(onclick='goBack()') ×
+        .container
+            .row
+                .col-12
+                    h1 Darko Popovic
+                    h6 co-fondateur
+                    .fb-like(data-href='https://www.chanvrequebec.com/#{ link }', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='true')
+
+                .col-12
+                    p 
+                    | Je me suis donner pour mission de vie d’avoir un impact positif sur mon  environnement.  Venir en aide à la Terre et contribuer aux bien-être des gens, c’est ce qui donne un sens à ma vie. Jechanvre, parce que c’est une plante qui correspond à mes convictions et à mes valeurs. À ma vision d’un monde meilleur.
+                .col-12.center
+                    button.btn-secondary Visite mon blog!
+                .col-12
+                    h2 Les articles que j'ai écrit ici !
+                    for post, slug in public.blog._data
+                        if _.includes(post.auteur, 'Darko Popovic')
+                            include ../blog/_post

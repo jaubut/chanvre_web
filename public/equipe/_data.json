@@ -20,9 +20,13 @@
         "description2": "",
         "id": "1",
         "modal": "#modaldarko",
+        "link": "equipe/darko_popovic",
+        "headline": "Darko Popovic",
+        "description": "Je me suis donner pour mission de vie d’avoir un impact positif sur mon  environnement.",
+        "image": "https://c1.staticflickr.com/1/316/32518081061_a6b59dc730_b.jpg",
         "tag": "chef"
     },
-    "Jeremie_Aubut": {
+    "jeremie_aubut": {
         "membrephoto": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
         "image2": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
         "nom": "Jérémie Aubut",
@@ -30,9 +34,13 @@
         "description2": "",
         "id": "2",
         "modal": "#modalje",
+        "link": "equipe/jeremie_aubut",
+        "headline": "Jérémie Aubut",
+        "description": "J'aime me départir de toutes limites.",
+        "image": "https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg",
         "tag": "chef"
     },
-    "marcouxgab": {
+    "gabriel_marcoux": {
         "membrephoto": "background-image: url(https://c1.staticflickr.com/1/552/32406078030_a03f3d8506_z.jpg)",
         "image2": "background-image: url(https://c1.staticflickr.com/1/599/32738163542_368778b55e_z.jpg)",
         "nom": "Gabriel Marcoux",
@@ -40,7 +48,7 @@
         "description2": "",
         "id": "3",
         "modal": "#modalgab",
-        "link": "equipe/marcouxgab",
+        "link": "equipe/gabriel_marcoux",
         "headline": "Gabriel Marcoux",
         "description": "Hemp is to me, one of the most precious gifts that our planet has given us. As cheesy as it may sound, it has litteraly been able to change me for the better.",
         "image": "https://c1.staticflickr.com/1/599/32738163542_368778b55e_z.jpg",
