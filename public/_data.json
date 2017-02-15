@@ -85,12 +85,6 @@
         "metakeyword": "chanvre, référence, politique de retour, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
-    },
-    "#modalgab": {
-        "headline": "Gab Marcoux",
-        "description": "Un membre important!",
-        "link": "equipe/#modalgab",
-        "image": "https://c1.staticflickr.com/1/599/32738163542_368778b55e_z.jpg"
     }
     
 }

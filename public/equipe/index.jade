@@ -13,4 +13,9 @@ include _modalgab
                 for equipe, slug in public.equipe._data
                     if _.includes(equipe.tag, 'chef')
                         include _membre
+    .container
+        .row
+            .col-12 
+                a(href="gabriel_marcoux")
+                    button.btn-secondary Gab
 include ../includes/_footer
