@@ -5,9 +5,9 @@
     #blogheader
         - var current= new Date()
         - var day_night= current.getHours()
-        if (day_night<12)
+        if (day_night<6)
             include ../includes/_photodeux
-        else if (day_night<21)
+        else if (day_night<11)
             include ../includes/_photoun
         else
             include ../includes/_phototrois
