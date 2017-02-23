@@ -5,12 +5,14 @@
     #blogheader
         - var current= new Date()
         - var day_night= current.getHours()
+        - var m= current.getMinutes()
         if (day_night<6)
             include ../includes/_photodeux
         else if (day_night<11)
             include ../includes/_photoun
         else
             include ../includes/_phototrois
+
         .container
                 .row
                     .col-12
@@ -23,7 +25,7 @@
             .row
                 .col-12 
                     h2 bonjour
-                    h2 #{day_night}
+                    h2 #{day_night}h #{m}minutes
                 .col-12
                     h4.center Prêt en 10 minutes
                     for recettes, slug in public.recettes._data
