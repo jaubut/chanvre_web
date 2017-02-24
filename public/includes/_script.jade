@@ -54,6 +54,19 @@ script.
   function myPrint() {
   window.print();
   }
+script(type='text/javascript').
+  var _kmq = _kmq || [];
+  var _kmk = _kmk || 'c28eaa1216189787a2acb0e20d67e2c18d270da1';
+  function _kms(u){
+  setTimeout(function(){
+  var d = document, f = d.getElementsByTagName('script')[0],
+  s = d.createElement('script');
+  s.type = 'text/javascript'; s.async = true; s.src = u;
+  f.parentNode.insertBefore(s, f);
+  }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
 
 script(type='text/javascript').
   var userFeed = new Instafeed({
@@ -69,17 +82,3 @@ script(type='text/javascript').
   });
   userFeed.run();
   
-script(type='text/javascript').
-  var jeChanvreFeed = new Instafeed({
-  get: 'tagged',
-  tagName: 'jechanvre',
-  userId: '3400508812',
-  clientId: 'bf39589b850d4ed496e4602163580e20',
-  accessToken: '3400508812.bf39589.db8a517293814ed3b1c8be18562aa169',
-  resolution: 'standard_resolution',
-  sortBy: 'most-recent',
-  template: '<a href="{{link}}" target="_blank" id="{{id}}"><div class= "photo" style="background-image: url({{image}})"></div></a>'
-  });
-  jeChanvreFeed.run();
-
-
