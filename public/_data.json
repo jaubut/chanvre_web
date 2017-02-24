@@ -47,6 +47,17 @@
         "artistes": "lafeuilleverte",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_1.jpg)"
     },
+    "alimentation-new": {
+        "headline": "Alimentation",
+        "underline": "Le Super Aliment.",
+        "thirdline": "Nos idées recettes",
+        "hrefheader": "/recettes",
+        "metakeyword": "chanvre, référence, alimentation de chanvre, huile de chanvre, graine de chanvre, farine de chanvre, proteine de chanvre, blog",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "titre": "Le super aliment porte bien son nom",
+        "artistes": "lafeuilleverte",
+        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_1.jpg)"
+    },
     "habitation": {
         "headline": "Habitation",
         "underline": "La maison la plus confortable qui soit",
