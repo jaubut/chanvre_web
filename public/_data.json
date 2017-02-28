@@ -70,6 +70,18 @@
         "artistes": "lafeuilleverte",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
+    "habitation-new": {
+        "headline": "Habitation-new",
+        "underline": "La maison la plus confortable qui soit",
+        "thirdline": "Blogue",
+        "hrefheader": "/blog",
+        "metakeyword": "chanvre, référence, beton de chanvre, maison en chanvre, hygrothermie, blog",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "titre": "La maison de l'avenir",
+        "texte": "encore plus omega",
+        "artistes": "lafeuilleverte",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
     "mission": {
         "headline": "Notre mission",
         "underline": "Pour l'amour du chanvre",
