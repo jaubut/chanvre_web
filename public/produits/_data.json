@@ -30,7 +30,7 @@
         "image": "https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg",
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg)",
         "description": "Le numéro 5, un chandail unisexe stylé.",
-        "url": "/",
+        "url": "https://www.chanvrequebec.com/produits/numero_5",
         "price": "32",
         "link": "produits/numero_5",
         "customname": "size",
@@ -54,7 +54,7 @@
         "image": "https://storage.googleapis.com/chanvrequebecphoto/Champagne45.jpg",
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/Champagne45.jpg)",
         "description": "Le S, un chandail unisexe intemporel, classique et confortable.",
-        "url": "/",
+        "url": "https://www.chanvrequebec.com/produits/numero_s",
         "price": "32",
         "link": "produits/numero_s",
         "customname": "size",
@@ -77,7 +77,7 @@
         "image": "https://storage.googleapis.com/chanvrequebecphoto/soins_maman_2.jpg",
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/soins_maman_3.jpg)",
         "description": "Le soins idéal pour soulager maman!",
-        "url": "/",
+        "url": "https://www.chanvrequebec.com/produits/laitmaternite",
         "price": "28",
         "link": "produits/laitmaternite"
     },
@@ -98,7 +98,7 @@
         "image": "https://storage.googleapis.com/chanvrequebecphoto/polysporin_1.jpg",
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/polysporin_1.jpg)",
         "description": "Le soins par excellence pour traiter l'eczéma !",
-        "url": "/",
+        "url": "https://www.chanvrequebec.com/produits/onguent",
         "price": "16",
         "link": "produits/onguent"
     },
@@ -119,7 +119,7 @@
         "image": "https://c1.staticflickr.com/1/521/32629530931_3b7ece70ec_k.jpg",
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/Screen_serum.png)",
         "description": "Ce fluide précieux procure une peau éclatante et lumineuse!",
-        "url": "/",
+        "url": "https://www.chanvrequebec.com/produits/serum",
         "price": "40",
         "link": "produits/serum"
     },
@@ -140,7 +140,7 @@
         "image": "https://storage.googleapis.com/chanvrequebecphoto/anti-ride_1.jpg",
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/anti-ride_1.jpg)",
         "description": "La crème anti-rides",
-        "url": "/",
+        "url": "cremehydratante",
         "price": "36",
         "link": "produits/cremehydratante"
     },
@@ -161,7 +161,7 @@
         "image": "https://c1.staticflickr.com/1/377/32549660151_9e34146ccb_z.jpg",
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_moi_recadrer.png)",
         "description": "L'huile Chanvre-Moi",
-        "url": "/",
+        "url": "https://www.chanvrequebec.com/produits/chanvremoi",
         "price": "22",
         "link": "produits/chanvremoi"
     }
