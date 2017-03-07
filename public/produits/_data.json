@@ -185,26 +185,5 @@
         "url": "https://www.chanvrequebec.com/produits/exfoliant",
         "price": "28",
         "link": "produits/exfoliant"
-    },
-    "test": {
-        "headline": "L'exfoliant",
-        "underline": "bois de rose & pamplemouse",
-        "thirdline": "Découvrez l'artisane",
-        "hrefheader": "/artistes/lafeuilleverte",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
-        "titre": "L'exfoliant au bois de rose",
-        "texte": "et au pamplemouse",
-        "textcolor": "color: black",
-        "name": "exfoliant bois de rose & pamplemouse",
-        "id": "9",
-        "category": "soinscorps",
-        "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
-        "image": "https://c1.staticflickr.com/4/3752/32910487850_dbd5d034a9_h.jpg",
-        "imagebg": "background-image: url(https://c1.staticflickr.com/4/3752/32910487850_dbd5d034a9_h.jpg)",
-        "description": "C'est un exfolliant qui non seulement nettoie et décrasse la peau mais laisse un fini doux et soyeux. ",
-        "url": "https://www.chanvrequebec.com/produits/test",
-        "price": "0.01",
-        "link": "produits/test"
     }
 }
