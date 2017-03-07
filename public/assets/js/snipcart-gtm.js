@@ -14,7 +14,6 @@
             };
         });
     };
-     var createProductsFromItems = ...;
 
     var onItemAdded = function (item) {
         dataLayer.push({
