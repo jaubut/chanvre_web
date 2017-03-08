@@ -154,7 +154,7 @@
             "date2": "30 janvier, 2017",
             "id": "12",
             "auteur": "Darko Popovic",
-            "tags": "soins corporels, article vedette",
+            "tags": "soins corporels",
             "metakeyword": "chanvre",
             "creditref": "/",
             "link": "blog/huile-de-chanvre-faq",
@@ -174,7 +174,19 @@
             "link": "blog/zeo-form-plastique",
             "ogimage": "https://c1.staticflickr.com/1/704/31971158263_6519ea5fae_o.jpg",
             "image": "background-image: url(https://c1.staticflickr.com/1/340/31971157403_ae05d2b53d_o.jpg)"
+    },
+    "cannab1s-la-verite": {
+            "headline": "cannab1s : la vérité avec Jean et Régis",
+            "description": "Qu’en est-il de la différence réelle entre le chanvre et le cannab1s ? Il y a plusieurs fausses croyances à ce sujet. Maitri Leaf et Chanvre Québec avons décidé d’unir nos forces pour vous fournir un portrait fiable de la plante.",
+            "date": "2017-03-007T00:00:00.000Z",
+            "date2": "7 mars, 2017",
+            "id": "14",
+            "auteur": "Darko Popovic",
+            "tags": "innovation, article vedette, idée",
+            "metakeyword": "chanvre, culture chanvre, eau",
+            "creditref": "/",
+            "link": "blog/cannab1s-la-verite",
+            "ogimage": "https://c1.staticflickr.com/1/730/33272188086_fe48664f01_o.jpg",
+            "image": "background-image: url(https://c1.staticflickr.com/1/587/32469816764_c68254afbb_o.jpg)"
     }
 }
-
-    
