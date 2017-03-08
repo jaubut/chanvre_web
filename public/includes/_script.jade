@@ -17,8 +17,50 @@ script.
 script. 
     var moltin = new Moltin({publicId: 'HimKFkM74zwzb8mtGTBMmCBtw0wVZJ1BUsG0PE9cZ1'});
     moltin.Authenticate(function() {
-        moltin.Product.Get("1455125597406626228", function(product) {
-            console.log(product);
+        var products = moltin.Product.List();
+
+        moltin.Cart.Insert(products[0].id, 1, null,
+        function(item) {
+          console.log(item);
+        });
+
+        var cart = moltin.Cart.Contents();
+
+        moltin.Cart.Complete({
+          gateway: 'dummy',
+          customer: {
+            first_name: 'Jon',
+            last_name:  'Doe',
+            email:      'jon.doe@gmail.com'
+          },
+          bill_to: {
+            first_name: 'Jon',
+            last_name:  'Doe',
+            address_1:  '123 Sunny Street',
+            address_2:  'Sunnycreek',
+            city:       'Sunnyvale',
+            county:     'California',
+            country:    'US',
+            postcode:   'CA94040',
+            phone:      '6507123124'
+          },
+          ship_to: 'bill_to',
+          shipping: 'free_shipping'
+        },
+        function (order){
+          console.log(order);
+        });
+
+        moltin.Checkout.Payment('purchase', order.id, {
+          data: {
+            number:       '4242424242424242',
+            expiry_month: '02',
+            expiry_year:  '2017',
+            cvv:          '123'
+          }
+        },
+        function (payment){
+          console.log(payment);
         });
     });
 script.
