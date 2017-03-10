@@ -121,6 +121,7 @@
         "description": "Ce fluide précieux procure une peau éclatante et lumineuse!",
         "url": "https://www.chanvrequebec.com/produits/serum",
         "price": "40",
+        "weight": "50",
         "link": "produits/serum"
     },
     "cremehydratante": {

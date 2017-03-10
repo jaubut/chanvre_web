@@ -16,7 +16,6 @@ document.getElementById("myDropsearch").classList.toggle("show");
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
 
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
@@ -26,12 +25,9 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
-  }
 }
 
-function myFunctionTwo() {
-    document.getElementById("yourDropdown").classList.toggle("show");
-}
+
 
 
 $('#my-price').change(function() {
