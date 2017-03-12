@@ -23,6 +23,11 @@
         padding-left 20px
         font-size 0.75rem
         color #636366
+        
+    .dropdown
+        position relative
+        display inline-block
+
     .dropbtn
         color #636366
         font-size 16px
@@ -30,12 +35,11 @@
         padding-right 20px
         border none
         cursor pointer
-    .dropbtn:hover, .dropbtn:focus
-
-    .dropdown
-        position relative
-        display inline-block
-
+        &:hover
+            .dropdown-content
+                display block
+                overflow scroll
+                    
     .dropdown-content
         display none
         background white
@@ -56,12 +60,6 @@
         @media (max-width: 800px)
             .menu-item
                 font-size 1.25rem
-
-
-    .show
-        display block
-        overflow scroll
-        
     .gsc-search-box
         width 80%
     .gsc-search-button
