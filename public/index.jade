@@ -1,4 +1,9 @@
 include ../public/includes/_header
+.container
+    .row   
+        .col-12.center
+            h2 Restez connecté sur Facebook 
+            .fb-like(data-href='https://www.facebook.com/chanvrequebec/', data-layout='button_count', data-action='like', data-size='large', data-show-faces='true', data-share='false')
 include ../public/includes/_mission
 include ../public/includes/_modal-a
 include ../public/includes/_chanvre
@@ -38,17 +43,14 @@ include ../public/includes/_chanvre
                 for post, slug in public.blog._data
                     if _.includes(post.tags, 'article vedette')
                         include ../public/blog/_post
+include ../public/includes/_newsletter
 #instagram(style="background-color: #F9F9F9")
     .container
         .row
             .col-12
                 .center
-                    //.price= moltin.price
-                    h2 Restez connecté sur Facebook 
-                    .fb-like(data-href='https://www.facebook.com/chanvrequebec/', data-layout='button_count', data-action='like', data-size='large', data-show-faces='true', data-share='false')
-                h2 Et sur Instagram
+                    h2 Instagram
 #photo(style="background-color: #F9F9F9")
-    #instafeed
-#indexblog(style="background-color: #F9F9F9")
-include ../public/includes/_newsletter
+    .row
+        #instafeed
 include ../public/includes/_footer
