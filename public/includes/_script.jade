@@ -17,9 +17,6 @@ script.
 script. 
     var moltin = new Moltin({publicId: 'HimKFkM74zwzb8mtGTBMmCBtw0wVZJ1BUsG0PE9cZ1'});
     moltin.Authenticate(function() {
-        moltin.Product.List(null, function(products){
-            console.log(products)
-        });
     });
 script.
   (function() {
@@ -53,6 +50,10 @@ script.
   function myPrint() {
   window.print();
   }
+script(src='https://cdn.smooch.io/smooch.min.js')
+script.
+  Smooch.init({appToken: 'e2uey9od0j0o8wpelw4bhws07'});
+
 script(type='text/javascript').
   var _kmq = _kmq || [];
   var _kmk = _kmk || 'c28eaa1216189787a2acb0e20d67e2c18d270da1';
