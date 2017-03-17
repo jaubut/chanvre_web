@@ -78,7 +78,7 @@
         "link": "recettes/fudgechoco"
     },
     "boulledenergie": {
-        "headline": "Boules d’énergie de chanvre au cacao et aux dattes",
+        "headline": "Boules d’énergie cacao et dattes",
         "underline": "Riche et vraiment bon!",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
@@ -114,6 +114,19 @@
         "image": "background-image: url(https://c1.staticflickr.com/1/312/31940533014_59907d33c9_o.jpg)",
         "description": "",
         "url": "/",
-        "link": "recettes/muffin-automnal-courge-chanvre"
+        "link": "recettes/muffin-automnal-courge-chanvre"       
+    },
+    "patepesto": {
+        "headline": "Pesto-Pasta alla Melissa",
+        "underline": "Pasta alla Melissa !",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: black",
+        "category": "graines",
+        "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog, lait de chanvre",
+        "imageog": "https://c1.staticflickr.com/3/2921/33368194331_2c1f4e6f8b_z.jpg",
+        "image": "background-image: url(https://c1.staticflickr.com/4/3842/33340918992_b472d66a01_z.jpg)",
+        "description": "",
+        "url": "/",
+        "link": "recettes/patepesto" 
     }
 }
