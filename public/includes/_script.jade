@@ -1,7 +1,6 @@
 script(src="/assets/js/main.js")
 script(src="/assets/js/snipcart-event.js")
 script(src="/assets/js/snipcart-gtm.js")
-script(src="/assets/js/shopify.js")
 script(type="text/javascript", src="/assets/js/instafeed.min.js")
 script(src="https://use.fontawesome.com/5d64fbfc9e.js")
 script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js")
@@ -12,7 +11,13 @@ script(src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js")
 script(src="https://cdn.smooch.io/smooch.min.js")
 
 script.
-    Smooch.init({appToken: '1xih1mxbux5bz7n0q08e3ayqp'});
+    Smooch.init({
+        appToken: '1xih1mxbux5bz7n0q08e3ayqp',
+        givenName: 'Cool',
+        surname: 'Person',
+        email: 'their_email@whatever.com'
+    });
+        
 
 script.
       function goBack() {
