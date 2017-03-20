@@ -34,7 +34,8 @@
         "price": "30",
         "link": "produits/numero_5",
         "customname": "size",
-        "customoption": "Small|Medium|Large"
+        "customoption": "Small|Medium|Large",
+        "fblink": "1535610583134702/"
     },
     "numero_s": {
         "headline": "Le S",
@@ -58,7 +59,8 @@
         "price": "30",
         "link": "produits/numero_s",
         "customname": "size",
-        "customoption": "Small|Medium|Large"
+        "customoption": "Small|Medium|Large",
+        "fblink": "1474478729243599/"
     },
     "laitmaternite": {
         "headline": "Lait Maman & Bébé",
@@ -79,7 +81,8 @@
         "description": "Le soins idéal pour soulager maman!",
         "url": "https://www.chanvrequebec.com/produits/laitmaternite",
         "price": "28",
-        "link": "produits/laitmaternite"
+        "link": "produits/laitmaternite",
+        "fblink": "1447146552022941/"
     },
     "onguent": {
         "headline": "Onguent de chanvre",
@@ -100,7 +103,8 @@
         "description": "Le soins par excellence pour traiter l'eczéma !",
         "url": "https://www.chanvrequebec.com/produits/onguent",
         "price": "16",
-        "link": "produits/onguent"
+        "link": "produits/onguent",
+        "fblink": "1407690815949517/"
     },
     "serum": {
         "headline": "Sérum coup d'éclat",
@@ -122,7 +126,8 @@
         "url": "https://www.chanvrequebec.com/produits/serum",
         "price": "40",
         "weight": "50",
-        "link": "produits/serum"
+        "link": "produits/serum",
+        "fblink": "1785196818173069/"
     },
     "cremehydratante": {
         "headline": "Crème anti-rides",
@@ -143,7 +148,8 @@
         "description": "La crème anti-rides",
         "url": "cremehydratante",
         "price": "36",
-        "link": "produits/cremehydratante"
+        "link": "produits/cremehydratante",
+        "fblink": "1227759567345727/"
     },
     "chanvremoi": {
         "headline": "L'huile Chanvre-Moi",
@@ -164,7 +170,8 @@
         "description": "L'huile Chanvre-Moi",
         "url": "https://www.chanvrequebec.com/produits/chanvremoi",
         "price": "22",
-        "link": "produits/chanvremoi"
+        "link": "produits/chanvremoi",
+        "fblink": "1386988194666820/"
     },
     "exfoliant": {
         "headline": "Exfoliant visage",
@@ -185,6 +192,7 @@
         "description": "Déloge les particules mortes, nettoie et hydrate avec une exfoliation légère qui laisse un fini doux et soyeux. ",
         "url": "https://www.chanvrequebec.com/produits/exfoliant",
         "price": "28",
-        "link": "produits/exfoliant"
+        "link": "produits/exfoliant",
+        "fblink": "1481181525259496/"
     }
 }
