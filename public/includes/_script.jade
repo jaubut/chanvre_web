@@ -12,10 +12,20 @@ script(src="https://cdn.smooch.io/smooch.min.js")
 
 script.
     Smooch.init({
-        appToken: '1xih1mxbux5bz7n0q08e3ayqp',
-        givenName: 'Cool',
-        surname: 'Person',
-        email: 'their_email@whatever.com'
+        appToken: '43j4fj5e2iyhekwmpnbe642xj',
+        emailCaptureEnabled: true,
+        customText: {
+            headerText: "Comment pouvons-nous t'aider?",
+            inputPlaceholder: 'Écrit ton message...',
+            sendButtonText: 'Envoyé',
+            introductionText: "Nous sommes ici pour vous, alors demandez-nous ce que vous voulez !", 
+            introAppText: "",
+            settingsText: 'You can leave us your email so that we can get back to you this way.',
+            settingsReadOnlyText: 'We\'ll get back to you at this email address if we missed you.',
+            settingsInputPlaceholder: 'Your email address',
+            settingsSaveButtonText: 'Save',
+
+        }   
     });
         
 

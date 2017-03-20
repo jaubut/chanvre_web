@@ -32,17 +32,16 @@
             border 1px solid #3E7BFE
             background #3E7BFE
             color #fff
-.produitshow
+.produit-box
     height 15rem
     width auto
     position relative
-    background-position center center
-    background-size cover
-    background-repeat no-repeat
+    overflow hidden
     border-radius 2%
     box-shadow 0px 1px 2px 0px #D6D6D8
     .price
         position absolute
+        z-index 1
         width 30px
         font-size 0.75rem
         right 0
@@ -51,12 +50,24 @@
         margin-right 10px
         color white
         border-radius 25px
+
+.produitshow
+    height 15rem
+    width auto
+    background-position center center
+    background-size cover
+    background-repeat no-repeat
+    transition: all .2s ease-in-out
+    &:hover
+        transform scale(1.1)
+
+    
 .four
     margin-bottom 10px
     margin-left 70px
     margin-right -70px
 
-.produitindex
+.produitindex  
     background-color white
     height 50px
     width 100%
@@ -64,8 +75,8 @@
     border-bottom-right-radius 2%
     position absolute
     bottom 0px
-    z-index 80 !important
-    
+    z-index 1 !important
+
     p
         color black
         text-shadow none
