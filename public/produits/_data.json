@@ -1,5 +1,6 @@
 {
     "index": {
+        "layout": "_layout-boutique",
         "headline": "Boutique",
         "underline": "Des produits bons et beaux.",
         "thirdline": "Vous êtes artisans ?",
