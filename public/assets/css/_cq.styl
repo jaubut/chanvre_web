@@ -295,28 +295,9 @@ code,
 
 footer
     background-image linear-gradient(349deg, #75C050, #B1E95C)
-    background-size: 400% 400%;
+    background-size 400% 400%
     padding-bottom 80px
-    -webkit-animation: AnimationName 4s ease infinite;
-    -moz-animation: AnimationName 4s ease infinite;
-    animation: AnimationName 4s ease infinite;
-
-    @-webkit-keyframes AnimationName {
-        0%{background-position:78% 0%}
-        50%{background-position:23% 100%}
-        100%{background-position:78% 0%}
-    }
-    @-moz-keyframes AnimationName {
-        0%{background-position:78% 0%}
-        50%{background-position:23% 100%}
-        100%{background-position:78% 0%}
-    }
-    @keyframes AnimationName { 
-        0%{background-position:78% 0%}
-        50%{background-position:23% 100%}
-        100%{background-position:78% 0%}
-    }
-    
+    animation AnimationName 4s ease infinite
     p
         color #fff
         font-size 1rem
@@ -401,6 +382,15 @@ footer
   
   100% 
     transform: scale3d(1, 1, 1)
+    
+@keyframes AnimationName  
+        0%
+            background-position 78% 0%
+        50%
+            background-position 23% 100%
+        100%
+            background-position 78% 0%
+            
   
 
 

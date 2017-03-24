@@ -80,6 +80,8 @@
     padding-top 2.5rem
     width 100%
     background linear-gradient(349deg, #3E7BFE, #FDF66C)
+    background-size 400% 400%
+    animation AnimationName 4s ease infinite
     p
         font-size 0.6rem
         color white
@@ -165,5 +167,10 @@
             color blue
 
 
-    
-
+@keyframes AnimationName  
+        0%
+            background-position 78% 0%
+        50%
+            background-position 23% 100%
+        100%
+            background-position 78% 0%
