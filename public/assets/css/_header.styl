@@ -76,17 +76,23 @@
         height auto
         transform translate(-50%, -50%)
 #alert
-        background-color #F9B42D
-        position absolute
-        top 0
-        left 0
-        z-index 110 !important
-        width 100%
-        overflow scroll
-        p
-            font-size 0.75rem
-            color white
-        
+    position absolute
+    padding-top 2.5rem
+    background: linear-gradient(349deg, #3E7BFE , #FDF66C)
+    background-size: 400% 400%;
+    animation: AnimationName 4s ease infinite;
+
+    @keyframes AnimationName { 
+        0%{background-position:78% 0%}
+        50%{background-position:23% 100%}
+        100%{background-position:78% 0%}
+    }
+    width 100%
+    p
+        font-size 0.6rem
+        color white
+
+
 #blogheader
     .goback
         cursor pointer
@@ -165,6 +171,7 @@
             width 100%
             position relative
             color blue
-            
+
+
     
 

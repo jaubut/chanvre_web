@@ -8,9 +8,9 @@ script(src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MjJk
 script(src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js")
 script(id="dsq-count-scr" src="//chanvre-quebec.disqus.com/count.js")
 script(src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js")
-script(src="https://cdn.smooch.io/smooch.min.js")
+//script(src="https://cdn.smooch.io/smooch.min.js")
 
-script.
+//script.
     Smooch.init({
         appToken: '43j4fj5e2iyhekwmpnbe642xj',
         emailCaptureEnabled: true,
@@ -33,11 +33,64 @@ script.
 
         }   
     });
+// Start of Async Drift Code
+script.
+  !function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+  t.factory = function(e) {
+  return function() {
+  var n;
+  return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+  };
+  }, t.methods.forEach(function(e) {
+  t[e] = t.factory(e);
+  }), t.load = function(t) {
+  var e, n, o, i;
+  e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+  n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('dnkke3ac7nfm');
+// End of Async Drift Code
+// Drip
+script(type='text/javascript').
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {};
+  _dcs.account = '7359119';
+  (function() {
+  var dc = document.createElement('script');
+  dc.type = 'text/javascript'; dc.async = true;
+  dc.src = '//tag.getdrip.com/7359119.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(dc, s);
+  })();
 
 script.
       function goBack() {
       window.history.back();
       }
+script.
+  function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+  a = li[i].getElementsByTagName("a")[0];
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+  li[i].style.display = "";
+  } else {
+  li[i].style.display = "none";
+  }
+  }
+  }
       
 script.
   (function() {

@@ -13,6 +13,7 @@
         "headerstyle": "background-image: url(https://c1.staticflickr.com/4/3695/32687331451_414a22764b_o.jpg)"
     },
     "numero_5": {
+        "artiste": "séqoia",
         "headline": "Numero 5",
         "underline": "Le street wear athlétique",
         "thirdline": "voyez l'histoire",
@@ -33,11 +34,13 @@
         "url": "https://www.chanvrequebec.com/produits/numero_5",
         "price": "30",
         "link": "produits/numero_5",
+        "artistelink": "equipe/",
         "customname": "size",
         "customoption": "Small|Medium|Large",
         "fblink": "1535610583134702/"
     },
     "numero_s": {
+        "artiste": "séqoia",
         "headline": "Le S",
         "underline": "Le classique incontournable",
         "thirdline": "voyez l'histoire",
@@ -58,11 +61,13 @@
         "url": "https://www.chanvrequebec.com/produits/numero_s",
         "price": "30",
         "link": "produits/numero_s",
+        "artistelink": "equipe/",
         "customname": "size",
         "customoption": "Small|Medium|Large",
         "fblink": "1474478729243599/"
     },
     "laitmaternite": {
+        "artiste": "La feuille verte",
         "headline": "Lait Maman & Bébé",
         "underline": "Parfait pour la nouvelle maman",
         "thirdline": "Découvrez l'artisane",
@@ -82,9 +87,11 @@
         "url": "https://www.chanvrequebec.com/produits/laitmaternite",
         "price": "28",
         "link": "produits/laitmaternite",
+        "artistelink": "equipe/",
         "fblink": "1447146552022941/"
     },
     "onguent": {
+        "artiste": "La feuille verte",
         "headline": "Onguent de chanvre",
         "underline": "Soulage les symptômes de l'eczéma",
         "thirdline": "voyez l'artisane",
@@ -104,9 +111,11 @@
         "url": "https://www.chanvrequebec.com/produits/onguent",
         "price": "16",
         "link": "produits/onguent",
+        "artistelink": "equipe/",
         "fblink": "1407690815949517/"
     },
     "serum": {
+        "artiste": "La feuille verte",
         "headline": "Sérum coup d'éclat",
         "underline": "L'Élixir précieux",
         "thirdline": "Découvrez l'artisane",
@@ -127,9 +136,11 @@
         "price": "40",
         "weight": "50",
         "link": "produits/serum",
+        "artistelink": "equipe/",
         "fblink": "1785196818173069/"
     },
     "cremehydratante": {
+        "artiste": "La feuille verte",
         "headline": "Crème anti-rides",
         "underline": "Une crème hydratante contre le vieillissement",
         "thirdline": "Découvrez l'artisane",
@@ -149,9 +160,11 @@
         "url": "cremehydratante",
         "price": "36",
         "link": "produits/cremehydratante",
+        "artistelink": "equipe/",
         "fblink": "1227759567345727/"
     },
     "chanvremoi": {
+        "artiste": "La feuille verte",
         "headline": "L'huile Chanvre-Moi",
         "underline": "La polyvalente",
         "thirdline": "Découvrez l'artisane",
@@ -171,9 +184,11 @@
         "url": "https://www.chanvrequebec.com/produits/chanvremoi",
         "price": "22",
         "link": "produits/chanvremoi",
+        "artistelink": "equipe/",
         "fblink": "1386988194666820/"
     },
     "exfoliant": {
+        "artiste": "La feuille verte",
         "headline": "Exfoliant visage",
         "underline": "Bois de rose & pamplemouse",
         "thirdline": "Découvrez l'artisane",
@@ -193,6 +208,7 @@
         "url": "https://www.chanvrequebec.com/produits/exfoliant",
         "price": "28",
         "link": "produits/exfoliant",
+        "artistelink": "equipe/",
         "fblink": "1481181525259496/"
     }
 }

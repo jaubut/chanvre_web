@@ -1,5 +1,5 @@
 #produitsfull
-    include ../includes/_header
+    include ../includes/_produit-header
     //include ../includes/_description
     .container
             .row.center  
@@ -12,6 +12,8 @@
                     .col-4
                         .col-12.center
                             h2.left= name
+                            a(href="https://www.chanvrequebec.com/#{ artistelink }")
+                                p.artiste-by par #{artiste}
                             h3.left #{price}$
                             p.left= description
                             br

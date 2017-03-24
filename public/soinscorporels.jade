@@ -22,22 +22,15 @@ include ../public/includes/_header
             p L’huile de chanvre renforce les parois veineuses et améliore la circulation sanguine, atténuant ainsi la visibilité des veines superficielles. Elle active la microcirculation et réduit la rougeur. L’huile de chanvre est donc particulièrement adaptée contre la couperose et la rotacée. 
             h2 La Feuille Verte
             p Une entreprise bromontoise qui fait des produits de cosmémtiques écologiques et entièrement naturels à base de chanvre. L’huile de chanvre employée dans leurs recettes est cultivée et transformée ici même au Québec.
-            .center
-                a(href='/artistes/lafeuilleverte')
-                    button.btn-secondary Son histoire
-            for produit, slug in public.produits._data
-                        if _.includes(produit.id, '3')
-                            include ../public/produits/_produit 
-            for produit, slug in public.produits._data
-                        if _.includes(produit.id, '4')
-                            include ../public/produits/_produit 
-            for produit, slug in public.produits._data
-                        if _.includes(produit.id, '5')
-                            include ../public/produits/_produit
         .col-4.center#section
             br
+            a.four(href='/produits')
+                button.btn-secondary Les produits
             for produit, slug in public.produits._data
                         if _.includes(produit.id, '3')
+                            include ../public/produits/_produit-four
+            for produit, slug in public.produits._data
+                        if _.includes(produit.id, '5')
                             include ../public/produits/_produit-four
 
 include ../public/includes/_footer

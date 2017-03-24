@@ -1,0 +1,380 @@
+header
+    #header
+        .jumbotron(style="background-image: linear-gradient(#ffffff, #F3F3F3)")
+            .container
+                    .row
+                        .col-12.center
+                            img(src="https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg")
+                            h1 chan-1001
+                            h2 Commande completé
+                            br
+                            a(href="https://chanvrequebec.com")
+                                button.btn-secondary Visiter le site
+section
+    .container
+        .row
+            .col-12
+                table.table
+                    tr
+                        td 
+                            p.td salut
+                        td
+                            p yo
+                    tr
+                        td
+                            p caca
+                        td  
+                            p shit
+
+
+                
+
+
+p(style='margin: 0 0 10px;')
+  | Hi {{ order.billingAddress.fullName }},
+|                         {{! When a refund is passed to the template it means that the email will be sent after a refund has been issued. }}
+|                         {{ #if refund }}
+p
+  | {{ #if_eq order.summary.adjustedTotal 0 }}
+  | We've fully refunded your order on {{ settings.businessAddress.company }}. You can find the details below.
+  | {{ else }}
+  | {{ money refund.amount }} have been refunded on your order on {{ settings.businessAddress.company }}. You can find the details below.
+  | {{ /if_eq }}
+|                         {{ /if }}
+|                     {{ /if_eq }}
+table#header(style='border-bottom: solid 1px #333333', width='100%', cellpadding='5')
+  tr
+    td
+      span(size='10', color='#333333', style='color: #333333; font-size: 14pt;')
+        strong
+          | {{! using the `order` object you have access to the whole order information and can display relevant information in the invoice. }}
+          | {{ order.invoiceNumber }}
+    td(align='right')
+      span(size='10', color='#333333', style='color: #333333; font-size: 14pt; text-align: left')
+        strong
+          | {{ date order.completionDate }}
+table#business(width='100%', cellpadding='5', style='border-bottom: solid 1px #333')
+  tr
+    td(width='50%', valign='top')
+      | {{! Using `settings` object you'll be able to access some information about the account, such as the billing address or the logoUrl. }}
+      | {{ #with settings.businessAddress }}
+      p(size='9')
+        b
+          | {{company}}
+        br
+        |                                     {{ #if address1 }}
+        |                                     {{ address1 }}
+        br
+        |                                     {{ /if }}
+        |                                     {{ #if address2 }}
+        |                                     {{ address2 }}
+        br
+        |                                     {{ /if }}
+        |                                     {{ #if city }}
+        |                                     {{ city }},
+        |                                     {{ /if }}
+        |                                     {{ #if province }}
+        |                                     {{ province }},
+        |                                     {{ /if }}
+        |                                     {{ #if country }}
+        |                                     {{ country }}
+        br
+        |                                     {{ /if }}
+        |                                     {{ #if postalCode }}
+        |                                     {{ businessAdress.postalCode }}
+        |                                     {{ /if }}
+      |                                 {{ /with }}
+    |                             {{ #if settings.logoUrl }}
+    td(width='50%', align='right')
+      img(src='{{ settings.logoUrl }}', style='max-height: 80px;')
+    |                             {{ /if }}
+table(width='100%', cellpadding='5', cellspacing='0', style='border-bottom: solid 1px #333')
+  tr
+    td(width='50%', valign='top')
+      h3(size='12') Billing address
+      div
+      p(size='9')
+        | {{ #with order.billingAddress }}
+        | {{ fullName }}
+        br
+        |                                     {{ #if company }}
+        |                                     {{ company }}
+        br
+        |                                     {{ /if }}
+        |                                     {{ ../order.email }}
+        br
+        br
+        |                                     {{ address1 }}
+        br
+        |                                     {{ #if address2 }}
+        |                                     {{ address2 }}
+        br
+        |                                     {{ /if }}
+        |                                     {{ city }},
+        |                                     {{ #if province }}
+        |                                     {{ province }},
+        |                                     {{ /if }}
+        |                                     {{ country }}
+        br
+        |                                     {{ postalCode }}
+        br
+        |                                     {{ phone }}
+        |                                     {{ /with }}
+    |                             {{ #if order.shippingAddress }}
+    |                             {{ #with order.shippingAddress }}
+    td(width='50%', valign='top')
+      h3(size='12')
+        | Shipping address
+      p(size='9')
+        | {{ fullName }}
+        br
+        |                                     {{ #if company }}
+        |                                     {{ company }}
+        br
+        |                                     {{ /if }}
+        br
+        |                                     {{ address1 }}
+        br
+        |                                     {{ #if address2 }}
+        |                                     {{ address2 }}
+        br
+        |                                     {{ /if }}
+        |                                     {{ city }},
+        |                                     {{ #if province }}
+        |                                     {{ province }},
+        |                                     {{ /if }}
+        |                                     {{ country }}
+        br
+        |                                     {{ postalCode }}
+        br
+        |                                     {{ phone }}
+    |                             {{ /with }}
+    |                             {{ /if }}
+|                     {{ #has_any order.customFields }}
+table(width='100%', cellpadding='5', cellspacing='0')
+  tr
+    td
+      h3(size='12') Your order
+      ul
+        | {{ #each order.customFields }}
+        li(style='list-style-type: square')
+          span(size='9')
+            | {{ name }}: {{ value }}
+        |                                     {{ /each }}
+|                     {{ /has_any }}
+table(width='100%', cellpadding='10', cellspacing='0', style='border-collapse: collapse;')
+  thead
+    tr
+      td(align='left', valign='top', style='border-bottom: solid 1px #333; color: #333; padding: 5px;')
+        span(color='#333333', size='10')
+          strong ID
+      td(align='left', valign='top', style='border-bottom: solid 1px #333; color: #333; padding: 5px;')
+      td(align='left', valign='top', style='border-bottom: solid 1px #333; color: #333; padding: 5px;')
+        span(color='#333333', size='10')
+          strong Name
+      td(align='center', valign='top', style='border-bottom: solid 1px #333; color: #333; padding: 5px;')
+        span(color='#333333', size='10')
+          strong Quantity
+      td(align='right', valign='top', style='border-bottom: solid 1px #333; color: #333; padding: 5px;')
+        span(color='#333333', size='10')
+          strong Unit price
+      td(align='right', valign='top', style='border-bottom: solid 1px #333; color: #333; padding: 5px;')
+        span(color='#333333', size='10')
+          strong Total price
+  tbody
+    | {{ #each order.items }}
+    tr
+      td(style='border-bottom: solid 1px #ccc; padding: 5px;')
+        span(size='10')
+          | {{ this.id }}
+      |                                 {{ #if ../settings.includeProductImagesInInvoice }}
+      |                                 {{ #is_absolute_url this.image }}
+      td(valign='top', align='right', style='border-bottom: solid 1px #ccc;')
+        img(src='{{ this.image }}', style='margin-right: 5px; max-width: 75px;')
+      |                                 {{ else }}
+      td(style='border-bottom: solid 1px #ccc;')
+      |                                 {{ /is_absolute_url }}
+      |                                 {{ else }}
+      td(style='border-bottom: solid 1px #ccc;')
+      |                                 {{ /if }}
+      td(style='border-bottom: solid 1px #ccc;')
+        span(size='10')
+          strong
+            | {{ this.name }}
+        |                                     {{ #if this.description }}
+        p(size='9')
+          | {{ this.description }}
+        |                                     {{ /if }}
+        |                                     {{ #has_any this.customFields }}
+        ul
+          | {{ #each this.customFields }}
+          li(style='list-style-type: square')
+            span(size='9')
+              | {{ this.name }}: {{ this.value }}
+          |                                         {{ /each }}
+        |                                     {{ /has_any }}
+      td(style='border-bottom: solid 1px #ccc; padding: 5px;', align='center')
+        | {{ this.quantity }}
+      td(style='border-bottom: solid 1px #ccc; padding: 5px;', align='right')
+        | {{ money this.unitPrice }}
+      td(style='border-bottom: solid 1px #ccc; padding: 5px;', align='right')
+        | {{ money this.totalPrice }}
+    |                             {{ /each }}
+    |                             {{ #each order.plans }}
+    tr
+      td(align='center', style='border-bottom: solid 1px #ccc; padding: 5px;')
+        span(size='10')
+          | {{ this.id }}
+      td(style='border-bottom: solid 1px #ccc;')
+      td(style='border-bottom: solid 1px #ccc;')
+        span(size='10')
+          strong
+            | {{ this.name }}
+      td(align='center', style='border-bottom: solid 1px #ccc; padding: 5px;')
+        span(size='9')
+          | {{ this.quantity }}
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 5px; white-space: nowrap')
+        span(size='9')
+          | {{ money this.amount }}/{{ this.interval }}
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 5px; white-space: nowrap')
+        span(size='9')
+          | {{ money this.totalAmount }}/{{ this.interval }}
+    |                             {{ /each }}
+    |                             {{ #each order.discounts }}
+    tr
+      td(colspan='5', style='border-bottom: solid 1px #ccc; padding: 5px;')
+        span(size='9')
+          | {{ name }}
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 5px;')
+        span(size='9', color='red', style='color: red;')
+          | {{ money value }}
+    |                             {{ /each }}
+    tr
+      td(colspan='5', style='border-bottom: solid 1px #ccc; padding: 15px 5px;')
+        span(size='9')
+          strong
+            | Subtotal
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 15px 5px;')
+        span(size='9')
+          strong
+            | {{ money order.summary.subTotal }}
+    |                             {{ #if order.shippingInformation }}
+    tr
+      td(colspan='5', style='border-bottom: solid 1px #ccc; padding: 5px')
+        span(size='9')
+          | {{ order.shippingInformation.method }}
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 5px')
+        span(size='9')
+          | {{ money order.shippingInformation.fees }}
+    |                             {{ /if }}
+    |                             {{ #has_any order.summary.taxes }}
+    |                             {{ #each order.summary.taxes }}
+    tr
+      td(colspan='5', size='9', style='border-bottom: solid 1px #ccc; padding: 5px')
+        | {{ name }}
+        | {{ #if numberForInvoice }}
+        | (
+        i {{ numberForInvoice }}
+        | )
+        |                                     {{ /if }}
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 5px;')
+        | {{ money amount }}
+    |                             {{ /each }}
+    |                             {{ /has_any}}
+    tr
+      td(colspan='5', style='padding: 15px 5px;')
+        span(size='10')
+          strong
+            | {{ #has_any order.plans }}
+            | Payable now
+            | {{ else }}
+            | Total
+            | {{ /has_any }}
+      td(align='right', style='padding: 15px 5px;')
+        span(size='10')
+          | {{ #has_any order.plans }}
+          strong
+            | {{ money order.summary.payableNow }}
+          |                                         {{ else }}
+          strong
+            | {{ money order.summary.total }}
+          |                                         {{ /has_any}}
+|                     {{ #has_any order.refunds }}
+h3(size='12')
+  | Refunds
+table(width='100%', cellspacing='0', style='border-collapse: collapse;')
+  thead
+    tr
+      td(valign='top', style='border-bottom: solid 1px #333; padding: 5px')
+        span(size='2')
+          strong
+            | Refunded on
+      td(align='right', valign='top', style='border-bottom: solid 1px #333; padding: 5px;')
+        span(size='10')
+          strong
+            | Amount
+  tbody
+    | {{ #each order.refunds }}
+    tr
+      td(style='border-bottom: solid 1px #ccc; padding: 15px 5px;')
+        span(size='9') {{ date creationDate }}
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 15px 5px;')
+        span(size='9')
+          | {{ money amount }}
+    |                             {{ /each }}
+    tr
+      td(style='padding: 15px 5px;')
+        span(size='9')
+          strong Adjusted total:
+      td(align='right', style='padding: 15px 5px;')
+        span(size='9')
+          strong {{ money order.summary.adjustedTotal }}
+|                     {{ /has_any }}
+h3(size='12')
+  | Payment information
+table(width='100%', color='#333333', cellspacing='0', style='border-collapse: collapse')
+  tbody
+    | {{ #if_eq order.paymentMethod 'CreditCard' }}
+    tr
+      td(colspan='3', style='border-bottom: solid 1px #ccc; padding: 15px 5px;')
+        span(size='10')
+          | Card last 4 digts:
+      td(align='right', style='border-bottom: solid 1px #ccc; padding: 15px 5px;')
+        span(size='10')
+          strong
+            | {{ order.card.last4digits }}
+    |                             {{ else }}
+    tr
+      td(colspan='3', style='border: solid 1px black; padding: 5px;')
+        span(size='10')
+          | Payment method:
+      td(align='right', style='border: solid 1px black; padding: 5px;')
+        span(size='10')
+          | {{ #if_eq order.paymentMethod 'WillBePaidLater'}}
+          | Deferred
+          | {{ else }}
+          | {{ order.paymentMethod }}
+          | {{ /if_eq}}
+    |                             {{ /if_eq }}
+    tr
+      td(colspan='3', style='padding: 15px 5px;')
+        span(size='10')
+          | Payment date:
+      td(align='right', style='padding: 15px 5px;')
+        span(size='10')
+          strong
+            | {{ date order.completionDate 'yyyy-MM-dd HH:mm:ss' }}
+|                     {{ #if settings.signature }}
+table(width='100%', cellpadding='5', cellspacing='0', style='border: solid 1px #ccc; margin-top: 10px; padding: 5px; page-break-inside: avoid')
+  tr
+    td
+      div(size='9')
+        | {{{ settings.signature }}}
+|                     {{ /if }}
+|                     {{ #if settings.orderHistoryUrl }}
+table(width='100%', align='center', cellpadding='5', cellspacing='0', style='margin-top: 10px; padding: 5px;')
+  tr
+    td(align='left')
+      div(size='16')
+        a(href='{{ settings.orderHistoryUrl }}', target='_blank') Click here to consult your orders history
+|                     {{ /if }}

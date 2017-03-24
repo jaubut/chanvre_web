@@ -1,5 +1,5 @@
 #produitsfull
-    include ../includes/_header
+    include ../includes/_produit-header
     //include ../includes/_description
     .container
             .row.center  
@@ -17,6 +17,8 @@
                     .col-4
                         .col-12.center
                             h2.left= name
+                            a(href="https://www.chanvrequebec.com/#{ artistelink }")
+                                p.artiste-by par #{artiste}
                             h3.left #{price}$
                             p.left Concentré 100% végétal à la texture lisse et soyeuse, riche en antioxydants et en nutriments essentiels.
                             button#my-button.btn-secondary.snipcart-add-item(
@@ -46,4 +48,3 @@
                         .col-2.hidden
                         .col-12
                                 p Vous ne pouvez pas vous tromper! Le produit ne vous satisfait pas? Retournez-le dans les trente jours et on vous le rembourse volontiers!
-
