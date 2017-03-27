@@ -8,6 +8,7 @@
         "sort-button": ".btn-secondary",
         "titre": "Un livre pour vous régaler tout en gardant la forme.",
         "texte": "Une alimentation saine et nutritive grâce au chanvre. La graine peut être saupoudrée partout alors que la farine s’incorpore généralement pour remplacer 25% de la farine ordinaire dans vos recettes. Une méthode simple et efficace pour ajouter des nutriments dans tous vos plats, sans négliger l’essentiel : le goût.",
+        "description": "Une alimentation saine et nutritive grâce au chanvre. La graine peut être saupoudrée partout alors que la farine s’incorpore généralement pour remplacer 25% de la farine ordinaire dans vos recettes. Une méthode simple et efficace pour ajouter des nutriments dans tous vos plats, sans négliger l’essentiel : le goût.",
         "metakeyword": "chanvre, référence, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "image": "background-image: url(https://c1.staticflickr.com/1/429/32739295665_600c9d41c0_z.jpg)",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/creperecette.png)"
@@ -21,7 +22,7 @@
         "metakeyword": "chanvre, référence, salade de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://storage.googleapis.com/chanvrequebecphoto/salade_chanvre_1.jpeg",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/salade_chanvre_1.jpeg)",
-        "description": "",
+        "description": "Une salade santé qui incorpore le chanvre à merveille.",
         "url": "/",
         "link": "recettes/salade-jardin-marie-christine"
     },
@@ -34,7 +35,7 @@
         "metakeyword": "chanvre, référence, salade de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://c1.staticflickr.com/1/317/31895124384_0a36750a53_z.jpg",
         "image": "background-image: url(https://c1.staticflickr.com/1/317/31895124384_0a36750a53_z.jpg)", 
-        "description": "",
+        "description": "Des brownies qui ne donne pas mal au ventre.",
         "url": "/",
         "link": "recettes/brownies-chocolat-frederick"
      },
@@ -47,7 +48,7 @@
         "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://c1.staticflickr.com/1/656/31924248433_0a6ecc692a_z.jpg",
         "image": "background-image: url(https://c1.staticflickr.com/1/429/32739295665_600c9d41c0_z.jpg)",
-        "description": "",
+        "description": "Pour commencer le matin du bon pied.",
         "url": "/",
         "link": "recettes/crepes-chanvre"
     },

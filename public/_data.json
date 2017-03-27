@@ -16,11 +16,23 @@
         "image": "https://storage.googleapis.com/chanvrequebecphoto/1478017482334.jpg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
+    "test-jo": {
+        "headline": "Salut",
+        "metadescription": "Chanvre Québec est un entreprise qui vous offre une référence en matière de chanvre. Du contenu exclusif et des produits d'ici!",
+        "underline": "Je mappelle Jo",
+        "thirdline": "mon histoire",
+        "hrefheader": "/produits",
+        "metakeyword": "chanvre, référence, huile de chanvre, graine de chanvre, farine de chanvre, beton de chanvre, textile de chanvre, blog",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",       
+        "image": "https://storage.googleapis.com/chanvrequebecphoto/1478017482334.jpg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
     "textile": {
         "headline": "Textile",
         "underline": "Chaud en hiver, frais en été.",
         "thirdline": "Boutique",
         "hrefheader": "/produits",
+        "metadescription": "Le textile de chanvre est durable, éco-friendly et s'adoucie avec le temps.",
         "metakeyword": "chanvre, référence, textile de chanvre, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Pourquoi se vêtir en chanvre ?",
@@ -33,6 +45,7 @@
         "thirdline": "Les idées cadeaux",
         "hrefheader": "/produits",
         "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, blog",
+        "metadescription": "L'huile de chanvre est l'huile la plus adaptée à notre corps.",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Une huile naturelle hors-pair",
         "texte": "encore plus omega",
@@ -44,6 +57,7 @@
         "underline": "Le Super Aliment.",
         "thirdline": "Nos idées recettes",
         "hrefheader": "/recettes",
+        "metadescription": "Le chanvre est une source de protéine et d'oméga 3&6 importante. Ce qui lui donne le titre de Superaliment!",
         "metakeyword": "chanvre, référence, alimentation de chanvre, huile de chanvre, graine de chanvre, farine de chanvre, proteine de chanvre, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Le super aliment porte bien son nom",
@@ -66,6 +80,7 @@
         "underline": "La maison la plus confortable qui soit",
         "thirdline": "Blogue",
         "hrefheader": "/blog",
+        "metadescription": "Une maison en béton de chanvre est durable, confortable et économique sur le chauffage.",
         "metakeyword": "chanvre, référence, beton de chanvre, maison en chanvre, hygrothermie, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "La maison de l'avenir",
@@ -90,6 +105,7 @@
         "underline": "Pour l'amour du chanvre",
         "thirdline": "Blog",
         "hrefheader": "/blog",
+        "metadescription": "Notre mission c'est vraiment de démocratiser le chanvre. De le rendre cool et accessible à tous par notre plateforme web, une communauté forte et des innovations!",
         "metakeyword": "chanvre, référence, contact, obnl, collaboration, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/cafeequipe.png)"
@@ -99,6 +115,7 @@
         "underline": "Parce que chaque achat est important.",
         "thirdline": "Boutique",
         "hrefheader": "/produits",
+        "metadescription": "On vous assure une livraison partout au pays dans un temps record.",
         "metakeyword": "chanvre, référence, politique de retour, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
@@ -108,6 +125,7 @@
         "underline": "Rejoignez-nous",
         "thirdline": "Boutique",
         "hrefheader": "/produits",
+        "metadescription": "Si vous avez des questions, n'hésitez pas à nous contacter.",
         "metakeyword": "chanvre, référence, politique de retour, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
