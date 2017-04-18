@@ -7,12 +7,12 @@ include ../public/includes/_header
                     a(href='')
                     h2 Qui sommes-nous ?
                     p Un organisme à but non-lucratif, fondé par de jeunes visionnaires, qui a pour objectif d'offrir des solutions saines et durables aux défis d’aujourd’hui. Par-dessus tout, nous sommes passionnées par notre mission de promouvoir une plante qui nous permet de reconnecter avec notre environnement. Notre vision est axé sur le développement durable, le vrai. Voici les trois axes qui composent notre philosophie. Dans le but premier que, tous ensemble, nous chanvrons le monde.
-                .col
+
 #artiste
      .container
             .row.center
                 .col-12
-                    a(href='')
+                    .fb-like(data-href='https://www.facebook.com/chanvrequebec/', data-layout='standard', data-action='like', data-size='large', data-show-faces='true', data-share='false')
                     blockquote Nous avons eu le coup de foudre pour cette plante à partir de l'instant où nous avons découvert son potentiel. Elle fait ressortir le meilleur de nous-même, nous permet de vivre plus sainement et de rétablir une harmonie avec notre environnement.
 #environnement
      .container
@@ -27,17 +27,13 @@ include ../public/includes/_header
           .col-12.right
                     a(href='')
                     h2 Propulser des innovations en chanvre
-                    p Tous <strong>les profits réalisés sont réinvestis</strong>pour permettre à des innovations en chanvre de voir le jour. Le chanvre a été prohibé pendant plus de 70 ans, il est donc normal qu’il y ait eu un important retard technologique et industriel dans ce domaine. C’est le temps de reprendre le temps perdu. L’objectif principal de Chanvre Québec est d’offrir de nouvelles solutions saines et durables aux défis d’aujourd’hui.
+                    p Tous <strong>les profits réalisés sont réinvestis</strong> pour permettre à des innovations en chanvre de voir le jour. Le chanvre a été prohibé pendant plus de 70 ans, il est donc normal qu’il y ait eu un important retard technologique et industriel dans ce domaine. C’est le temps de reprendre le temps perdu. L’objectif principal de Chanvre Québec est d’offrir de nouvelles solutions saines et durables aux défis d’aujourd’hui.
 
 #don
     .container
         .row
-            .col-2.hidden
-            .col-8.line(style= "background-color: #F14E75")
-            .col-2.hidden
-            .col-6.center(style= "padding-top: 50px;")
+            .col-12.center(style= "padding-top: 50px;")
                 i.fa.fa-heart.fa-5x(aria-hidden="true")
-            .col-6.left
                 p(style="color: #F14E75;") 
                     | Bonjour, si tu es atterrit ici c'est que toi aussi tu veux du changement comme nous!
                     br
@@ -65,9 +61,9 @@ include ../public/includes/_header
                     h2 Promouvoir des produits locaux
                     p Nous sommes chanceux, le chanvre se cultive déjà abondamment au Québec et nous disposons de plusieurs artisans talentueux. C'est avec leur aide que nous souhaitons vous offrir des produits mieux adaptés à vos besoins réels. Il faut valoriser cette économie qui permet à des agriculteurs de cultiver une plante sans les conséquences des pesticides sur leur milieu de vie. Pour un Québec <strong>vert et prospère </strong>!
 
-
-                    a(href="artisans").center
-                        button.btn-secondary Découvrez les artisans
+                    .center
+                        a(href="artisans")
+                            button.btn-secondary Découvrez les artisans
 
 
 include ../public/includes/_footer

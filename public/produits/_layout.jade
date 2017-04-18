@@ -46,17 +46,6 @@ html(lang="fr")
     link(rel="icon", type="image/png", href="/favicon-16x16.png", sizes="16x16")
     link(rel="mask-icon", href="/safari-pinned-tab.svg", color="#ffffff")
       
-    script(src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async)
-    script.
-      var OneSignal = window.OneSignal || [];
-      OneSignal.push(["init", {
-      appId: "8e6e6913-3fc1-4f84-82ce-60634b21255f",
-      safari_web_id: 'web.onesignal.auto.56640081-e0ac-44c5-9d26-db4b2624f604',
-      autoRegister: true,
-      notifyButton: {
-      enable: false /* Set to false to hide */
-      }
-      }]);
 
   body
     != yield
