@@ -32,3 +32,10 @@ include ../includes/_blogpost
             for post, slug in public.blog._data
                 if _.includes(post.tags, 'innovation')
                     include _postblog
+                    
+        .col-12
+            h4.center Environnement 
+            for post, slug in public.blog._data
+                if _.includes(post.tags, 'environnement')
+                    include _postblog
+

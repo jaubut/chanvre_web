@@ -194,7 +194,7 @@
             "description": "Nous sommes fascinés par le chanvre de demain. C'est pourquoi, nous avons fait la rencontre de Jérémie Parent, un étudiant en architecture prometteur qui vient de compléter un travail d’étude sur la maison en chanvre.",
             "date": "2017-03-007T00:00:00.000Z",
             "date2": "7 mars, 2017",
-            "id": "14",
+            "id": "15",
             "auteur": "Darko Popovic",
             "tags": "habitation",
             "metakeyword": "chanvre, culture chanvre, eau",
@@ -202,6 +202,19 @@
             "link": "blog/entrevue-jeremie-parent",
             "ogimage": "https://c1.staticflickr.com/3/2941/33231808003_afb0e54b8e_z.jpg",
             "image": "background-image: url(https://c1.staticflickr.com/3/2941/33231808003_afb0e54b8e_z.jpg)"
+    },
+    "ocean-plastique": {
+            "headline": "Océan de plastique : l'aire du plastique plant-based must come.",
+            "description": "Chaque année, 1 trillions de sac de plastique est en circulation. C'est 2 millions chaque minute.",
+            "date": "2017-04-0020T00:00:00.000Z",
+            "date2": "20 avril, 2017",
+            "id": "16",
+            "auteur": "Jérémie Aubut",
+            "tags": "environnement",
+            "metakeyword": "chanvre, culture chanvre, eau, océan, plastique",
+            "creditref": "/",
+            "link": "blog/ocean-plastique",
+            "ogimage": "https://c1.staticflickr.com/3/2856/33305875214_f41fc37f94_b.jpg",
+            "image": "background-image: url(https://c1.staticflickr.com/3/2856/33305875214_f41fc37f94_b.jpg)"
     }
 }
-
