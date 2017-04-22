@@ -10,6 +10,13 @@ script(src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js")
 script(src="https://cdn.smooch.io/smooch.min.js")
 script(src="https://js.moltin.com/v1")
 
+script.
+    var moltin = new Moltin({publicId: 'HimKFkM74zwzb8mtGTBMmCBtw0wVZJ1BUsG0PE9cZ1'});
+    moltin.Authenticate(function() {
+      moltin.Product.Get("1464516380945548142", function(product){
+        console.log(product);
+      });
+    });
 
 script.
     Smooch.init({
