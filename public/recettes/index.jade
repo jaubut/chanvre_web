@@ -3,13 +3,27 @@
 #recettes
     header
     #blogheader
-        - var current= new Date()
-        - var day_night= current.getHours()
-        - var m= current.getMinutes()
-        if (day_night<18)
-            include ../includes/_photodeux
-        else if (day_night<21)
+        script.
+          function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+          }
+          function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+          }
+
+        if(h <= 11 && h > 1)
             include ../includes/_photoun
+        else if(h <= 21 && h > 11)
+            include ../includes/_photodeux
         else
             include ../includes/_phototrois
 
@@ -20,7 +34,7 @@
                             i.fa.fa-home.i-header(aria-hidden='true')
                           a.goback(href='/recettes')
                             i.fa.fa-book.i-header(aria-hidden='true')
-    include ../includes/_description   
+    include ../includes/_description
             .row 
                 .col-12.space
                     h4.center Prêt en 10 minutes
