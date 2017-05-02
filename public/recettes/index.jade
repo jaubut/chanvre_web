@@ -37,6 +37,7 @@
     include ../includes/_description
             .row 
                 .col-12.space
+                    #txt
                     h4.center Prêt en 10 minutes
                     for recettes, slug in public.recettes._data
                         if _.includes(recettes.category, 'rapide')
