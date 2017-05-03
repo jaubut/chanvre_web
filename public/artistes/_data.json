@@ -42,5 +42,17 @@
         "titre": "Une marque 55/45",
         "texte": "Seqoia est une marque de vêtements qui veut redéfinir les standards de qualité des tissus dans le monde des sports de glisses.",
         "textcolor": "color: white"
+    },
+    "chanvresa": {
+        "headline": "Chanvre Superaliment",
+        "underline": "Notre gamme alimentaire maison.",
+        "thirdline": "Nos produits",
+        "hrefheader": "/produits",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/3/2864/34127973342_580422f51b_b.jpg)",
+        "titre": "11g de protéine par portion de 33g",
+        "texte": "Chanvre Superaliment est la marque maison en alimentation de Chanvre Québec ! Nous voulons vous offrir des produits de qualité d'ici !",
+        "textcolor": "color: white"
     }
 }
+
