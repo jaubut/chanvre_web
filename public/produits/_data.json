@@ -215,5 +215,29 @@
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1481181525259496/",
         "tag": "fetemere"
+    },
+    "fete-mere": {
+        "artiste": "La feuille verte",
+        "headline": "Spécial fête des mères",
+        "underline": "Bois de rose & pamplemouse, Huile Chanvre-Moi, Lait corporel",
+        "thirdline": "Découvrez l'artisane",
+        "hrefheader": "/artistes/lafeuilleverte",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4172/34279959352_24dc133687_o.png)",
+        "titre": "Un spécial à petit prix",
+        "texte": "pour célébrer la fête des mères",
+        "textcolor": "color: black",
+        "name": "Pacquet cadeau",
+        "id": "9",
+        "category": "soinscorps",
+        "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
+        "image": "https://c1.staticflickr.com/4/3752/32910487850_dbd5d034a9_h.jpg",
+        "imagebg": "background-image: url(https://c1.staticflickr.com/4/3752/32910487850_dbd5d034a9_h.jpg)",
+        "description": "Pour une femme précieuse dans votre vie, ces 3 produits lui donneront une peau douce et radieuse.",
+        "url": "https://www.chanvrequebec.com/produits/exfoliant",
+        "price": "69",
+        "link": "produits/fete-mere",
+        "artistelink": "artistes/lafeuilleverte",
+        "fblink": "1481181525259496/"
     }
 }
