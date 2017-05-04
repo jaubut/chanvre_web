@@ -136,7 +136,7 @@
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/Screen_serum.png)",
         "description": "Ce fluide précieux procure une peau éclatante et lumineuse!",
         "url": "https://www.chanvrequebec.com/produits/serum",
-        "price": "40",
+        "price": "38",
         "weight": "50",
         "link": "produits/serum",
         "artistelink": "artistes/lafeuilleverte",
@@ -166,6 +166,7 @@
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1227759567345727/"
     },
+
     "chanvremoi": {
         "artiste": "La feuille verte",
         "headline": "L'huile Chanvre-Moi",
@@ -191,6 +192,7 @@
         "fblink": "1386988194666820/",
         "tag": "fetemere"
     },
+
     "exfoliant": {
         "artiste": "La feuille verte",
         "headline": "Exfoliant visage",
