@@ -5,10 +5,10 @@
         .container
                 .row
                     .col-12
-                        h2(style="color: black;") Pour la fête des mères, on vous offre ces 3 produits à petit prix ! <span class="price">$69</span>
+                        h2(style="color: black;") Pour la fête des mères, on vous offre ces 3 produits à petit prix ! <a href="fete-mere"><span class="price">$69</span></a>
                     for produit, slug in public.produits._data
                         if _.includes(produit.tag, 'fetemere')
-                            include _produit-fetemere
+                            include _produit-fetemere  
                     .col-12
                         .center
                             a(href="fete-mere")
