@@ -1,14 +1,18 @@
 #produits
     include ../includes/_header
     include ../includes/_description
-    //.container
-        .row.center
-            for feuille, slug in public.lafeuille._data
-                include ../public/lafeuille/_lafeuille
-    //.container
-        .row.center
-            for numero, slug in public.seqoia._data
-                include ../public/seqoia/_seqoia
+    .jumbotron(style="background: #F1644A;")
+            .container
+                    .row
+                        .col-12
+                            h2(style="color: white;") Pour la fête des mères, on vous offre ceci à petit prix ! 
+                        for produit, slug in public.produits._data
+                            if _.includes(produit.tag, 'fetemere')
+                                include _produit-fetemere
+                        .col-12
+                            .center
+                                a(href="fete-mere")
+                                    button.btn-fetemere Voir l'offre
     #soinspourlecorps.container
         .row.center
             h2 Soins pour le corps

@@ -89,8 +89,9 @@
         "url": "https://www.chanvrequebec.com/produits/laitmaternite",
         "price": "28",
         "link": "produits/laitmaternite",
-        "artistelink": "equipe/",
-        "fblink": "1447146552022941/"
+        "artistelink": "artistes/lafeuilleverte",
+        "fblink": "1447146552022941/",
+        "tag": "fetemere"
     },
     "onguent": {
         "artiste": "La feuille verte",
@@ -113,7 +114,7 @@
         "url": "https://www.chanvrequebec.com/produits/onguent",
         "price": "16",
         "link": "produits/onguent",
-        "artistelink": "equipe/",
+        "artistelink": "artistes/lafeuilleverte",
         "fblink": "1407690815949517/"
     },
     "serum": {
@@ -138,7 +139,7 @@
         "price": "40",
         "weight": "50",
         "link": "produits/serum",
-        "artistelink": "equipe/",
+        "artistelink": "artistes/lafeuilleverte",
         "fblink": "1785196818173069/"
     },
     "cremehydratante": {
@@ -162,7 +163,7 @@
         "url": "cremehydratante",
         "price": "36",
         "link": "produits/cremehydratante",
-        "artistelink": "equipe/",
+        "artistelink": "artistes/lafeuilleverte",
         "fblink": "1227759567345727/"
     },
     "chanvremoi": {
@@ -186,8 +187,9 @@
         "url": "https://www.chanvrequebec.com/produits/chanvremoi",
         "price": "22",
         "link": "produits/chanvremoi",
-        "artistelink": "equipe/",
-        "fblink": "1386988194666820/"
+        "artistelink": "artistes/lafeuilleverte",
+        "fblink": "1386988194666820/",
+        "tag": "fetemere"
     },
     "exfoliant": {
         "artiste": "La feuille verte",
@@ -210,7 +212,8 @@
         "url": "https://www.chanvrequebec.com/produits/exfoliant",
         "price": "28",
         "link": "produits/exfoliant",
-        "artistelink": "equipe/",
-        "fblink": "1481181525259496/"
+        "artistelink": "artistes/lafeuilleverte",
+        "fblink": "1481181525259496/",
+        "tag": "fetemere"
     }
 }

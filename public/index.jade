@@ -2,6 +2,18 @@ include ../public/includes/_header
 include ../public/includes/_mission
 include ../public/includes/_modal-a
 include ../public/includes/_chanvre
+.jumbotron(style="background: #F1644A;")
+        .container
+                .row
+                    .col-12
+                        h2(style="color: white;") Pour la fête des mères, on vous offre ceci à petit prix ! 
+                    for produit, slug in public.produits._data
+                        if _.includes(produit.tag, 'fetemere')
+                            include produits/_produit-fetemere
+                    .col-12
+                        .center
+                            a(href="produits/fete-mere")
+                                button.btn-fetemere Voir l'offre
 //include ../public/includes/_artistesliste
 #soinscorpo.center
     .container
@@ -14,11 +26,6 @@ include ../public/includes/_chanvre
 #produits
     .container
             .row.center
-                    //- var feuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
-                          include ../public/lafeuille/_lafeuille
-                    //.col-4.hidden
-                    //- var numero = public.seqoia._data[public.seqoia._contents[0].toString().replace('.html','')] 
-                          include ../public/seqoia/_seqoia
                     for produit, slug in public.produits._data
                         if _.includes(produit.id, '3')
                             include ../public/produits/_produit
