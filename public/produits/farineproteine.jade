@@ -1,37 +1,32 @@
 #produitsfull
     include ../includes/_produit-header
-#description
+
     .container
             .row.center  
                     .col-8
-                        .col-12
-                            a(href="#img5")
-                                img(src= image)
-                            a(href="#_" class="lightbox" id="img5")
-                                img(src= image)
+                        img(src=image)
                     .col-4
+                        h2.left= name
+                        a(href="https://www.chanvrequebec.com/#{ artistelink }")
+                            p.artiste-by par #{artiste}
+                        h3.left #{price}$
+                        p.left= description
+                        br
+                        //input#my-quantity(type='number')
+                        br
+                        button#my-button.btn-secondary.snipcart-add-item(
+                        data-item-id= id, 
+                        data-item-name= name, 
+                        data-item-price= price, 
+                        data-item-weight="0",
+                        data-item-taxes="TPS|TVQ", 
+                        data-item-url= url, 
+                        data-item-quantity="1",
+                        data-item-custom2-name='Size', 
+                        data-item-custom2-options='Small|Medium|Large',
+                        data-item-description= description) Ajouter
                         .col-12.center
-                            h2.left= name
-                            a(href="https://www.chanvrequebec.com/#{ artistelink }")
-                                p.artiste-by par #{artiste}
-                            h3.left #{price}$
-                            p.left= description
-                            br
-                            //input#my-quantity(type='number')
-                            br
-                            button#my-button.btn-secondary.snipcart-add-item(
-                            data-item-id= id, 
-                            data-item-name= name, 
-                            data-item-price= price, 
-                            data-item-weight="0",
-                            data-item-taxes="TPS|TVQ", 
-                            data-item-url= url, 
-                            data-item-quantity="1",
-                            data-item-custom2-name='Size', 
-                            data-item-custom2-options='Small|Medium|Large',
-                            data-item-description= description) Ajouter
-                            .col-12.center
-                                .fb-like(data-href='https://www.chanvrequebec.com/#{ link }', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='true')
+                            .fb-like(data-href='https://www.chanvrequebec.com/#{ link }', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='true')
     .container
         .row
             .col-12
@@ -41,24 +36,12 @@
             .row  
                     .col-8
                         .col-12
-                            a(href="#img1")
-                                img(src= "https://c1.staticflickr.com/1/352/32738272845_748aac85e0_z.jpg")
-                            a(href="#_" class="lightbox" id="img1")
-                                img(src= "https://c1.staticflickr.com/1/352/32738272845_748aac85e0_z.jpg")
-                        .col-4
-                            a(href="#img2")
-                                img(src= "https://c1.staticflickr.com/1/656/31924248433_0a6ecc692a_z.jpg")
-                            a(href="#_" class="lightbox" id="img2")
-                                img(src= "https://c1.staticflickr.com/1/656/31924248433_0a6ecc692a_z.jpg")
-                        .col-4
-                            a(href="#img3")
-                                img(src= "https://c1.staticflickr.com/1/580/31924247743_21d654f1f3_z.jpg")
-                            a(href="#_" class="lightbox" id="img3")
                                 img(src= "https://c1.staticflickr.com/1/580/31924247743_21d654f1f3_z.jpg")
                         .col-4
-                            a(href="#img4")
-                                img(src= "https://c1.staticflickr.com/5/4167/34319882581_bfb9d4466b_z.jpg")
-                            a(href="#_" class="lightbox" id="img4")
+                                img(src= "https://c1.staticflickr.com/1/656/31924248433_0a6ecc692a_z.jpg")
+                        .col-4
+                                img(src= "https://c1.staticflickr.com/1/352/32738272845_748aac85e0_z.jpg")
+                        .col-4
                                 img(src= "https://c1.staticflickr.com/5/4167/34319882581_bfb9d4466b_z.jpg")
                     .col-4
                         .col-12
@@ -72,11 +55,12 @@
 #description
      .container
             .row
+                .col-2.hidden
                 .col-8.line
+                .col-2.hidden
                 .col-12
-                    a(href='')
                     h2 11g de protéines par portion de 33g
-                    p La farine de chanvre, c’est d’abord une grande quantité de protéines de très haute qualité. Un des rares aliment à contenir les 9 acides aminés essentiel (AAE). Les AAE nous permettent de digérer, d’absorber et d’exploiter les protéine. Cette combinaison contribue à la contraction, la récupération et la régénération musculaire en plus d’augmenter la résistance à la douleur et aux efforts physiques.
+                    p.justify La farine de chanvre, c’est d’abord une grande quantité de protéines de très haute qualité. Un des rares aliment à contenir les 9 acides aminés essentiel (AAE). Les AAE nous permettent de digérer, d’absorber et d’exploiter les protéine. Cette combinaison contribue à la contraction, la récupération et la régénération musculaire en plus d’augmenter la résistance à la douleur et aux efforts physiques.
 
 #proteine
     .container
@@ -132,33 +116,26 @@
         .row   
             .col-12.center
                 h2 Des vitamines et minéraux en grande quantité
-        .row
-            .col-12.center
-                .col-6
-                    h4 Vitamine E
-                .col-6
-                    h4 Fer
-                .col-6
-                    h4 Phosphore
-                .col-6
-                    h4 Magnésium
-                .col-6
-                    h4 Zinc
-                .col-6
-                    h4 Potassium
-#artiste
-     .container
-            .row  
-                    .col-8
-                        .col-12
-                            a(href="#img1")
-                                img(src= "https://c1.staticflickr.com/5/4169/34413632376_f2f5dbeacf_z.jpg")
-                            a(href="#_" class="lightbox" id="img1")
-                                img(src= "https://c1.staticflickr.com/5/4169/34413632376_f2f5dbeacf_z.jpg")
-                    .col-4
-                        .col-12
-                            h2 Une bonne santé, ça commence par ce qu'on met dans notre assiette
-                            p Il y a quand même moyen de s'amuser un peu, rien de plus facile avec la farine de chanvre!
+            .col-3
+            .col-2
+                p Vitamine E
+                p Fer
+            .col-2
+                p Phosphore
+                p Magnésium
+            .col-2
+                p Zinc
+                p Potassium
+            .col-3
+
+ .container
+        .row  
+            .col-6
+                    img(src= "https://c1.staticflickr.com/5/4169/34413632376_f2f5dbeacf_z.jpg")
+
+            .col-6
+                    h2 Une bonne santé, ça commence par ce qu'on met dans notre assiette
+                    p Il y a quand même moyen de s'amuser un peu, rien de plus facile avec la farine de chanvre!
             //.col-6.chanvre_two
     .jumbosection(style='background-image: linear-gradient(black, #F3F3F3)')
             .col-12.center    
