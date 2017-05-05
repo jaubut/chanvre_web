@@ -166,7 +166,6 @@
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1227759567345727/"
     },
-
     "chanvremoi": {
         "artiste": "La feuille verte",
         "headline": "L'huile Chanvre-Moi",
@@ -192,7 +191,6 @@
         "fblink": "1386988194666820/",
         "tag": "fetemere"
     },
-
     "exfoliant": {
         "artiste": "La feuille verte",
         "headline": "Exfoliant visage",
@@ -240,6 +238,30 @@
         "price": "69",
         "link": "produits/fete-mere",
         "artistelink": "artistes/lafeuilleverte",
+        "fblink": "1481181525259496/"
+    },
+    "farineproteine": {
+        "artiste": "Chanvre Superaliment",
+        "headline": "La farine protéique",
+        "underline": "Notre gamme de produits alimentaires maison",
+        "thirdline": "Découvrez les artisans",
+        "hrefheader": "/artistes/chanvresuperaliment",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4172/34279959352_24dc133687_o.png)",
+        "titre": "Un spécial à petit prix",
+        "texte": "pour célébrer la fête des mères",
+        "textcolor": "color: black",
+        "name": "Farine Superaliment",
+        "id": "10",
+        "category": "alimentaire",
+        "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
+        "image": "https://c1.staticflickr.com/3/2864/34127973342_580422f51b_b.jpg",
+        "imagebg": "background-image: url(https://c1.staticflickr.com/3/2864/34127973342_580422f51b_b.jpg)",
+        "description": "Pour donner un boost à toutes vos recettes",
+        "url": "https://www.chanvrequebec.com/produits/exfoliant",
+        "price": "13",
+        "link": "produits/farineproteine",
+        "artistelink": "artistes/chanvresuperaliment",
         "fblink": "1481181525259496/"
     }
 }
