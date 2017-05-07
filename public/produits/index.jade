@@ -1,30 +1,40 @@
+-
+    var produits = {
+        feteMeres : _.filter(public.produits._data,function(produit){
+            return _.includes(produit.tag, 'fetemere');
+        }),
+        soinsCorps : _.filter(public.produits._data,function(produit){
+            return _.includes(produit.category, 'soinscorps');
+        }),
+        textile: _.filter(public.produits._data,function(produit){
+            return _.includes(produit.category, 'textile');
+        })
+    };
+
 #produits
     include ../includes/_header
     include ../includes/_description
     .jumbotron.fete-mere-container
         .container
-                .row
-                    .col-12
-                        h2(style="color: black;") Pour la fête des mères, on vous offre ces 3 produits à petit prix ! <a href="fete-mere"><span class="price">$69</span></a>
-                    for produit, slug in public.produits._data
-                        if _.includes(produit.tag, 'fetemere')
-                            include _produit-fetemere  
-                    .col-12
-                        .center
-                            a(href="fete-mere")
-                                button.btn-fetemere Voir l'offre
+            .row
+                .col-12
+                    h2(style="color: black;") Pour la fête des mères, on vous offre ces 3 produits à petit prix ! <a href="fete-mere"><span class="price">$69</span></a>
+                for produit, slug in produits.feteMeres
+                    include _produit-fetemere
+                .col-12
+                    .center
+                        a(href="fete-mere")
+                            button.btn-fetemere Voir l'offre
     #soinspourlecorps.container
         .row.center
             h2 Soins pour le corps
-            for produit, slug in public.produits._data
-                if _.includes(produit.category, 'soinscorps')
-                    include _produit
+            for produit, slug in produits.soinsCorps
+                include _produit
     #vetementseqoia.container
         .row.center
             h2 Textile
-            for produit, slug in public.produits._data
-                if _.includes(produit.category, 'textile')
-                    include _produit
+            for produit, slug in produits.textile
+                include _produit
     //#superaliment.container
         .row.center
             h2 Alimentation
