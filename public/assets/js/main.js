@@ -1,17 +1,20 @@
-$('#my-size').change(function() {
-$('#my-button').data('item-custom2-value', $(this).val());
-});
+$(document).ready(function () {
 
-$('#my-quantity').change(function() {
-$('#my-button').data('item-quantity', $(this).val());
-});
+    $('#my-size').change(function () {
+        $('#my-button').data('item-custom2-value', $(this).val());
+    });
 
-$('#my-price').change(function() {
-    $('#my-button').data('data-item-price', $(this).val());
-});
+    $('#my-quantity').change(function () {
+        $('#my-button').data('item-quantity', $(this).val());
+    });
 
-$('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true
+    $('#my-price').change(function () {
+        $('#my-button').data('data-item-price', $(this).val());
+    });
+
+    $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
 });
