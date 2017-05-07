@@ -230,5 +230,19 @@
             "link": "blog/ocean-plastique",
             "ogimage": "https://c1.staticflickr.com/3/2856/33305875214_f41fc37f94_b.jpg",
             "image": "background-image: url(https://c1.staticflickr.com/3/2856/33305875214_f41fc37f94_b.jpg)"
+    },
+    "comment-construire-en-chanvre": {
+            "headline": "Comment bâtir une maison en chanvre?",
+            "description": "Pourquoi une maison en chanvre? Parce que c’est la définition même d’une habitation saine et confortable.",
+            "date": "2017-04-0020T00:00:00.000Z",
+            "date2": "29 avril, 2017",
+            "id": "18",
+            "auteur": "Darko Popovic",
+            "tags": "habitation",
+            "metakeyword": "chanvre, culture chanvre, habitation, construction",
+            "creditref": "/",
+            "link": "blog/comment-construire-en-chanvre",
+            "ogimage": "https://c1.staticflickr.com/5/4175/33657071404_7819d7be7f_z.jpg",
+            "image": "background-image: url(https://c1.staticflickr.com/5/4175/33657071404_7819d7be7f_z.jpg)"
     }
 }
