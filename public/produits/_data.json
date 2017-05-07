@@ -160,7 +160,7 @@
         "image": "https://c1.staticflickr.com/6/5631/33157139372_666a56599b_k.jpg",
         "imagebg": "background-image: url(https://c1.staticflickr.com/6/5631/33157139372_666a56599b_k.jpg)",
         "description": "La crème anti-rides",
-        "url": "cremehydratante",
+        "url": "https://www.chanvrequebec.com/produits/cremehydratante",
         "price": "36",
         "link": "produits/cremehydratante",
         "artistelink": "artistes/lafeuilleverte",
@@ -234,11 +234,11 @@
         "image": "https://c1.staticflickr.com/5/4173/33649941803_8aa982dbed_z.jpg",
         "imagebg": "background-image: url(https://c1.staticflickr.com/5/4162/34075127960_2836338148_z.jpg)",
         "description": "Pour une femme précieuse dans votre vie, ces 3 produits lui donneront une peau douce et radieuse.",
-        "url": "https://www.chanvrequebec.com/produits/exfoliant",
+        "url": "https://www.chanvrequebec.com/produits/fete-mere",
         "price": "69",
         "link": "produits/fete-mere",
         "artistelink": "artistes/lafeuilleverte",
-        "fblink": "1481181525259496/"
+        "fblink": ""
     },
     "farineproteine": {
         "artiste": "Chanvre Superaliment",
@@ -258,10 +258,10 @@
         "image": "https://c1.staticflickr.com/3/2864/34127973342_580422f51b_b.jpg",
         "imagebg": "background-image: url(https://c1.staticflickr.com/3/2864/34127973342_580422f51b_b.jpg)",
         "description": "Pour donner un boost à toutes vos recettes",
-        "url": "https://www.chanvrequebec.com/produits/exfoliant",
+        "url": "https://www.chanvrequebec.com/produits/farineproteine",
         "price": "13",
         "link": "produits/farineproteine",
         "artistelink": "artistes/chanvresuperaliment",
-        "fblink": "1481181525259496/"
+        "fblink": ""
     }
 }
