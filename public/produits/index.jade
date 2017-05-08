@@ -1,12 +1,12 @@
 -
     var produits = {
-        feteMeres : _.filter(public.produits._data,function(produit){
+        feteMeres : _.pick(public.produits._data,function(produit){
             return _.includes(produit.tag, 'fetemere');
         }),
-        soinsCorps : _.filter(public.produits._data,function(produit){
+        soinsCorps : _.pick(public.produits._data,function(produit){
             return _.includes(produit.category, 'soinscorps');
         }),
-        textile: _.filter(public.produits._data,function(produit){
+        textile: _.pick(public.produits._data,function(produit){
             return _.includes(produit.category, 'textile');
         })
     };
@@ -25,12 +25,20 @@
                     .center
                         a(href="fete-mere")
                             button.btn-fetemere Voir l'offre
-    #soinspourlecorps.container
+    #filtered-products.container
+        .row.center
+            .col-2.product__filter
+                menu filter
+                input.product__filter-search
+            .col-10
+                for produit, slug in public.produits._data
+                    include _produit
+    //#soinspourlecorps.container
         .row.center
             h2 Soins pour le corps
             for produit, slug in produits.soinsCorps
                 include _produit
-    #vetementseqoia.container
+    //#vetementseqoia.container
         .row.center
             h2 Textile
             for produit, slug in produits.textile
