@@ -15,7 +15,7 @@
     },
     "salade-jardin-marie-christine": {
         "headline": "Salade jardin de Marie-Christine",
-        "underline": "Facile et délicieux",
+        "underline": "Rapido-délicio",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "rapide",
@@ -28,7 +28,7 @@
     },
     "brownies-chocolat-frederick": {
         "headline": "Brownies pur délice",
-        "underline": "Facile et délicieux",
+        "underline": "Protéines + miammmm",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "farine",
@@ -41,7 +41,7 @@
      },
     "crepes-chanvre": {
         "headline": "Crêpes en chanvre d'Amélie",
-        "underline": "délcieusement nutritif",
+        "underline": "Au déjeuner, au dinner ou bien en soirée, pourquoi pas?",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "farine",
@@ -52,9 +52,22 @@
         "url": "/",
         "link": "recettes/crepes-chanvre"
     },
+    "biscuits-chocolat": {
+        "headline": "Biscuits protéinés au chocolat",
+        "underline": "Biscuits réconfort",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: black",
+        "category": "farine",
+        "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
+        "imageog": "https://c1.staticflickr.com/5/4181/33698249674_9ee6dcda11_z.jpg",
+        "image": "background-image: url(https://c1.staticflickr.com/5/4181/33698249674_9ee6dcda11_z.jpg)",
+        "description": "",
+        "url": "/",
+        "link": "recettes/biscuits-chocolat"
+    },
     "muffin-automnal-courge-chanvre": {
         "headline": "Muffin automnal courge et chanvre",
-        "underline": "moelleux et nutritif",
+        "underline": "Moelleux et nutritif",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "farine",
@@ -67,7 +80,7 @@
     },
     "fudgechoco": {
         "headline": "Fudge vegan aux graines de chanvre",
-        "underline": "Riche et vraiment bon !",
+        "underline": "Ok, c'est un peu d'la triche",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "graines, rapide",
@@ -80,7 +93,7 @@
     },
     "boulledenergie": {
         "headline": "Boules d’énergie cacao et dattes",
-        "underline": "Riche et vraiment bon!",
+        "underline": "Rapide et savoureux, on aime ça!",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "graines, rapide",
@@ -93,7 +106,7 @@
     },
     "muffin-chanvre-fruits": {
         "headline": "Muffin chanvre et fruits de Milena",
-        "underline": "délcieusement nutritif",
+        "underline": "«Les enfants, c'est prêt!»",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
         "category": "farine",
