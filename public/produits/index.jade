@@ -1,15 +1,19 @@
 -
     var produits = {
-        feteMeres : _.pick(public.produits._data,function(produit){
-            return _.includes(produit.tag, 'fetemere');
-        }),
-        soinsCorps : _.pick(public.produits._data,function(produit){
-            return _.includes(produit.category, 'soinscorps');
-        }),
-        textile: _.pick(public.produits._data,function(produit){
-            return _.includes(produit.category, 'textile');
-        })
+    feteMeres : _.pick(public.produits._data,function(produit){
+    return _.includes(produit.tag, 'fetemere');
+    }),
+    soinsCorps : _.pick(public.produits._data,function(produit){
+    return _.includes(produit.category, 'soinscorps');
+    }),
+    textile: _.pick(public.produits._data,function(produit){
+    return _.includes(produit.category, 'textile');
+    })
     };
+// get product data item that has an id
+    var productData = _.pick(public.produits._data, function(item) {
+    return !!item.id;
+    });
 
 #produits
     include ../includes/_header
@@ -30,26 +34,20 @@
             .col-2.product__filter
                 menu filter
                 input.product__filter-search
+                ul
+                    li.product__filter-item(
+                    data-category="soinscorps"
+                    )
+                        a Soins corporels
+                    li.product__filter-item(
+                    data-category="textile"
+                    )
+                        a Textile
+                    li.product__filter-item(
+                    data-category="alimentaire"
+                    )
+                        a Alimentaire
+
             .col-10
-                for produit, slug in public.produits._data
-                    include _produit
-    //#soinspourlecorps.container
-        .row.center
-            h2 Soins pour le corps
-            for produit, slug in produits.soinsCorps
-                include _produit
-    //#vetementseqoia.container
-        .row.center
-            h2 Textile
-            for produit, slug in produits.textile
-                include _produit
-    //#superaliment.container
-            for produit, slug in public.produits._data
-                if _.includes(produit.category, 'textile')
-                    include _produit
-    //#superaliment.container
-        .row.center
-            h2 Alimentation
-            for produit, slug in public.produits._data
-                if _.includes(produit.category, 'alimentaire')
+                for produit, slug in productData
                     include _produit
