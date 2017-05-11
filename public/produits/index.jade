@@ -10,10 +10,9 @@
     return _.includes(produit.category, 'textile');
     })
     };
-// get product data item that has an id
     var productData = _.pick(public.produits._data, function(item) {
-    return !!item.id;
-    });
+        return !!item.id;
+        });
 
 #produits
     include ../includes/_header
@@ -32,9 +31,15 @@
     #filtered-products.container
         .row.center
             .col-2.product__filter
-                menu filter
-                input.product__filter-search
+                input.product__filter-search(
+                type="text"
+                placeholder="Rechercher"
+                )
                 ul
+                    li.product__filter-item(
+                    data-category="all"
+                    )
+                        a Tout
                     li.product__filter-item(
                     data-category="soinscorps"
                     )

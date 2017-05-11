@@ -86,6 +86,10 @@ $(document).ready(function () {
         if (!category) {
             return;
         }
+        if(category==='all') {
+            resetResult();
+            return;
+        }
         filterByCategory(category);
     });
 
