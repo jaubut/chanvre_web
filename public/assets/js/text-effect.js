@@ -256,20 +256,3 @@ String.prototype.rightChars = function(n){
   };
 })(jQuery);
 
-
-
-
-
-$('.type-once').typeTo("Testing Typer.js jQuery Plugin with a 1 time text string.");
-
-
-
-$('[data-typer-targets]').typer({
-  highlightSpeed    : 2660,
-  typeSpeed         : 8600,
-  clearDelay        : 6500,
-  typeDelay         : 6200,
-  clearOnHighlight  : false,
-  typerDataAttr     : 'data-typer-targets',
-  typerInterval     : 2000
-});
