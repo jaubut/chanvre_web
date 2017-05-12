@@ -1,8 +1,18 @@
-a(href= "/produits/#{ slug }")
+a.product-item(
+href= "/produits/#{ slug }",
+data-id="#{produit.id}",
+data-name= "#{produit.name}",
+data-category= "#{produit.category}",
+data-headline= "#{produit.headline}",
+data-underline= "#{produit.underline}",
+data-thirdline= "#{produit.thirdline}",
+data-description= "#{produit.description}",
+data-texte= "#{produit.texte}"
+)
     .col-4.produit-box
         p.price #{produit.price}$
         .produitshow(style= produit.imagebg)
         .produitindex
             p #{produit.headline}
-                 
+
 
