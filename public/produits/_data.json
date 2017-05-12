@@ -39,6 +39,7 @@
         "artistelink": "equipe/",
         "customname": "size",
         "customoption": "Small|Medium|Large",
+        "tags": "index-feed",
         "fblink": "1535610583134702/"
     },
     "numero_s": {
@@ -140,6 +141,7 @@
         "weight": "50",
         "link": "produits/serum",
         "artistelink": "artistes/lafeuilleverte",
+        "tags": "index-feed",
         "fblink": "1785196818173069/"
     },
     "cremehydratante": {
@@ -262,6 +264,7 @@
         "price": "13",
         "link": "produits/farineproteine",
         "artistelink": "artistes/chanvresuperaliment",
+        "tags": "index-feed",
         "fblink": ""
     }
 }

@@ -23,12 +23,10 @@ include ../public/includes/_chanvre
                 p Des artisans consacrés et passionnés!
                 a(href="/produits")
                     button.btn-secondary Découvrez nos produits
-#produits
-    .container
-        .row.center
-
+                    
             for produit, slug in public.produits._data
-                include ../public/produits/_produit
+                if _.includes(produit.tags, 'index-feed')
+                    include ../public/produits/_produit
 #indexblog(style="background-color: #F9F9F9")
     .container
         .row
