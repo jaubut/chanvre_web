@@ -10,9 +10,30 @@
     return _.includes(produit.category, 'textile');
     })
     };
+-
     var productData = _.pick(public.produits._data, function(item) {
         return !!item.id;
         });
+
+-
+    var getCategoryMetrics = function(category) {
+        if(!category) {
+            return;
+        }
+        var result;
+        switch (category) {
+            case 'all':
+                result = _.keys(productData).length;
+                break;
+            default :
+                result = _.filter(_.values(productData), function(datum) {
+                    return datum.category === category;
+                }).length;
+                break;
+        }
+        return result;
+
+    };
 
 #produits
     include ../includes/_header
@@ -39,19 +60,19 @@
                     li.product__filter-item(
                     data-category="all"
                     )
-                        a Tout
+                        a Tout (#{getCategoryMetrics('all')})
                     li.product__filter-item(
                     data-category="soinscorps"
                     )
-                        a Soins corporels
+                        a Soins corporels (#{getCategoryMetrics('soinscorps')})
                     li.product__filter-item(
                     data-category="textile"
                     )
-                        a Textile
+                        a Textile  (#{getCategoryMetrics('textile')})
                     li.product__filter-item(
                     data-category="alimentaire"
                     )
-                        a Alimentaire
+                        a Alimentaire (#{getCategoryMetrics('alimentaire')})
 
             .col-10
                 for produit, slug in productData
