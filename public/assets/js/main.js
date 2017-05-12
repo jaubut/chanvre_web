@@ -28,88 +28,15 @@ $(document).ready(function () {
         typerInterval: 2000
     });
 
-    var fuseOptions = {
-        shouldSort: true,
-        threshold: 0.6,
-        location: 0,
-        distance: 100,
-        maxPatternLength: 32,
-        minMatchCharLength: 1,
-        keys: [
-            "name"
-        ]
-    };
-
-    var filteredData = [];
-    var $productList = $('#filtered-products');
-    $productList.find('.product-item').each(function () {
-        filteredData.push($(this).data());
-    });
-    var fuse = new Fuse(filteredData, fuseOptions);
-    $('input.product__filter-search').on('keydown', function (e) {
-        if (e.which == 13) {
-            e.preventDefault();
-            var searchToken = $(this).val().trim();
-            if (searchToken === '') {
-                resetResult();
-                return;
-            }
-            var result = fuse.search(searchToken);
-            console.log('result = ', result);
-
-            $productList.find('.product-item').each(function () {
-                var id = $(this).data('id');
-
-                // make sure it is defined
-                if (_.isUndefined(id)) {
-                    return;
-                }
-                var resultIDs = _.map(result, function (item) {
-                    return item.id;
-                });
-
-                var matchResult = resultIDs.indexOf(id) > -1;
-                if (!matchResult) {
-                    $(this).hide();
-                    return;
-                }
-                $(this).show();
-            });
-        }
+    // instantiate a product manager and initialize it!
+    var productManager = new cq.ProductManager({
+        listSelector: '#filtered-products',
+        searchInputSelector: 'input.product__filter-search',
+        productItemSelector: '.product-item',
+        productFilterSelector: '.product__filter-item'
     });
 
-    // handle category search
-    $('.product__filter-item').click(function (event) {
-        event.preventDefault();
-        event.stopPropagation();
-        var category = $(this).data('category');
-        if (!category) {
-            return;
-        }
-        if(category==='all') {
-            resetResult();
-            return;
-        }
-        filterByCategory(category);
-    });
-
-    var resetResult = function () {
-        $productList.find('.product-item').each(function () {
-            $(this).show();
-        });
-    };
-    var filterByCategory = function (category) {
-        $productList
-            .find('.product-item')
-            .each(function () {
-                var dataCategory = $(this).data('category');
-                if (dataCategory === category) {
-                    $(this).show();
-                    return;
-                }
-                $(this).hide();
-            });
-    }
+    productManager.init();
 
 
 });
