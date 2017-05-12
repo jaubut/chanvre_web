@@ -79,39 +79,49 @@
 
 
 .product__filter
-    background-color : lightgray;
     padding-top : 30px;
     padding-bottom : 130px;
+    
+    a
+        text-decoration: none;
 
     ul
         list-style: none;
         padding-left:5px;
         li
             text-align: left;
-            font-size:0.8em;
+            font-size: 0.9em;
+            font-weight: 300;
+            line-height: 1.6em;
             &:hover
                 cursor : pointer;
+            span 
+                padding: 5px;
+                text-decoration: none;
+                &:hover
+                    text-decoration: underline;
+                    text-decoration-color: rgb(155, 155, 155);
+            sup
+                font-size: 0.1em;
+                line-height: 1em;
+                color: rgb(155, 155, 155);
     input.product__filter-search
-        width:100px;
-        display: inline-block;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        padding: 6px 10px;
-        border: 1px solid #b7b7b7;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;
-        color: rgba(0,142,198,1);
-        -o-text-overflow: clip;
-        text-overflow: clip;
-        background: rgba(252,252,252,1);
-        -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
-        box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
-        text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
-        -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-        -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-        -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-        transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+        font-size: 1em;
+        font-weight: 300;
+        display: block;
+        width: 100%;
+        border-top-width: initial;
+        border-right-width: initial;
+        border-left-width: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-left-color: initial;
+        padding: 10px 10px 10px 5px;
+        border-style: none none solid;
+        border-image: initial;
+        border-bottom: 1px solid rgb(117, 117, 117);
+        &:focus
+            outline: none;
 .produitindex
     background-color white
     height 50px

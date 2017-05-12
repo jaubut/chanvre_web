@@ -60,19 +60,27 @@
                     li.product__filter-item(
                     data-category="all"
                     )
-                        a Tout (#{getCategoryMetrics('all')})
+                        a 
+                            span Tout 
+                            sup #{getCategoryMetrics('all')}
                     li.product__filter-item(
                     data-category="soinscorps"
                     )
-                        a Soins corporels (#{getCategoryMetrics('soinscorps')})
+                        a 
+                            span Soins corporels 
+                            sup #{getCategoryMetrics('soinscorps')}
                     li.product__filter-item(
                     data-category="textile"
                     )
-                        a Textile  (#{getCategoryMetrics('textile')})
+                        a 
+                            span Textile  
+                            sup #{getCategoryMetrics('textile')}
                     li.product__filter-item(
                     data-category="alimentaire"
                     )
-                        a Alimentaire (#{getCategoryMetrics('alimentaire')})
+                        a 
+                            span Alimentaire 
+                            sup #{getCategoryMetrics('alimentaire')}
 
             .col-10
                 for produit, slug in productData
