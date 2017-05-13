@@ -1,3 +1,7 @@
+-
+    var highlightProduits = _.filter(public.produits._data, function(produit){
+        return _.includes([1,3,8], produit.id);
+    });
 include ../public/includes/_header-index
 include ../public/includes/_mission
 include ../public/includes/_modal-a
@@ -9,7 +13,7 @@ include ../public/includes/_chanvre
                 h2(style="color: black;") Pour la fête des mères, on vous offre ces 3 produits à petit prix ! <span class="price">$69</span>
             for produit, slug in public.produits._data
                 if _.includes(produit.tag, 'fetemere')
-                    include ../public/produits/_produit-fetemere
+                    include produits/_produit-fetemere
             .col-12
                 .center
                     a(href="produits/fete-mere")
@@ -23,10 +27,12 @@ include ../public/includes/_chanvre
                 p Des artisans consacrés et passionnés!
                 a(href="/produits")
                     button.btn-secondary Découvrez nos produits
-                    
-            for produit, slug in public.produits._data
-                if _.includes(produit.tags, 'index-feed')
-                    include ../public/produits/_produit
+#produits
+    .container
+        .row.center
+
+            for produit, slug in highlightProduits
+                include ../public/produits/_produit
 #indexblog(style="background-color: #F9F9F9")
     .container
         .row
