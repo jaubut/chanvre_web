@@ -54,30 +54,21 @@
             .col-2.product__filter
                 input.product__filter-search(
                 type="text"
-                placeholder="Rechercher"
-                )
+                placeholder="Rechercher")
                 ul
-                    li.product__filter-item(
-                    data-category="all"
-                    )
+                    li.product__filter-item(data-category="all")
                         a 
                             span Tout 
                             sup #{getCategoryMetrics('all')}
-                    li.product__filter-item(
-                    data-category="soinscorps"
-                    )
+                    li.product__filter-item(data-category="soinscorps")
                         a 
                             span Soins corporels 
                             sup #{getCategoryMetrics('soinscorps')}
-                    li.product__filter-item(
-                    data-category="textile"
-                    )
+                    li.product__filter-item(data-category="textile")
                         a 
                             span Textile  
                             sup #{getCategoryMetrics('textile')}
-                    li.product__filter-item(
-                    data-category="alimentaire"
-                    )
+                    li.product__filter-item(data-category="alimentaire")
                         a 
                             span Alimentaire 
                             sup #{getCategoryMetrics('alimentaire')}
