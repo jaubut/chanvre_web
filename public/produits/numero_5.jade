@@ -20,6 +20,7 @@
                                   option Small
                                   option Medium
                                   option Large
+                                  option X-Large
                             br
                             //input#my-quantity(type='number')
                             br
@@ -32,7 +33,7 @@
                             data-item-url= url, 
                             data-item-quantity="1",
                             data-item-custom2-name='Size', 
-                            data-item-custom2-options='Small|Medium|Large',
+                            data-item-custom2-options= customoption,
                             data-item-description= description) Ajouter
                             .col-12.center
                                 .fb-like(data-href='https://www.chanvrequebec.com/#{ link }', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='true')

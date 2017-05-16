@@ -38,7 +38,7 @@
         "link": "produits/numero_5",
         "artistelink": "equipe/",
         "customname": "size",
-        "customoption": "Small|Medium|Large",
+        "customoption": "Small|Medium|Large|X-Large",
         "tags": "index-feed",
         "fblink": "1535610583134702/"
     },
@@ -66,7 +66,7 @@
         "link": "produits/numero_s",
         "artistelink": "equipe/",
         "customname": "size",
-        "customoption": "Small|Medium|Large",
+        "customoption": "Small|Medium|Large|X-Large",
         "fblink": "1474478729243599/"
     },
     "laitmaternite": {
