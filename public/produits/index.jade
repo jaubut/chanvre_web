@@ -1,21 +1,6 @@
+- var productData = _.pick(public.produits._data, function(item) {return !!item.id;});
 -
-    var produits = {
-    feteMeres: _.pick(public.produits._data,function(produit){
-    return _.includes(produit.tag, 'fetemere');
-    }),
-    soinsCorps: _.pick(public.produits._data,function(produit){
-    return _.includes(produit.category, 'soinscorps');
-    }),
-    textile: _.pick(public.produits._data,function(produit){
-    return _.includes(produit.category, 'textile');
-    })
-    };
--
-    var productData = _.pick(public.produits._data, function(item) {
-        return !!item.id;
-        });
--
-    var getCategoryMetrics = function(category) {
+    function getCategoryMetrics(category) {
         if(!category) {
             return;
         }
@@ -35,47 +20,35 @@
 #produits
     include ../includes/_header
     include ../includes/_description
-    //.jumbotron.fete-mere-container
-        .container
-            .row
-                .col-12
-                    h2(style="color: black;") Pour la fête des mères, on vous offre ces 3 produits à petit prix ! <a href="fete-mere"><span class="price">$69</span></a>
-                for produit, slug in produits.feteMeres
-                    include _produit-fetemere
-                .col-12
-                    .center
-                        a(href="fete-mere")
-                            button.btn-fetemere Voir l'offre
     #filtered-products.container
         .row.center
             .col-2.product__filter
                 input.product__filter-search(
                 type="text"
-                placeholder="Rechercher"
-                )
+                placeholder="Rechercher")
                 ul
                     li.product__filter-item(
                     data-category="all"
                     )
-                        a 
+                        a
                             span Tout 
                             sup #{getCategoryMetrics('all')}
                     li.product__filter-item(
                     data-category="soinscorps"
                     )
-                        a 
+                        a
                             span Soins corporels 
                             sup #{getCategoryMetrics('soinscorps')}
                     li.product__filter-item(
                     data-category="textile"
                     )
-                        a 
+                        a
                             span Textile  
                             sup #{getCategoryMetrics('textile')}
                     li.product__filter-item(
                     data-category="alimentaire"
                     )
-                        a 
+                        a
                             span Alimentaire 
                             sup #{getCategoryMetrics('alimentaire')}
 

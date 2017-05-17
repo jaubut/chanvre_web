@@ -28,15 +28,18 @@ $(document).ready(function () {
         typerInterval: 2000
     });
 
-    // instantiate a product manager and initialize it!
-    var productManager = new cq.ProductManager({
-        listSelector: '#filtered-products',
-        searchInputSelector: 'input.product__filter-search',
-        productItemSelector: '.product-item',
-        productFilterSelector: '.product__filter-item'
-    });
+    // if #filtered-products exists
+    if ($('#filtered-products'.length)) {
+        // instantiate a product manager and initialize it!
+        var productManager = new cq.ProductManager({
+            listSelector: '#filtered-products',
+            searchInputSelector: 'input.product__filter-search',
+            productItemSelector: '.product-item',
+            productFilterSelector: '.product__filter-item'
+        });
 
-    productManager.init();
+        productManager.init();
+    }
 
 
 });
