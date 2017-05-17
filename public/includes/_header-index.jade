@@ -8,27 +8,27 @@ header
                               i.fa.fa-bars.dropbtn
                                   .dropdown-content
                                     .col-4
-                                        a(href='/mission') 
+                                        a(href='/mission')
                                             p.menu-item Mission
-                                        a(href='/equipe') 
+                                        a(href='/equipe')
                                             p.menu-item Équipe
-                                        a(href='/artistes') 
+                                        a(href='/artistes')
                                             p.menu-item Artisans
                                     .col-4
-                                        a(href='/produits') 
+                                        a(href='/produits')
                                             p.menu-item Boutique
-                                        a(href='/blog') 
+                                        a(href='/blog')
                                             p.menu-item Biblio
-                                        a(href='/recettes') 
+                                        a(href='/recettes')
                                             p.menu-item Recettes
                                     .col-4
                                         a(href='/alimentation')
                                             p.menu-item Alimentation
-                                        a(href='/habitation') 
+                                        a(href='/habitation')
                                             p.menu-item Habitation
                                         a(href='/soinscorporels')
                                             p.menu-item Soins Corporels
-                                        a(href='/textile') 
+                                        a(href='/textile')
                                             p.menu-item Textile
                               a.goback(href='/index')
                                 i.fa.fa-home.i-header(aria-hidden='true')
@@ -41,7 +41,10 @@ header
                         .col-12.center
                             img(src=(source), alt='chanvre quebec')
                             h1(style=(textcolor))=(headline)
-                            h2.font-light.typer(style=(textcolor))(data-typer-targets='{ "targets" : ["Le chanvre comme nourriture","Le chanvre comme vêtement", "Le chanvre comme maison", "Le chanvre comme solution."]}') 
+                            h2.font-light.typer(
+                            style=(textcolor),
+                            data-typer-targets='{ "targets" : ["Le chanvre comme nourriture","Le chanvre comme vêtement", "Le chanvre comme maison", "Le chanvre comme solution."]}'
+                            )
                             br
                             a(href=(hrefheader))
                                 button.btn-secondary #{thirdline}
