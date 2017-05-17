@@ -1,0 +1,134 @@
+#produitsfull
+    include ../includes/_produit-header
+
+    .container
+            .row.center  
+                    .col-8
+                        img(src=image)
+                        .row
+                            .col-4
+                                a(href="#img4")
+                                    img(src="https://c1.staticflickr.com/5/4157/34173579980_5a64b7a4b7_b.jpg")
+                                a(href="#_" class="lightbox" id="img4")
+                                    img(src="https://c1.staticflickr.com/5/4157/34173579980_5a64b7a4b7_b.jpg")
+                    .col-4
+                        h2.left= name
+                        a(href="https://www.chanvrequebec.com/#{ artistelink }")
+                            p.artiste-by par #{artiste}
+                        h3.left #{price}$
+                        p.left= description
+                        br
+                        //input#my-quantity(type='number')
+                        br
+                        button#my-button.btn-secondary.snipcart-add-item(
+                        data-item-id= id, 
+                        data-item-name= name, 
+                        data-item-price= price, 
+                        data-item-weight="0",
+                        data-item-taxes="TPS|TVQ", 
+                        data-item-url= url, 
+                        data-item-quantity="1",
+                        data-item-custom2-name='Size', 
+                        data-item-custom2-options='Small|Medium|Large',
+                        data-item-description= description) Ajouter
+                        .col-12.center
+                            .fb-like(data-href='https://www.chanvrequebec.com/#{ link }', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='true')
+    .container
+        .row
+            .col-12
+                h2 Votre dose de bienfaits nutritifs dans chaque recette. Idéal pour réinventer votre façon de manger sainement sans sacrifier l'aspect le plus essentiel du repas: le goût
+
+     .container
+            .row  
+                .col-12
+                            h2 Délicieusement nutritif!
+                            p Remplacer la farine ordinaire dans vos recettes par la farine protéique de chanvre.  
+                            p 10-15% dans les pains ordinaire
+                            p 20-25% dans les brownies et pains au banane
+                            p 30-35% dans les crèpes et biscuits
+                            p 2c. à soupe dans les smoothies
+    
+#description
+     .container
+            .row
+                .col-2.hidden
+                .col-8.line
+                .col-2.hidden
+                .col-12
+                    h2 11g de protéines par portion de 33g
+                    p.justify La graine de chanvre, c’est d’abord une grande quantité de protéines de très haute qualité. Un des rares aliment à contenir les 9 acides aminés essentiel (AAE). Les AAE nous permettent de digérer, d’absorber et d’exploiter les protéine. Cette combinaison contribue à la contraction, la récupération et la régénération musculaire en plus d’augmenter la résistance à la douleur et aux efforts physiques.
+
+#proteine
+    .container
+        .row.center   
+            .col-12
+                h2 Les 9 acides aminés essentiels.
+            .col-4
+                p Leucine
+            .col-4
+                p Isoleucine
+            .col-4
+                p Valine
+            .col-4
+                p Thréonine
+            .col-4
+                p Phénilalanine
+            .col-4
+                p Méthionine
+            .col-4
+                p Lysine
+            .col-4
+                p Tryptophane
+            .col-4
+                p Histidine
+#fibre
+    .container
+        .row.right
+            .col-12
+                h2 Des fibres à la tonne!
+                p Les fibres sont essentielles à notre bonne santé! 1/4 de tasse de farine Chanvre Superaliment représente plus de la moitié de votre apport quotidien en fibres suggéré par Santé Canada.
+#omega
+    .container
+        .row
+            .col-12
+                h2 Les bons et les mauvais gras
+                p <strong>Ça tombe drôlement bien.</strong> Selon Santé Canada, le chanvre est l'une des deux seules plantes à contenir à la fois des AGE et des acides gamma-linoléiques (AGL), qui réduisent le taux de cholestérol, contribuent à corriger la dyslexie et l'hyperactivité et servent d'antidépresseur. Bref, <strong>les bon gras et sans aucun gras trans.</strong>  Cette combinaison est riche en bénéfices pour votre santé:
+        .row.center
+            .col-4
+                p Contribuent à la santé du coeur
+            .col-4
+                p Favorisent la perte de poids
+            .col-4
+                p Stimulent le système immunitaire
+            .col-4
+                p Jouent un rôle anti-inflammatoire
+            .col-4
+                p Agissent dans la prévention de plusieurs maladies
+            .col-4
+                p Contribuent au développement normal du cerveau
+                
+#vitamine
+    .container
+        .row   
+            .col-12.center
+                h2 Des vitamines et minéraux en grande quantité
+            .col-3
+            .col-2
+                p Vitamine E
+                p Fer
+            .col-2
+                p Phosphore
+                p Magnésium
+            .col-2
+                p Zinc
+                p Potassium
+            .col-3
+
+ .container
+        .row  
+            .col-6
+                    img(src= "https://c1.staticflickr.com/5/4157/34173579980_5a64b7a4b7_b.jpg")
+
+            .col-6
+                    h2 Une bonne santé, ça commence par ce qu'on met dans notre assiette
+                    p Il y a quand même moyen de s'amuser un peu, rien de plus facile avec la farine de chanvre!
