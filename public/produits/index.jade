@@ -1,5 +1,6 @@
 - var productData = _.pick(public.produits._data, function(item) {return !!item.id;});
--
+- var getCategoryMetrics=function(b){if(b){var c;switch(b){case"all":c=_.keys(productData).length;break;default:c=_.filter(_.values(productData),function(a){return a.category===b}).length}return c}};
+//
     function getCategoryMetrics(category) {
         if(!category) {
             return;
