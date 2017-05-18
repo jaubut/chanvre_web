@@ -229,7 +229,7 @@
         "titre": "Un spécial à petit prix",
         "texte": "pour célébrer la fête des mères",
         "textcolor": "color: black",
-        "name": "Farine Superaliment",
+        "name": "Farine Superaliment 500G",
         "id": 10,
         "category": "alimentaire",
         "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
@@ -240,7 +240,7 @@
         "price": "13",
         "link": "produits/farineproteine",
         "artistelink": "artistes/chanvresuperaliment",
-        "tags": "index-feed",
+        "tags": "",
         "fblink": ""
     },
     "grainedechanvre": {
@@ -254,18 +254,18 @@
         "titre": "L'aliment de chanvre par excellence.",
         "texte": "pour une source d'oméga 3 & 6",
         "textcolor": "color: black",
-        "name": "Farine Superaliment",
+        "name": "Graine Superaliment 500G",
         "id": 11,
         "category": "alimentaire",
         "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
         "image": "https://c1.staticflickr.com/5/4157/34173579980_5a64b7a4b7_b.jpg",
         "imagebg": "background-image: url(https://c1.staticflickr.com/5/4157/34173579980_5a64b7a4b7_b.jpg)",
         "description": "Pour donner un boost à toutes vos recettes",
-        "url": "https://www.chanvrequebec.com/produits/farineproteine",
+        "url": "https://www.chanvrequebec.com/produits/grainedechanvre",
         "price": "15",
-        "link": "produits/farineproteine",
+        "link": "produits/grainedechanvre",
         "artistelink": "artistes/chanvresuperaliment",
-        "tags": "index-feed",
+        "tags": "",
         "fblink": ""
     }
 }
