@@ -129,6 +129,16 @@
         "metakeyword": "chanvre, référence, politique de retour, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+    },
+    "map": {
+        "headline": "La route du chanvre",
+        "underline": "Rejoignez-nous",
+        "thirdline": "M'inscrire à la map",
+        "hrefheader": "#majouter",
+        "metadescription": "La route du chanvre, la seule map du chanvre complète du Québec.",
+        "metakeyword": "chanvre, référence, map, québec",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     }
     
 }

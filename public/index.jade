@@ -2,20 +2,8 @@ include ../public/includes/_header-index
 include ../public/includes/_mission
 include ../public/includes/_modal-a
 include ../public/includes/_chanvre
-.jumbotron.fete-mere-container
-    .container
-        .row
-            .col-12
-                h2(style="color: black;") Pour la fête des mères, on vous offre ces 3 produits à petit prix ! <span class="price">$69</span>
-            for produit, slug in public.produits._data
-                if _.includes(produit.tag, 'fetemere')
-                    include produits/_produit-fetemere
-            .col-12
-                .center
-                    a(href="produits/fete-mere")
-                        button.btn-fetemere Voir l'offre
 //include ../public/includes/_artistesliste
-#soinscorpo.center
+#soinscorpo
     .container
         .row
             .col-12.center
@@ -26,7 +14,6 @@ include ../public/includes/_chanvre
 #produits
     .container
         .row.center
-
             for produit, slug in public.produits._data
                 if _.includes([1,3,8], produit.id)
                     include ../public/produits/_produit
@@ -41,7 +28,8 @@ include ../public/includes/_chanvre
                     if _.includes(post.tags, 'article vedette')
                         include ../public/blog/_post
 include ../public/includes/_newsletter
-#instagram(style="background-color: #F9F9F9")
+include ../public/includes/_map
+#instagram
     .container
         .row
             .col-12
