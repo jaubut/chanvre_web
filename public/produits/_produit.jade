@@ -1,18 +1,18 @@
-a.product-item(
-href= "/produits/#{ slug }",
-data-id="#{produit.id}",
-data-name= "#{produit.name}",
-data-category= "#{produit.category}",
-data-headline= "#{produit.headline}",
-data-underline= "#{produit.underline}",
-data-thirdline= "#{produit.thirdline}",
-data-description= "#{produit.description}",
-data-texte= "#{produit.texte}"
-)
+.product-item
     .col-4.produit-box
         p.price #{produit.price}$
-        .produitshow(style= produit.imagebg)
+        i.fa.fa-cart-plus.snipcart-add-item.add-cart(aria-hidden='true'
+                            data-item-id= "#{id}", 
+                            data-item-name= "#{name}", 
+                            data-item-price= "#{price}", 
+                            data-item-weight="0",
+                            data-item-taxes="TPS|TVQ", 
+                            data-item-url= "/produits/#{url}", 
+                            data-item-quantity="1",
+                            data-item-custom2-name='Size', 
+                            data-item-custom2-options= "#{customoption}",
+                            data-item-description= "#{description}")
+        a(href= "/produits/#{ slug }")
+            .produitshow(style= produit.imagebg)
         .produitindex
             p #{produit.headline}
-
-
