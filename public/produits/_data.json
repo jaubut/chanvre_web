@@ -36,7 +36,7 @@
         "url": "https://www.chanvrequebec.com/produits/numero_5",
         "price": "30",
         "link": "produits/numero_5",
-        "artistelink": "equipe/",
+        "artistelink": "artistes/seqoia",
         "customname": "size",
         "customoption": "Small|Medium|Large|X-Large",
         "tags": "index-feed",
@@ -64,7 +64,7 @@
         "url": "https://www.chanvrequebec.com/produits/numero_s",
         "price": "30",
         "link": "produits/numero_s",
-        "artistelink": "equipe/",
+        "artistelink": "artistes/seqoia",
         "customname": "size",
         "customoption": "Small|Medium|Large|X-Large",
         "fblink": "1474478729243599/"
@@ -239,7 +239,7 @@
         "url": "https://www.chanvrequebec.com/produits/farineproteine",
         "price": "13",
         "link": "produits/farineproteine",
-        "artistelink": "artistes/chanvresuperaliment",
+        "artistelink": "artistes/chanvresa",
         "tags": "",
         "fblink": ""
     }
