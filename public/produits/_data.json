@@ -12,7 +12,7 @@
         "titre": "Tous nos produits de chanvre, pour vous.",
         "texte": "L'une des parties les plus importantes du projet de Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site.",
         "artistes": "/",
-        "headerstyle": "background-image: url(https://c1.staticflickr.com/4/3695/32687331451_414a22764b_o.jpg)"
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/4/3695/32687331451_414a22764b_o.jpg); height: 300px;"
     },
     "numero_5": {
         "artiste": "séqoia",

@@ -19,8 +19,7 @@
         return result;
     };
 #produits
-    include ../includes/_header
-    include ../includes/_description
+    include ../includes/_header-produits
     #filtered-products.container
         .row.center
             .col-2.product__filter
@@ -56,3 +55,4 @@
             .col-10
                 for produit, slug in productData
                     include _produit
+    include ../includes/_description
