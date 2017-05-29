@@ -1,6 +1,7 @@
 .product-item
     .col-4.produit-box
-        p.price #{produit.price}$
+        p(class= produit.style) #{produit.price}$
+        p.price-old #{produit.old}
         a(href= "/produits/#{ slug }")
             .produitshow(style= produit.imagebg)
         .produitindex

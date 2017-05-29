@@ -1,7 +1,7 @@
 {
     "index": {
         "layout": "_layout-boutique",
-        "headline": "",
+        "headline": "Boutique",
         "underline": "Des produits bons et beaux.",
         "thirdline": "Vous êtes artisans ?",
         "hrefheader": "/artistes",
@@ -12,7 +12,7 @@
         "titre": "Tous nos produits de chanvre, pour vous.",
         "texte": "L'une des parties les plus importantes du projet de Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site.",
         "artistes": "/",
-        "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4247/34523892270_286b59f4c1_b.jpg); height: 300px;"
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4198/34127215314_6e0fea6bf4_b.jpg); height: 300px;"
     },
     "numero_5": {
         "artiste": "séqoia",
@@ -34,13 +34,15 @@
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg)",
         "description": "Le numéro 5, un chandail unisexe stylé.",
         "url": "https://www.chanvrequebec.com/produits/numero_5",
-        "price": "30",
+        "price": "21",
+        "old": "30$",
         "link": "produits/numero_5",
         "artistelink": "artistes/seqoia",
         "customname": "size",
         "customoption": "Small|Medium|Large|X-Large",
         "tags": "index-feed",
-        "fblink": "1535610583134702/"
+        "fblink": "1535610583134702/",
+        "style": "price-promo"
     },
     "numero_s": {
         "artiste": "séqoia",
@@ -62,12 +64,14 @@
         "imagebg": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/Champagne45.jpg)",
         "description": "Le S, un chandail unisexe intemporel, classique et confortable.",
         "url": "https://www.chanvrequebec.com/produits/numero_s",
-        "price": "30",
+        "price": "21",
+        "old": "30$",
         "link": "produits/numero_s",
         "artistelink": "artistes/seqoia",
         "customname": "size",
         "customoption": "Small|Medium|Large|X-Large",
-        "fblink": "1474478729243599/"
+        "fblink": "1474478729243599/",
+        "style": "price-promo"
     },
     "laitmaternite": {
         "artiste": "La feuille verte",
@@ -92,7 +96,8 @@
         "link": "produits/laitmaternite",
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1447146552022941/",
-        "tag": "fetemere"
+        "tag": "fetemere",
+        "style": "price"
     },
     "onguent": {
         "artiste": "La feuille verte",
@@ -116,7 +121,8 @@
         "price": "16",
         "link": "produits/onguent",
         "artistelink": "artistes/lafeuilleverte",
-        "fblink": "1407690815949517/"
+        "fblink": "1407690815949517/",
+        "style": "price"
     },
     "serum": {
         "artiste": "La feuille verte",
@@ -142,7 +148,8 @@
         "link": "produits/serum",
         "artistelink": "artistes/lafeuilleverte",
         "tags": "index-feed",
-        "fblink": "1785196818173069/"
+        "fblink": "1785196818173069/",
+        "style": "price"
     },
     "cremehydratante": {
         "artiste": "La feuille verte",
@@ -166,7 +173,8 @@
         "price": "36",
         "link": "produits/cremehydratante",
         "artistelink": "artistes/lafeuilleverte",
-        "fblink": "1227759567345727/"
+        "fblink": "1227759567345727/",
+        "style": "price"
     },
     "chanvremoi": {
         "artiste": "La feuille verte",
@@ -191,7 +199,8 @@
         "link": "produits/chanvremoi",
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1386988194666820/",
-        "tag": "fetemere"
+        "tag": "fetemere",
+        "style": "price"
     },
     "exfoliant": {
         "artiste": "La feuille verte",
@@ -216,7 +225,8 @@
         "link": "produits/exfoliant",
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1481181525259496/",
-        "tag": "fetemere"
+        "tag": "fetemere",
+        "style": "price"
     },
     "farineproteine": {
         "artiste": "Chanvre Superaliment",
@@ -241,6 +251,7 @@
         "link": "produits/farineproteine",
         "artistelink": "artistes/chanvresa",
         "tags": "",
-        "fblink": ""
+        "fblink": "",
+        "style": "price"
     }
 }
