@@ -58,7 +58,7 @@
         "membrephoto": "background-image: url(https://c1.staticflickr.com/1/736/33190520732_845418acca_h.jpg)",
         "image2": "background-image: url(https://c1.staticflickr.com/1/736/33190520732_845418acca_h.jpg)",
         "nom": "Jonathan Gagné",
-        "titre": "Sacré des communication",
+        "titre": "Communication",
         "description2": "",
         "id": "4",
         "modal": "#modaljo",
@@ -66,6 +66,20 @@
         "headline": "Jonathan Gagné",
         "description": "Communiquer la vérité est ma destiné !",
         "image": "https://c1.staticflickr.com/1/736/33190520732_845418acca_h.jpg",
+        "tag": "chef"
+    },
+    "paulrenon": {
+        "membrephoto": "background-image: url(https://c1.staticflickr.com/5/4196/34189562304_78197ea2d1_k.jpg)",
+        "image2": "background-image: url(https://c1.staticflickr.com/5/4196/34189562304_78197ea2d1_k.jpg)",
+        "nom": "Paul Renon",
+        "titre": "Logistique",
+        "description2": "",
+        "id": "5",
+        "modal": "#modaljo",
+        "link": "equipe/paulrenon",
+        "headline": "Paul Renon",
+        "description": "Communiquer la vérité est ma destiné !",
+        "image": "https://c1.staticflickr.com/5/4196/34189562304_78197ea2d1_k.jpg",
         "tag": "chef"
     }
 }
