@@ -135,9 +135,11 @@
         "underline": "Rejoignez-nous",
         "thirdline": "M'inscrire à la map",
         "hrefheader": "#majouter",
+        "description": "La route du chanvre, la seule map du chanvre complète du Québec.",
         "metadescription": "La route du chanvre, la seule map du chanvre complète du Québec.",
         "metakeyword": "chanvre, référence, map, québec",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "image": "https://c1.staticflickr.com/5/4249/34053683764_11828aec79_b.jpg",
         "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4249/34053683764_11828aec79_b.jpg); height: 300px;"
     }
     
