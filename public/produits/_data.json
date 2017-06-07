@@ -42,6 +42,7 @@
         "customoption": "Small|Medium|Large|X-Large",
         "tags": "index-feed",
         "fblink": "1535610583134702/",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price-promo"
     },
     "numero_s": {
@@ -71,6 +72,7 @@
         "customname": "size",
         "customoption": "Small|Medium|Large|X-Large",
         "fblink": "1474478729243599/",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price-promo"
     },
     "laitmaternite": {
@@ -97,6 +99,7 @@
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1447146552022941/",
         "tag": "fetemere",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     },
     "onguent": {
@@ -122,6 +125,7 @@
         "link": "produits/onguent",
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1407690815949517/",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     },
     "serum": {
@@ -149,6 +153,7 @@
         "artistelink": "artistes/lafeuilleverte",
         "tags": "index-feed",
         "fblink": "1785196818173069/",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     },
     "cremehydratante": {
@@ -174,6 +179,7 @@
         "link": "produits/cremehydratante",
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1227759567345727/",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     },
     "chanvremoi": {
@@ -200,6 +206,7 @@
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1386988194666820/",
         "tag": "fetemere",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     },
     "exfoliant": {
@@ -226,6 +233,7 @@
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1481181525259496/",
         "tag": "fetemere",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     },
     "farineproteine": {
@@ -252,6 +260,7 @@
         "artistelink": "artistes/chanvresa",
         "tags": "",
         "fblink": "",
+        "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     }
 }
