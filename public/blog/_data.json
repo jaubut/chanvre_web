@@ -54,7 +54,7 @@
             "date2": "21 mars, 2017",
             "id": "3",
             "auteur": "Darko Popovic",
-            "tags": "article vedette, idée",
+            "tags": "article vedette, innovation",
             "metakeyword": "chanvre, référence, textile de chanvre, histoire du chanvre, blog",
             "link": "blog/8-facons-de-chanvrer-le-monde",
             "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/1-_9SDjff_XSe6Kl_LSJrsKg.jpeg",
@@ -168,7 +168,7 @@
             "date2": "8 février, 2017",
             "id": "13",
             "auteur": "Jérémie Aubut",
-            "tags": "innovation, article vedette",
+            "tags": "innovation",
             "metakeyword": "chanvre, plastique de chanvre, micro défibrilation, eau",
             "creditref": "/",
             "link": "blog/zeo-form-plastique",
@@ -244,5 +244,20 @@
             "link": "blog/comment-construire-en-chanvre",
             "ogimage": "https://c1.staticflickr.com/5/4175/33657071404_7819d7be7f_z.jpg",
             "image": "background-image: url(https://c1.staticflickr.com/5/4175/33657071404_7819d7be7f_z.jpg)"
+    },
+    "dossier-huiledechanvre": {
+            "headline": "Quels sont les types d'huiles de chanvre?",
+            "description": " «L’huile de chanvre pour du biocarburant? La même huile que j’utilise dans mes salades ou sur ma peau?» ", 
+            "date": "2017-04-0020T00:00:00.000Z",
+            "date2": "29 juin, 2017",
+            "id": "19",
+            "auteur": "Darko Popovic",
+            "tags": "idée",
+            "metakeyword": "chanvre, culture chanvre, habitation, construction",
+            "creditref": "/",
+            "link": "blog/dossier-huiledechanvre",
+            "ogimage": "https://c1.staticflickr.com/5/4235/35080724860_44134f677e_b.jpg",
+            "image": "background-image: url(https://c1.staticflickr.com/5/4235/35080724860_44134f677e_b.jpg)"
+    
     }
 }
