@@ -7,7 +7,7 @@
         "link": "blog",
         "ogimage": "https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg",
         "image": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/blog-image.jpg)"
-    },   
+    },
     "le-chanvre-le-super-aliment": {
             "headline": "Le chanvre, le super aliment !",
             "description": "Le chanvre mérite bel et bien une telle étiquette, c'est l’aliment le plus complet qui soit.",
@@ -258,6 +258,19 @@
             "link": "blog/dossier-huiledechanvre",
             "ogimage": "https://c1.staticflickr.com/5/4235/35080724860_44134f677e_b.jpg",
             "image": "background-image: url(https://c1.staticflickr.com/5/4235/35080724860_44134f677e_b.jpg)"
-    
+    },
+    "10-choses-pour-le-quebec": {
+            "headline": "10 choses que le Québec devrait faire",
+            "description": "",
+            "date": "2017-06-0024T00:00:00.000Z",
+            "date2": "24 juin, 2017",
+            "id": "19",
+            "auteur": "Darko Popovic, Jérémie Aubut",
+            "tags": "article vedette, idée",
+            "metakeyword": "chanvre, culture chanvre, habitation, construction",
+            "creditref": "/",
+            "link": "blog/10-choses-pour-le-quebec",
+            "ogimage": "https://images.unsplash.com/photo-1474899351970-ee05f7dd1334?dpr=2&auto=compress,format&fit=crop&w=568&h=426&q=80&cs=tinysrgb&crop=&bg=",
+            "image": "background-image: url(https://images.unsplash.com/photo-1474899351970-ee05f7dd1334?dpr=2&auto=compress,format&fit=crop&w=568&h=426&q=80&cs=tinysrgb&crop=&bg=)"
     }
 }
