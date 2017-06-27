@@ -5,8 +5,8 @@ include ../includes/_header
             h2 Nous avons fait le serment de servir les intérêts du chanvre.
             blockquote “Seuls ceux qui sont assez fous pour penser qu'ils peuvent changer le monde y parviennent” - Steve Jobs.
     .container
-        .row    
+        .row-box
             for equipe, slug in public.equipe._data
                 if _.includes(equipe.tag, 'chef')
-                    include _membre
+                    include _membre 
 include ../includes/_footer

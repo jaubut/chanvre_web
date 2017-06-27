@@ -81,5 +81,20 @@
         "description": "Mission: tendre vers l'innovation de manière éco-responsable!",
         "image": "https://c1.staticflickr.com/5/4196/34189562304_78197ea2d1_k.jpg",
         "tag": "chef"
+    },
+    "marcbeaulieu": {
+        "membrephoto": "background-image: url(http://chanvrexpert.com/images/bg.jpg)",
+        "image2": "background-image: url(http://chanvrexpert.com/images/bg.jpg)",
+        "backcolor": "background-color: rgba(77, 77, 77, 0.2);",
+        "nom": "Marc Beaulieu",
+        "titre": "Agronome",
+        "description2": "Collaborateur",
+        "id": "6",
+        "modal": "#modaljo",
+        "link": "equipe/marcbeaulieu",
+        "headline": "Marc Beaulieu",
+        "description": "Mission: tendre vers l'innovation de manière éco-responsable!",
+        "image": "http://chanvrexpert.com/images/bg.jpg",
+        "tag": "chef"
     }
 }
