@@ -1,6 +1,34 @@
 #blogfooter
     footer(style= "background: #ffffff;")
       .container
+        //- Create an empty array of the blog
+        - var blog = []
+        //- Iterate over the blog like you would normally
+        for article, slug in public.blog._data
+          //- Assign the slug, which is the object key, to a value instead
+          - article.slug = slug
+          //- Push each article into the empty array
+          - blog.push(public.blog._data[slug])
+
+        //- Iterate over the blog array
+        each article, i in blog
+          //- Article slug is the old object key that matched the file name,
+          //- Like "a-post" for example
+          //- Match it against the current page
+          if article.slug == current.source
+              //- Previous is one before this array item
+              //- Next is one after
+              //- Variables make it easy to template
+              - prev = blog[i - 1]
+              - next = blog[i + 1]
+              //- The actual links
+              .row
+                  if prev
+                    .col-6
+                        a(href="#{ prev.slug }") &larr; #{ prev.headline }
+                  if next
+                    .col-6
+                        a(href="#{ next.slug }") #{ next.headline } &rarr;
         .row
           .col-12.line
           .col-6.left
