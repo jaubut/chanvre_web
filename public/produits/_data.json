@@ -12,7 +12,9 @@
         "titre": "Tous nos produits de chanvre, pour vous.",
         "texte": "L'une des parties les plus importantes du projet de Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site.",
         "artistes": "/",
-        "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4198/34127215314_6e0fea6bf4_b.jpg); height: 300px;"
+        "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4198/34127215314_6e0fea6bf4_b.jpg); height: 300px;",
+        "dotcolor": "div class='circle-dot yellow'",
+        "style": "price-promo"
     },
     "numero_5": {
         "artiste": "séqoia",
@@ -74,6 +76,34 @@
         "fblink": "1474478729243599/",
         "dotcolor": "div class='circle-dot yellow'",
         "style": "price-promo"
+    },
+    "byebyebizz": {
+        "artiste": "La feuille verte",
+        "headline": "Lait Bye-Bye Bizz",
+        "underline": "Bois de rose & pamplemouse",
+        "thirdline": "Découvrez l'artisane",
+        "hrefheader": "/artistes/lafeuilleverte",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
+        "titre": "Lait Bye-Bye Bizz",
+        "texte": "Sans Deet",
+        "textcolor": "color: black",
+        "name": "Lait Bye-Bye Bizz",
+        "id": 14,
+        "category": "soinscorps",
+        "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
+        "image": "https://farm5.staticflickr.com/4257/34796802324_5f8feb915a_b.jpg",
+        "imagebg": "background-image: url(https://farm5.staticflickr.com/4257/34796802324_5f8feb915a_b.jpg)",
+        "description": "Protège naturellement contre les moustiques ",
+        "url": "https://www.chanvrequebec.com/produits/byebyebizz",
+        "price": "23",
+        "link": "produits/byebyebizz",
+        "artistelink": "artistes/lafeuilleverte",
+        "fblink": "1481181525259496/",
+        "tag": "exclusif",
+        "dotcolor": "div class='circle-dot yellow'",
+        "style": "price"
+        
     },
     "laitmaternite": {
         "artiste": "La feuille verte",
@@ -343,5 +373,33 @@
         "fblink": "",
         "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
+    },
+    "byebyebiz": {
+        "artiste": "La feuille verte",
+        "headline": "Bye Bye Bizz",
+        "underline": "Bois de rose & pamplemouse",
+        "thirdline": "Découvrez l'artisane",
+        "hrefheader": "/artistes/lafeuilleverte",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
+        "titre": "Bye Bye Bizz",
+        "texte": "Sans Deet",
+        "textcolor": "color: black",
+        "name": "Bye Bye Bizz",
+        "id": 14,
+        "category": "soinscorps",
+        "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
+        "image": "https://farm5.staticflickr.com/4257/34796802324_5f8feb915a_b.jpg",
+        "imagebg": "background-image: url(https://farm5.staticflickr.com/4257/34796802324_5f8feb915a_b.jpg)",
+        "description": "Protège naturellement contre les moustiques ",
+        "url": "https://www.chanvrequebec.com/produits/byebyebizz",
+        "price": "25",
+        "link": "produits/byebyebizz",
+        "artistelink": "artistes/lafeuilleverte",
+        "fblink": "1481181525259496/",
+        "tag": "exclusif",
+        "dotcolor": "div class='circle-dot yellow'",
+        "style": "price"
+        
     }
 }
