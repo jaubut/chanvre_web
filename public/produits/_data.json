@@ -103,7 +103,7 @@
         "tag": "exclusif",
         "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
-        
+
     },
     "laitmaternite": {
         "artiste": "La feuille verte",
@@ -374,7 +374,7 @@
         "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
     },
-    "byebyebiz": {
+    "byebyebizz": {
         "artiste": "La feuille verte",
         "headline": "Bye Bye Bizz",
         "underline": "Bois de rose & pamplemouse",
@@ -399,7 +399,7 @@
         "fblink": "1481181525259496/",
         "tag": "exclusif",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price"
-        
+        "style": "price-promo"
+
     }
 }

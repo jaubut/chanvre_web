@@ -51,6 +51,12 @@
                         a
                             span Alimentaire 
                             sup #{getCategoryMetrics('alimentaire')}
+                    li.product__filter-item(
+                    data-category="animaux"
+                    )
+                        a
+                            span Animaux 
+                            sup #{getCategoryMetrics('animaux')}
 
             .col-10
                 for produit, slug in productData
