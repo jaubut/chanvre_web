@@ -14,7 +14,7 @@
         "artistes": "/",
         "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4198/34127215314_6e0fea6bf4_b.jpg); height: 300px;",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price-promo"
+        "style": ""
     },
     "numero_5": {
         "artiste": "séqoia",
@@ -45,7 +45,7 @@
         "tags": "index-feed",
         "fblink": "1535610583134702/",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price-promo"
+        "style": "price price-promo"
     },
     "numero_s": {
         "artiste": "séqoia",
@@ -75,7 +75,7 @@
         "customoption": "Small|Medium|Large|X-Large",
         "fblink": "1474478729243599/",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price-promo"
+        "style": "price price-promo"
     },
     "byebyebizz": {
         "artiste": "La feuille verte",
@@ -102,7 +102,7 @@
         "fblink": "1481181525259496/",
         "tag": "exclusif",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price"
+        "style": "price price-summer"
 
     },
     "laitmaternite": {
@@ -373,33 +373,5 @@
         "fblink": "",
         "dotcolor": "div class='circle-dot yellow'",
         "style": "price"
-    },
-    "byebyebizz": {
-        "artiste": "La feuille verte",
-        "headline": "Bye Bye Bizz",
-        "underline": "Bois de rose & pamplemouse",
-        "thirdline": "Découvrez l'artisane",
-        "hrefheader": "/artistes/lafeuilleverte",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
-        "titre": "Bye Bye Bizz",
-        "texte": "Sans Deet",
-        "textcolor": "color: black",
-        "name": "Bye Bye Bizz",
-        "id": 14,
-        "category": "soinscorps",
-        "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, beaute, blog, exfoliant",
-        "image": "https://farm5.staticflickr.com/4257/34796802324_5f8feb915a_b.jpg",
-        "imagebg": "background-image: url(https://farm5.staticflickr.com/4257/34796802324_5f8feb915a_b.jpg)",
-        "description": "Protège naturellement contre les moustiques ",
-        "url": "https://www.chanvrequebec.com/produits/byebyebizz",
-        "price": "25",
-        "link": "produits/byebyebizz",
-        "artistelink": "artistes/lafeuilleverte",
-        "fblink": "1481181525259496/",
-        "tag": "exclusif",
-        "dotcolor": "div class='circle-dot yellow'",
-        "style": "price-promo"
-
     }
 }
