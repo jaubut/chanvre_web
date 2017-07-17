@@ -38,8 +38,6 @@ include ../public/includes/_chanvre
                 for post, slug in public.blog._data
                     if _.includes(post.tags, 'article vedette')
                         include ../public/blog/_post
-include ../public/includes/_newsletter
-include ../public/includes/_map
 #instagram
     .container
         .row
@@ -50,4 +48,6 @@ include ../public/includes/_map
 #photo(style="background-color: #F9F9F9")
     .row
         #instafeed
+include ../public/includes/_map
+include ../public/includes/_newsletter
 include ../public/includes/_footer
