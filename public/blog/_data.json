@@ -272,5 +272,19 @@
             "link": "blog/10-choses-pour-le-quebec",
             "ogimage": "https://images.unsplash.com/photo-1474899351970-ee05f7dd1334?dpr=2&auto=compress,format&fit=crop&w=568&h=426&q=80&cs=tinysrgb&crop=&bg=",
             "image": "background-image: url(https://images.unsplash.com/photo-1474899351970-ee05f7dd1334?dpr=2&auto=compress,format&fit=crop&w=568&h=426&q=80&cs=tinysrgb&crop=&bg=)"
+    },
+    "graine-de-chanvre-faq": {
+            "headline": "FAQ sur la bouffe de chanvre",
+            "description": "Les questions les plus fréquemment demandées par nos visiteurs",
+            "date": "2017-01-023T00:00:00.000Z",
+            "date2": "30 juillet, 2017",
+            "id": "21",
+            "auteur": "Darko Popovic",
+            "tags": "alimentation",
+            "metakeyword": "chanvre",
+            "creditref": "/",
+            "link": "blog/graine-de-chanvre-faq",
+            "ogimage": "https://farm1.staticflickr.com/459/32556610192_4f355c0f29_b.jpg",
+            "image": "background-image: url(https://farm1.staticflickr.com/459/32556610192_4f355c0f29_b.jpg)"
     }
 }
