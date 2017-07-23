@@ -34,8 +34,8 @@
         "category": "farine",
         "metakeyword": "chanvre, référence, salade de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
         "imageog": "https://c1.staticflickr.com/1/317/31895124384_0a36750a53_z.jpg",
-        "image": "background-image: url(https://c1.staticflickr.com/1/317/31895124384_0a36750a53_z.jpg)", 
-        "description": "",
+        "image": "background-image: url(https://c1.staticflickr.com/1/317/31895124384_0a36750a53_z.jpg)",
+        "description": "Des brownies au chanvre pour refaire le plein d'énergie.",
         "url": "/",
         "link": "recettes/brownies-chocolat-fred"
      },
@@ -128,7 +128,7 @@
         "image": "background-image: url(https://c1.staticflickr.com/1/312/31940533014_59907d33c9_o.jpg)",
         "description": "",
         "url": "/",
-        "link": "recettes/muffin-automnal-courge-chanvre"       
+        "link": "recettes/muffin-automnal-courge-chanvre"
     },
     "patepesto": {
         "headline": "Pesto-Pasta alla Melissa",
@@ -141,6 +141,6 @@
         "image": "background-image: url(https://c1.staticflickr.com/4/3842/33340918992_b472d66a01_z.jpg)",
         "description": "",
         "url": "/",
-        "link": "recettes/patepesto" 
+        "link": "recettes/patepesto"
     }
 }
