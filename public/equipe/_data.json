@@ -83,7 +83,7 @@
         "tag": "chef"
     },
     "marcbeaulieu": {
-        "membrephoto": "background-image: url(http://chanvrexpert.com/images/bg.jpg)",
+        "membrephoto": "background-image: url(https://farm5.staticflickr.com/4344/36654795296_218dc28f4c_b.jpg)",
         "image2": "background-image: url(http://chanvrexpert.com/images/bg.jpg)",
         "backcolor": "background-color: rgba(77, 77, 77, 0.2);",
         "nom": "Marc Beaulieu",
@@ -94,7 +94,7 @@
         "link": "equipe/marcbeaulieu",
         "headline": "Marc Beaulieu",
         "description": "Mission: tendre vers l'innovation de manière éco-responsable!",
-        "image": "http://chanvrexpert.com/images/bg.jpg",
+        "image": "https://farm5.staticflickr.com/4344/36654795296_218dc28f4c_b.jpg",
         "tag": "chef"
     }
 }
