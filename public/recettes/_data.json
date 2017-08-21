@@ -91,8 +91,21 @@
         "url": "/",
         "link": "recettes/fudgechoco"
     },
+    "energyballecosphere": {
+        "headline": "Boules d'énergie xtra",
+        "underline": "Littéralement des boules d'énergies",
+        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "textcolor": "color: black",
+        "category": "farine, rapide",
+        "metakeyword": "chanvre, référence, muffin de chanvre, huile de chanvre, alimentation de chanvre, recette de chanvre, recette sante, sante, blog",
+        "imageog": "https://farm5.staticflickr.com/4358/35903631783_dc0d2373c1_b.jpg",
+        "image": "background-image: url(https://farm5.staticflickr.com/4358/35903631783_dc0d2373c1_b.jpg)",
+        "description": "",
+        "url": "/",
+        "link": "recettes/energyballecosphere"
+    },
     "boulledenergie": {
-        "headline": "Boules d’énergie cacao et dattes",
+        "headline": "Boules d’énergie cacao & amandes",
         "underline": "Rapide et savoureux, on aime ça!",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "textcolor": "color: black",
