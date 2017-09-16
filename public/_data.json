@@ -37,7 +37,7 @@
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Pourquoi se vêtir en chanvre ?",
         "texte": "Un tissus ancestrale.",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+        "headerstyle": "background-image: url(https://farm5.staticflickr.com/4415/37250449805_abfc15578a_b.jpg)"
     },
     "soinscorporels": {
         "headline": "Soins Corporels",
@@ -50,7 +50,7 @@
         "titre": "Une huile naturelle hors-pair",
         "texte": "encore plus omega",
         "artistes": "lafeuilleverte",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+        "headerstyle": "background-image: url(https://farm3.staticflickr.com/2943/34108972636_78ac8ba01c.jpg)"
     },
     "alimentation": {
         "headline": "Alimentation",
@@ -62,7 +62,7 @@
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
         "titre": "Le super aliment porte bien son nom",
         "artistes": "lafeuilleverte",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_1.jpg)"
+        "headerstyle": "background-image: url(https://farm1.staticflickr.com/459/32556610192_4f355c0f29_z.jpg)"
     },
     "alimentation-new": {
         "headline": "Alimentation",
@@ -86,7 +86,7 @@
         "titre": "La maison de l'avenir",
         "texte": "encore plus omega",
         "artistes": "lafeuilleverte",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
+        "headerstyle": "background-image: url(https://farm5.staticflickr.com/4184/34295437502_130da817b2.jpg)"
     },
     "habitation-new": {
         "headline": "Habitation-new",
@@ -108,7 +108,7 @@
         "metadescription": "Notre mission c'est vraiment de démocratiser le chanvre. De le rendre cool et accessible à tous par notre plateforme web, une communauté forte et des innovations!",
         "metakeyword": "chanvre, référence, contact, obnl, collaboration, blog",
         "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/cafeequipe.png)"
+        "headerstyle": "background-image: url(https://farm5.staticflickr.com/4439/36986569826_7db315751c_b.jpg)"
     },
     "livraison": {
         "headline": "Livraison et politique",

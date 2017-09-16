@@ -10,11 +10,12 @@
         "titre": "Tous nos produits de chanvre, pour vous !",
         "texte": "L'une des parties les plus importantes du projet Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site :). ",
         "artistes": "/",
-        "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/gif_test_2.gif)"
+        "headerstyle": "background-image: url(https://farm5.staticflickr.com/4370/36411717464_930a8f7655_k.jpg)"
+    
     },
     "darko_popovic": {
-        "membrephoto": "background-image: url(https://c1.staticflickr.com/1/596/32259376770_4aa0508812_b.jpg)",
-        "image2": "background-image: url(https://c1.staticflickr.com/1/316/32518081061_a6b59dc730_b.jpg)",
+        "membrephoto": "background-image: url(https://farm5.staticflickr.com/4366/37077884222_b5d82169d0.jpg)",
+        "image2": "background-image: url(https://farm5.staticflickr.com/4375/37107367721_b67b541071_b.jpg)",
         "nom": "Darko Popovic",
         "titre": "Co-fondateur",
         "description2": "",
@@ -27,8 +28,8 @@
         "tag": "chef"
     },
     "jeremie_aubut": {
-        "membrephoto": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
-        "image2": "background-image: url(https://c1.staticflickr.com/1/480/32485791092_76c6c4452d_b.jpg)",
+        "membrephoto": "background-image: url(https://farm5.staticflickr.com/4440/37249976135_b5a1ba63f8.jpg)",
+        "image2": "background-image: url(https://farm5.staticflickr.com/4346/37092776045_1c909e7323.jpg)",
         "nom": "Jérémie Aubut",
         "titre": "Co-fondateur",
         "description2": "",
