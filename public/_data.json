@@ -34,7 +34,7 @@
         "hrefheader": "/produits",
         "metadescription": "Le textile de chanvre est durable, éco-friendly et s'adoucie avec le temps.",
         "metakeyword": "chanvre, référence, textile de chanvre, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source": "../assets/img/logo-header.svg",
         "titre": "Pourquoi se vêtir en chanvre ?",
         "texte": "Un tissus ancestrale.",
         "headerstyle": "background-image: url(https://farm5.staticflickr.com/4415/37250449805_abfc15578a_b.jpg)"
@@ -46,7 +46,7 @@
         "hrefheader": "/produits",
         "metakeyword": "chanvre, référence, huile de chanvre, soins de chanvre, blog",
         "metadescription": "L'huile de chanvre est l'huile la plus adaptée à notre corps.",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-header.svg",
         "titre": "Une huile naturelle hors-pair",
         "texte": "encore plus omega",
         "artistes": "lafeuilleverte",
@@ -59,7 +59,7 @@
         "hrefheader": "/recettes",
         "metadescription": "Le chanvre est une source de protéine et d'oméga 3&6 importante. Ce qui lui donne le titre de Superaliment!",
         "metakeyword": "chanvre, référence, alimentation de chanvre, huile de chanvre, graine de chanvre, farine de chanvre, proteine de chanvre, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-footer.svg",
         "titre": "Le super aliment porte bien son nom",
         "artistes": "lafeuilleverte",
         "headerstyle": "background-image: url(https://farm1.staticflickr.com/459/32556610192_4f355c0f29_z.jpg)"
@@ -70,7 +70,7 @@
         "thirdline": "Nos idées recettes",
         "hrefheader": "/recettes",
         "metakeyword": "chanvre, référence, alimentation de chanvre, huile de chanvre, graine de chanvre, farine de chanvre, proteine de chanvre, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-header.svg",
         "titre": "Le super aliment porte bien son nom",
         "artistes": "lafeuilleverte",
         "headerstyle": "background-image: url(https://storage.googleapis.com/chanvrequebecphoto/chanvre_graine_1.jpg)"
@@ -82,11 +82,11 @@
         "hrefheader": "/blog",
         "metadescription": "Une maison en béton de chanvre est durable, confortable et économique sur le chauffage.",
         "metakeyword": "chanvre, référence, beton de chanvre, maison en chanvre, hygrothermie, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-footer.svg",
         "titre": "La maison de l'avenir",
         "texte": "encore plus omega",
         "artistes": "lafeuilleverte",
-        "headerstyle": "background-image: url(https://farm5.staticflickr.com/4184/34295437502_130da817b2.jpg)"
+        "headerstyle": "background-image: url(https://farm5.staticflickr.com/4184/34295437502_5ac7059af7_h.jpg)"
     },
     "habitation-new": {
         "headline": "Habitation-new",
@@ -94,7 +94,7 @@
         "thirdline": "Blogue",
         "hrefheader": "/blog",
         "metakeyword": "chanvre, référence, beton de chanvre, maison en chanvre, hygrothermie, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-header.svg",
         "titre": "La maison de l'avenir",
         "texte": "encore plus omega",
         "artistes": "lafeuilleverte",
@@ -107,7 +107,7 @@
         "hrefheader": "/blog",
         "metadescription": "Notre mission c'est vraiment de démocratiser le chanvre. De le rendre cool et accessible à tous par notre plateforme web, une communauté forte et des innovations!",
         "metakeyword": "chanvre, référence, contact, obnl, collaboration, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-footer.svg",
         "headerstyle": "background-image: url(https://farm5.staticflickr.com/4439/36986569826_7db315751c_b.jpg)"
     },
     "livraison": {
@@ -117,7 +117,7 @@
         "hrefheader": "/produits",
         "metadescription": "On vous assure une livraison partout au pays dans un temps record.",
         "metakeyword": "chanvre, référence, politique de retour, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-header.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
     "contactez-nous": {
@@ -127,7 +127,7 @@
         "hrefheader": "/produits",
         "metadescription": "Si vous avez des questions, n'hésitez pas à nous contacter.",
         "metakeyword": "chanvre, référence, politique de retour, blog",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-header.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     },
     "map-chanvre": {
@@ -139,7 +139,7 @@
         "metadescription": "La route du chanvre, la seule map du chanvre complète du Québec.",
         "metakeyword": "chanvre, référence, map, québec",
         "link": "map-chanvre",
-        "source": "https://storage.googleapis.com/chanvrequebecphoto/navlogo.svg",
+        "source":  "../assets/img/logo-header.svg",
         "image": "https://c1.staticflickr.com/5/4222/34952976622_fd839a6e3e_c.jpg",
         "headerstyle": "background-image: url(https://c1.staticflickr.com/5/4249/34053683764_11828aec79_b.jpg); height: 300px;"
     }
