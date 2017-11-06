@@ -182,7 +182,7 @@
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1227759567345727/",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price"
+        "style": "price price-sold"
     },
     "chanvremoi": {
         "artiste": "La feuille verte",
