@@ -36,8 +36,7 @@
         "imagebg": "background-image: url(https://farm5.staticflickr.com/4346/37092776045_1c909e7323.jpg)",
         "description": "Le numéro 5, un chandail unisexe stylé. 55% chanvre, 45% cotton bio.",
         "url": "https://www.chanvrequebec.com/produits/numero_5",
-        "price": "21",
-        "old": "30$",
+        "price": "30",
         "link": "produits/numero_5",
         "artistelink": "artistes/seqoia",
         "customname": "size",
@@ -45,7 +44,7 @@
         "tags": "index-feed",
         "fblink": "1535610583134702/",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price price-promo"
+        "style": "price"
     },
     "numero_s": {
         "artiste": "séqoia",
@@ -67,15 +66,14 @@
         "imagebg": "background-image: url(https://farm5.staticflickr.com/4361/36904400096_584e1a934b.jpg)",
         "description": "Le S, un chandail unisexe intemporel, classique et confortable. 55% chanvre, 45% cotton bio.",
         "url": "https://www.chanvrequebec.com/produits/numero_s",
-        "price": "21",
-        "old": "30$",
+        "price": "30",
         "link": "produits/numero_s",
         "artistelink": "artistes/seqoia",
         "customname": "size",
         "customoption": "Small|Medium|Large|X-Large",
         "fblink": "1474478729243599/",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price price-promo"
+        "style": "price"
     },
     "laitmaternite": {
         "artiste": "La feuille verte",
@@ -177,13 +175,14 @@
         "imagebg": "background-image: url(https://c1.staticflickr.com/4/3752/32910487850_dbd5d034a9_h.jpg)",
         "description": "Déloge les particules mortes, nettoie et hydrate avec une exfoliation légère qui laisse un fini doux et soyeux. ",
         "url": "https://www.chanvrequebec.com/produits/exfoliant",
-        "price": "28",
+        "price": "25",
+        "old": "28$",
         "link": "produits/exfoliant",
         "artistelink": "artistes/lafeuilleverte",
         "fblink": "1481181525259496/",
         "tag": "fetemere",
         "dotcolor": "div class='circle-dot yellow'",
-        "style": "price"
+        "style": "price price-promo"
     },
     "serum": {
         "artiste": "La feuille verte",
